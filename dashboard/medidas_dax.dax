@@ -1,0 +1,187 @@
+// =====================================================================
+//  PideYa - Medidas DAX para el dashboard
+//  Cómo usar:
+//   1) Crea la tabla Calendario (sección 0): Modelado > Nueva tabla > pega el código.
+//   2) Crea una tabla vacía para guardar las medidas:
+//        Inicio > Especificar datos > nombre "_Medidas" > Cargar
+//   3) Selecciona _Medidas y, por cada bloque de abajo:
+//        Modelado > Nueva medida > pega UNA medida > Enter
+//   4) Pon el formato indicado en "Formato:" (Herramientas de medidas > Formato)
+//
+//  Regla de negocio importante: ventas, ticket, tiempo y calificación se
+//  calculan SOLO con pedidos Entregados (un cancelado no genera venta ni se califica).
+// =====================================================================
+
+
+// ---------------------------------------------------------------------
+// 0. TABLA CALENDARIO  (Modelado > Nueva tabla)
+//    Luego en la vista Modelo:
+//      Calendario[Fecha] 1 --- * Pedidos[fecha_pedido]        (ACTIVA)
+//      Calendario[Fecha] 1 --- * Usuarios[fecha_registro]     (INACTIVA, línea punteada)
+//    Y marca la tabla: clic derecho en Calendario > Marcar como tabla de fechas > Fecha
+//    Ordena "Mes" por "MesNum" y "Mes Año" por "AñoMes" (Herramientas de columna > Ordenar por columna)
+// ---------------------------------------------------------------------
+Calendario =
+ADDCOLUMNS (
+    CALENDAR ( DATE ( 2024, 1, 1 ), DATE ( 2026, 12, 31 ) ),
+    "Año", YEAR ( [Date] ),
+    "MesNum", MONTH ( [Date] ),
+    "Mes", SWITCH ( MONTH ( [Date] ),
+        1, "Ene", 2, "Feb", 3, "Mar", 4, "Abr", 5, "May", 6, "Jun",
+        7, "Jul", 8, "Ago", 9, "Sep", 10, "Oct", 11, "Nov", 12, "Dic" ),
+    "AñoMes", YEAR ( [Date] ) * 100 + MONTH ( [Date] ),
+    "Mes Año", SWITCH ( MONTH ( [Date] ),
+        1, "Ene", 2, "Feb", 3, "Mar", 4, "Abr", 5, "May", 6, "Jun",
+        7, "Jul", 8, "Ago", 9, "Sep", 10, "Oct", 11, "Nov", 12, "Dic" )
+        & " " & YEAR ( [Date] ),
+    "DiaSemanaNum", WEEKDAY ( [Date], 2 ),
+    "Dia Semana", SWITCH ( WEEKDAY ( [Date], 2 ),
+        1, "Lunes", 2, "Martes", 3, "Miércoles", 4, "Jueves",
+        5, "Viernes", 6, "Sábado", 7, "Domingo" )
+)
+// Nota: CALENDAR crea la columna "Date". Renómbrala a "Fecha" (doble clic en el encabezado).
+
+
+// =====================================================================
+// 1. VOLUMEN Y VENTAS
+// =====================================================================
+
+Total Pedidos =
+COUNTROWS ( Pedidos )
+// Formato: Número entero, separador de miles
+
+Pedidos Entregados =
+CALCULATE ( [Total Pedidos], Pedidos[estado] = "Entregado" )
+// Formato: Número entero
+
+Pedidos Cancelados =
+CALCULATE ( [Total Pedidos], Pedidos[estado] = "Cancelado" )
+// Formato: Número entero
+
+Ventas Totales =
+CALCULATE ( SUM ( Pedidos[monto_clp] ), Pedidos[estado] = "Entregado" )
+// Formato: Moneda $ sin decimales  (o personalizado: "$"#,0)
+
+Ticket Promedio =
+DIVIDE ( [Ventas Totales], [Pedidos Entregados] )
+// Formato: Moneda $ sin decimales
+
+Ventas Mes Anterior =
+CALCULATE ( [Ventas Totales], DATEADD ( Calendario[Fecha], -1, MONTH ) )
+// Formato: Moneda $ sin decimales
+
+Var % Ventas vs Mes Anterior =
+VAR _ant = [Ventas Mes Anterior]
+RETURN IF ( NOT ISBLANK ( _ant ), DIVIDE ( [Ventas Totales] - _ant, _ant ) )
+// Formato: Porcentaje, 1 decimal
+
+
+// =====================================================================
+// 2. CALIDAD DE SERVICIO
+// =====================================================================
+
+Tasa Cancelacion =
+DIVIDE ( [Pedidos Cancelados], [Total Pedidos] )
+// Formato: Porcentaje, 1 decimal
+
+Tiempo Promedio Entrega =
+CALCULATE ( AVERAGE ( Pedidos[tiempo_entrega_min] ), Pedidos[estado] = "Entregado" )
+// Formato: Decimal, 1 decimal  (minutos)
+
+% Entregas en 30 min =
+VAR _aTiempo =
+    CALCULATE (
+        COUNTROWS ( Pedidos ),
+        Pedidos[estado] = "Entregado",
+        NOT ISBLANK ( Pedidos[tiempo_entrega_min] ) && Pedidos[tiempo_entrega_min] <= 30
+    )
+VAR _conTiempo =
+    CALCULATE ( COUNT ( Pedidos[tiempo_entrega_min] ), Pedidos[estado] = "Entregado" )
+RETURN DIVIDE ( _aTiempo, _conTiempo )
+// Formato: Porcentaje, 1 decimal
+// Ojo: en DAX un vacío cuenta como <= 30, por eso el NOT ISBLANK.
+
+Calificacion Promedio =
+CALCULATE ( AVERAGE ( Pedidos[calificacion] ), Pedidos[estado] = "Entregado" )
+// Formato: Decimal, 2 decimales
+
+% Clientes Satisfechos =
+DIVIDE (
+    CALCULATE ( COUNTROWS ( Pedidos ), Pedidos[estado] = "Entregado", Pedidos[calificacion] >= 4 ),
+    CALCULATE ( COUNT ( Pedidos[calificacion] ), Pedidos[estado] = "Entregado" )
+)
+// Formato: Porcentaje, 1 decimal   (pedidos calificados con 4 o 5)
+
+
+// =====================================================================
+// 3. CLIENTES
+// =====================================================================
+
+Clientes Activos =
+DISTINCTCOUNT ( Pedidos[id_usuario] )
+// Formato: Número entero
+
+Pedidos por Cliente =
+DIVIDE ( [Total Pedidos], [Clientes Activos] )
+// Formato: Decimal, 1 decimal
+
+Gasto por Cliente =
+DIVIDE ( [Ventas Totales], [Clientes Activos] )
+// Formato: Moneda $ sin decimales
+
+Usuarios Registrados =
+COUNTROWS ( Usuarios )
+// Formato: Número entero
+
+Nuevos Usuarios =
+CALCULATE (
+    COUNTROWS ( Usuarios ),
+    USERELATIONSHIP ( Calendario[Fecha], Usuarios[fecha_registro] )
+)
+// Formato: Número entero  (usa la relación inactiva con fecha_registro)
+
+% Ventas Premium =
+DIVIDE (
+    CALCULATE ( [Ventas Totales], Usuarios[tipo_cuenta] = "Premium" ),
+    CALCULATE ( [Ventas Totales], REMOVEFILTERS ( Usuarios[tipo_cuenta] ) )
+)
+// Formato: Porcentaje, 1 decimal
+
+
+// =====================================================================
+// 4. METAS Y SEMÁFOROS  (para formato condicional)
+//    Las metas son SUPUESTOS del equipo: decláralos en el informe.
+// =====================================================================
+
+Meta Tasa Cancelacion = 0.08
+// Formato: Porcentaje
+
+Meta Tiempo Entrega = 30
+// Formato: Número entero (minutos)
+
+Meta Calificacion = 4.2
+// Formato: Decimal, 1 decimal
+
+Color Cancelacion =
+IF ( [Tasa Cancelacion] > [Meta Tasa Cancelacion], "#C2410C", "#15803D" )
+
+Color Tiempo =
+IF ( [Tiempo Promedio Entrega] > [Meta Tiempo Entrega], "#C2410C", "#15803D" )
+
+Color Calificacion =
+IF ( [Calificacion Promedio] < [Meta Calificacion], "#C2410C", "#15803D" )
+// Uso: selecciona la tarjeta > Formato > Valor de llamada > Color > fx >
+//      Estilo de formato: "Valor del campo" > campo: [Color ...]
+
+
+// =====================================================================
+// 5. TEXTOS DINÁMICOS (títulos que cambian con los filtros)
+// =====================================================================
+
+Titulo Filtros =
+VAR _com = IF ( ISFILTERED ( Usuarios[comuna] ), SELECTEDVALUE ( Usuarios[comuna], "varias comunas" ), "todas las comunas" )
+VAR _cat = IF ( ISFILTERED ( Restaurantes[categoria] ), SELECTEDVALUE ( Restaurantes[categoria], "varias categorías" ), "todas las categorías" )
+RETURN "Mostrando: " & _com & " · " & _cat
+
+Titulo Restaurante =
+"Detalle: " & SELECTEDVALUE ( Restaurantes[nombre_restaurante], "selecciona un restaurante" )

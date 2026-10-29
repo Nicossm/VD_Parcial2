@@ -1,0 +1,20 @@
+﻿tabla,problema,accion,filas_afectadas
+usuarios,Filas duplicadas exactas,Eliminadas,8
+usuarios,fecha_registro en formato dd/mm/aaaa o dd-mm-aaaa,Convertida a fecha (aaaa-mm-dd),115
+usuarios,comuna con mayúsculas/espacios/sin tilde inconsistentes,Normalizada al nombre oficial,31
+usuarios,tipo_cuenta vacío,Rellenado con 'Sin información',15
+restaurantes,nombre_restaurante con espacios al inicio/final,Espacios eliminados,6
+restaurantes,categoria con mayúsculas/espacios/sin tilde,Normalizada,7
+restaurantes,comuna vacía,Rellenada con 'Sin información',3
+pedidos,Filas duplicadas exactas,Eliminadas,15
+pedidos,id_usuario inexistente en Usuarios (ej. 9999),Pedido eliminado,6
+pedidos,id_restaurante inexistente en Restaurantes (ej. 999),Pedido eliminado,6
+pedidos,fecha_pedido en formato dd/mm/aaaa o dd-mm-aaaa,Convertida a fecha,628
+pedidos,"monto_clp con texto ('$11.200', '12600 CLP')",Convertido a número entero,149
+pedidos,"tiempo_entrega_min fuera de rango (<1 o >120: -5, 0, 500, 999)",Reemplazado por vacío (no se imputa),12
+pedidos,tiempo_entrega_min vacío en origen,Se mantiene vacío,59
+pedidos,"metodo_pago inconsistente (TARJETA, tarjeta, 'Tajeta', espacios)",Normalizado,147
+pedidos,estado con mayúsculas/espacios inconsistentes,Normalizado,122
+pedidos,calificacion vacía en pedidos Cancelados,Correcto: un pedido cancelado no se califica,161
+pedidos,calificacion vacía en pedidos Entregados,Se mantiene vacía (cliente no calificó),70
+pedidos,fecha_pedido anterior a la fecha_registro del usuario,Se conserva y se marca en columna pedido_antes_registro = 1,107

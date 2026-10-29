@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<title>Informe Ejecutivo PideYa</title>
+<style>
+@page { size: Letter; margin: 22mm 20mm 20mm 20mm; }
+@page :first { margin: 0; }
+:root{--ink:#1F2937;--mut:#4B5563;--soft:#6B7280;--line:#E5E7EB;--or:#E4572E;--dark:#1F2937;--red:#C2410C;--grn:#15803D;--bl:#2E5EAA;--bg:#F6F4F1}
+*{box-sizing:border-box}
+body{font-family:Inter,'Segoe UI',Arial,sans-serif;color:var(--ink);font-size:10pt;line-height:1.5;margin:0}
+h1{font-size:19pt;margin:0 0 4mm;letter-spacing:-.2px;color:var(--ink);break-after:avoid}
+h1 .n{color:var(--or);margin-right:3mm}
+h2{font-size:12.5pt;margin:6mm 0 2mm;color:var(--ink);break-after:avoid}
+h3{font-size:10.8pt;margin:4mm 0 1.5mm;color:var(--ink);break-after:avoid}
+p{margin:0 0 2.6mm}
+.sec{break-before:page}
+.lead{font-size:11pt;color:var(--mut)}
+table{width:100%;border-collapse:collapse;margin:2mm 0 4mm;font-size:9.4pt;break-inside:avoid}
+th{background:var(--dark);color:#fff;text-align:left;font-weight:600;padding:2mm 2.5mm}
+td{padding:1.8mm 2.5mm;border-bottom:1px solid var(--line);vertical-align:top}
+tr:nth-child(even) td{background:#FAFAF9}
+td.num,th.num{text-align:right;white-space:nowrap}
+.red{color:var(--red);font-weight:600}.grn{color:var(--grn);font-weight:600}
+figure{margin:3mm 0 5mm;break-inside:avoid}
+figure img{width:100%;border:1px solid var(--line);border-radius:4px;display:block}
+figure.dash img{width:84%;margin:0 auto}figure.dash figcaption{text-align:center}
+figcaption{font-size:8.6pt;color:var(--soft);margin-top:1.5mm}
+.callout{background:#FFF4EF;border-left:3px solid var(--or);padding:3mm 4mm;margin:3mm 0 4mm;break-inside:avoid}
+.callout b{color:var(--ink)}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:2.5mm;margin:3mm 0 5mm}
+.kpi{border:1px solid var(--line);border-radius:5px;padding:2.5mm 3mm}
+.kpi .l{font-size:7.8pt;color:var(--soft);text-transform:uppercase;letter-spacing:.3px}
+.kpi .v{font-size:15pt;font-weight:700;line-height:1.2}
+.kpi .d{font-size:7.8pt;color:var(--soft)}
+ul,ol{margin:0 0 3mm;padding-left:5mm}
+li{margin-bottom:1.2mm}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:5mm}
+.tag{display:inline-block;font-size:7.8pt;font-weight:600;padding:.3mm 2mm;border-radius:10px;background:#F3F4F6;color:var(--mut)}
+/* cover */
+.cover{height:279.4mm;width:215.9mm;background:var(--dark);color:#fff;position:relative;padding:28mm 22mm;break-after:page}
+.cover .brand{color:var(--or);font-size:22pt;font-weight:800;letter-spacing:-.3px}
+.cover .kicker{margin-top:42mm;color:#9CA3AF;font-size:10pt;text-transform:uppercase;letter-spacing:1.5px}
+.cover h1{color:#fff;font-size:30pt;line-height:1.12;margin:4mm 0 5mm}
+.cover .sub{color:#D1D5DB;font-size:12.5pt;max-width:150mm}
+.cover .bar{width:22mm;height:2mm;background:var(--or);margin:9mm 0}
+.cover .meta{position:absolute;left:22mm;right:22mm;bottom:26mm;display:grid;grid-template-columns:1fr 1fr;gap:6mm;font-size:10pt;color:#D1D5DB}
+.cover .meta b{display:block;color:#fff;font-size:8.5pt;text-transform:uppercase;letter-spacing:1px;margin-bottom:1.5mm;color:#9CA3AF}
+.toc{margin-top:3mm;display:grid;grid-template-columns:1fr 1fr;column-gap:8mm}
+.toc div{display:flex;justify-content:space-between;border-bottom:1px dotted #D1D5DB;padding:1.6mm 0;font-size:10.3pt}
+.toc span:first-child b{color:var(--or);margin-right:3mm}
+</style></head><body>
+
+<!-- PORTADA -->
+<section class="cover">
+  <div class="brand">PideYa</div>
+  <div class="kicker">Informe ejecutivo · Evaluación Parcial EP3</div>
+  <h1>Desempeño comercial y calidad de servicio de PideYa</h1>
+  <div class="sub">Solución de visualización de datos con dashboard interactivo en Power BI para apoyar decisiones de operación, servicio y clientes.</div>
+  <div class="bar"></div>
+  <div class="meta">
+    <div><b>Asignatura</b>ADY1104 · Visualización de Datos<br>Sección ADY1104-001D<br>Duoc UC · Octubre 2026</div>
+    <div><b>Equipo consultor</b>Javier Sagredo<br>Cristian Romero<br>Rolando Paredes<br>Nicolás Osses</div>
+  </div>
+</section>
+
+<!-- RESUMEN + INDICE -->
+<section>
+  <h1>Resumen ejecutivo</h1>
+  <p class="lead">PideYa vende bien y de forma estable, pero su servicio no cumple las metas: uno de cada diez pedidos se cancela y más de la mitad de las entregas llega después de los 30 minutos.</p>
+  <div class="kpis">
+    <div class="kpi"><div class="l">Ventas (entregados)</div><div class="v">$14,8 M</div><div class="d">may–oct 2026</div></div>
+    <div class="kpi"><div class="l">Pedidos</div><div class="v">1.488</div><div class="d">1.327 entregados</div></div>
+    <div class="kpi"><div class="l">Tasa de cancelación</div><div class="v red">10,8%</div><div class="d">meta 8%</div></div>
+    <div class="kpi"><div class="l">Entregas en ≤30 min</div><div class="v red">45,0%</div><div class="d">promedio 31,5 min</div></div>
+  </div>
+  <h3>Hallazgos principales</h3>
+  <ol>
+    <li><b>Ninguna categoría cumple la meta de cancelación.</b> Asiática (13,6%) y Saludable (11,5%) son las más altas; por zona, los restaurantes de Maipú cancelan el 17,3% de sus pedidos.</li>
+    <li><b>La rapidez no explica la satisfacción.</b> La calificación es prácticamente igual (≈4,1–4,2) en todos los rangos de tiempo de entrega; la experiencia depende más del restaurante.</li>
+    <li><b>Dulce Tentación es un riesgo de marca:</b> 3.º en ventas, pero con la peor calificación (3,77).</li>
+    <li><b>La cuenta Premium no fideliza:</b> sus usuarios cancelan más (12,4%) que los Estándar (10,8%) y no gastan más por pedido.</li>
+  </ol>
+  <h3>Recomendaciones</h3>
+  <ol>
+    <li>Plan de reducción de cancelaciones enfocado en Maipú, Las Condes y la categoría Asiática.</li>
+    <li>Programa de calidad para restaurantes con calificación &lt;4,0, partiendo por Dulce Tentación.</li>
+    <li>Rediseñar los beneficios Premium con foco en confiabilidad (prioridad de despacho, compensaciones por demora).</li>
+  </ol>
+
+  <h2 style="margin-top:5mm">Contenido</h2>
+  <div class="toc">
+    <div><span><b>1</b>Descripción del problema de negocio</span></div>
+    <div><span><b>2</b>Objetivos del proyecto</span></div>
+    <div><span><b>3</b>Audiencia objetivo y propósito comunicacional</span></div>
+    <div><span><b>4</b>Fuentes de datos e integración</span></div>
+    <div><span><b>5</b>Análisis exploratorio</span></div>
+    <div><span><b>6</b>Justificación de las representaciones gráficas</span></div>
+    <div><span><b>7</b>Narrativa visual (Data Storytelling)</span></div>
+    <div><span><b>8</b>Diseño e implementación del dashboard</span></div>
+    <div><span><b>9</b>Evaluación crítica de la solución</span></div>
+    <div><span><b>10</b>Conclusiones y recomendaciones</span></div>
+  </div>
+</section>
+
+<!-- 1 -->
+<section class="sec">
+  <h1><span class="n">1</span>Descripción del problema de negocio</h1>
+  <p><b>PideYa</b> es una aplicación de delivery de comida que opera en seis comunas de Santiago (Santiago, Providencia, Las Condes, Ñuñoa, Maipú y La Florida), conectando a 300 usuarios registrados con 30 restaurantes asociados de cinco categorías gastronómicas.</p>
+  <p>La empresa registra su operación en tres sistemas independientes —usuarios, restaurantes y pedidos— que nunca se habían consolidado. Cada sistema exporta sus datos con formatos propios, lo que produce fechas en distintos formatos, textos escritos de manera inconsistente, registros duplicados, valores vacíos y datos fuera de rango. Como consecuencia, la gerencia <b>no cuenta con una visión única y confiable</b> del negocio y toma decisiones sin indicadores comunes.</p>
+  <p>En este contexto, PideYa necesita responder preguntas concretas:</p>
+  <ul>
+    <li>¿Cómo evolucionan las ventas y el volumen de pedidos en el tiempo?</li>
+    <li>¿Dónde y en qué tipo de comida se concentran las cancelaciones?</li>
+    <li>¿Se está cumpliendo la promesa de entrega rápida y cómo se relaciona con la satisfacción?</li>
+    <li>¿Quiénes son los clientes, dónde están y cuándo compran?</li>
+  </ul>
+  <div class="callout"><b>Problema central:</b> la empresa carece de un sistema integrado de indicadores que le permita detectar a tiempo los problemas de servicio (cancelaciones, demoras y baja calificación) que afectan la retención de clientes y la reputación de la marca.</div>
+
+  <h1 style="margin-top:9mm"><span class="n">2</span>Objetivos del proyecto</h1>
+  <h3>Objetivo general</h3>
+  <p>Diseñar e implementar una solución de visualización de datos que integre las tres fuentes de PideYa y comunique, a través de un dashboard interactivo y una narrativa visual, el desempeño comercial y la calidad del servicio para apoyar la toma de decisiones.</p>
+  <h3>Objetivos específicos</h3>
+  <ol>
+    <li>Limpiar, validar e integrar las tablas de usuarios, restaurantes y pedidos en un modelo de datos consistente.</li>
+    <li>Definir y calcular KPIs pertinentes de ventas, servicio y clientes, con metas explícitas.</li>
+    <li>Identificar patrones y hallazgos relevantes mediante análisis exploratorio visual.</li>
+    <li>Construir un dashboard interactivo con KPIs, filtros, navegación y elementos dinámicos.</li>
+    <li>Comunicar los hallazgos con una narrativa adaptada a la audiencia y proponer recomendaciones accionables.</li>
+  </ol>
+</section>
+
+<!-- 3 -->
+<section class="sec">
+  <h1><span class="n">3</span>Audiencia objetivo y propósito comunicacional</h1>
+  <p>La solución está dirigida a tres perfiles con necesidades distintas. Por eso el dashboard se organiza en tres páginas, cada una respondiendo la pregunta principal de un público:</p>
+  <table>
+    <tr><th style="width:22%">Audiencia</th><th style="width:34%">Qué necesita saber</th><th style="width:20%">Página</th><th>Propósito comunicacional</th></tr>
+    <tr><td><b>Gerencia general</b></td><td>Estado del negocio en un vistazo: ventas, volumen y alertas de servicio.</td><td>1 · Resumen ejecutivo</td><td>Informar y alertar con KPIs y semáforos.</td></tr>
+    <tr><td><b>Gerencia de operaciones</b></td><td>Dónde se cancela, qué restaurantes fallan y si se cumple el tiempo de entrega.</td><td>2 · Operación y calidad de servicio</td><td>Diagnosticar y priorizar acciones correctivas.</td></tr>
+    <tr><td><b>Marketing y fidelización</b></td><td>Quiénes son los clientes, dónde y cuándo compran, y cómo se comporta Premium.</td><td>3 · Clientes y comportamiento de compra</td><td>Segmentar y orientar campañas.</td></tr>
+  </table>
+  <p>El tono es <b>ejecutivo</b>: cada página parte con indicadores clave, usa un lenguaje sin tecnicismos y destaca en rojo solo lo que requiere atención. El objetivo no es mostrar todos los datos, sino que cada audiencia identifique en menos de un minuto <b>qué está bien, qué está mal y dónde actuar</b>.</p>
+
+  <h1 style="margin-top:9mm"><span class="n">4</span>Fuentes de datos e integración</h1>
+  <h2>4.1 Fuentes utilizadas</h2>
+  <table>
+    <tr><th>Tabla</th><th>Origen</th><th class="num">Filas originales</th><th class="num">Filas limpias</th><th>Variables relevantes</th></tr>
+    <tr><td><b>Usuarios</b></td><td>Sistema de cuentas</td><td class="num">308</td><td class="num">300</td><td>id_usuario, fecha_registro, comuna, tipo_cuenta (Estándar/Premium)</td></tr>
+    <tr><td><b>Restaurantes</b></td><td>Sistema de socios</td><td class="num">30</td><td class="num">30</td><td>id_restaurante, nombre_restaurante, categoria, comuna</td></tr>
+    <tr><td><b>Pedidos</b></td><td>Sistema transaccional</td><td class="num">1.515</td><td class="num">1.488</td><td>id_pedido, fecha_pedido, monto_clp, tiempo_entrega_min, metodo_pago, calificacion (1–5), estado</td></tr>
+  </table>
+  <p>El período analizado va del 1 de mayo al 19 de octubre de 2026 (octubre está incompleto). Los registros de usuarios abarcan desde julio de 2024.</p>
+
+  <h2>4.2 Modelo de datos integrado</h2>
+  <p>Las tablas se integraron en un <b>modelo estrella</b>: Pedidos es la tabla de hechos y se relaciona con Usuarios y Restaurantes mediante sus claves. Se agregó una tabla <b>Calendario</b> para el análisis temporal, con una relación activa hacia la fecha del pedido y una inactiva hacia la fecha de registro (activada solo en la medida "Nuevos Usuarios").</p>
+  <figure>
+    <svg viewBox="0 0 720 230" width="100%" style="border:1px solid #E5E7EB;border-radius:4px;background:#FAFAF9" font-family="Inter,Arial" font-size="12">
+      <defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8z" fill="#6B7280"/></marker></defs>
+      <g>
+        <rect x="20" y="20" width="160" height="78" rx="6" fill="#fff" stroke="#2E5EAA" stroke-width="1.5"/><text x="100" y="42" text-anchor="middle" font-weight="700" fill="#2E5EAA">Usuarios</text><text x="100" y="62" text-anchor="middle" fill="#4B5563" font-size="11">id_usuario (PK)</text><text x="100" y="80" text-anchor="middle" fill="#4B5563" font-size="11">comuna · tipo_cuenta</text>
+        <rect x="540" y="20" width="160" height="78" rx="6" fill="#fff" stroke="#2E5EAA" stroke-width="1.5"/><text x="620" y="42" text-anchor="middle" font-weight="700" fill="#2E5EAA">Restaurantes</text><text x="620" y="62" text-anchor="middle" fill="#4B5563" font-size="11">id_restaurante (PK)</text><text x="620" y="80" text-anchor="middle" fill="#4B5563" font-size="11">categoria · comuna</text>
+        <rect x="270" y="70" width="180" height="90" rx="6" fill="#FFF4EF" stroke="#E4572E" stroke-width="2"/><text x="360" y="94" text-anchor="middle" font-weight="700" fill="#E4572E">Pedidos (hechos)</text><text x="360" y="114" text-anchor="middle" fill="#4B5563" font-size="11">id_usuario · id_restaurante</text><text x="360" y="131" text-anchor="middle" fill="#4B5563" font-size="11">fecha · monto · tiempo</text><text x="360" y="148" text-anchor="middle" fill="#4B5563" font-size="11">calificación · estado</text>
+        <rect x="20" y="140" width="160" height="70" rx="6" fill="#fff" stroke="#6B7280" stroke-width="1.5"/><text x="100" y="164" text-anchor="middle" font-weight="700" fill="#374151">Calendario</text><text x="100" y="184" text-anchor="middle" fill="#4B5563" font-size="11">Fecha · Mes Año · Día</text>
+        <line x1="180" y1="60" x2="268" y2="100" stroke="#6B7280" stroke-width="1.5" marker-end="url(#a)"/><text x="200" y="64" fill="#6B7280" font-size="10.5">1</text><text x="250" y="90" fill="#6B7280" font-size="10.5">*</text>
+        <line x1="540" y1="60" x2="452" y2="100" stroke="#6B7280" stroke-width="1.5" marker-end="url(#a)"/><text x="515" y="64" fill="#6B7280" font-size="10.5">1</text><text x="462" y="90" fill="#6B7280" font-size="10.5">*</text>
+        <line x1="180" y1="170" x2="268" y2="140" stroke="#6B7280" stroke-width="1.5" marker-end="url(#a)"/><text x="196" y="186" fill="#6B7280" font-size="10.5">activa</text>
+        <line x1="100" y1="140" x2="100" y2="98" stroke="#9CA3AF" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#a)"/><text x="106" y="124" fill="#9CA3AF" font-size="10.5">inactiva (fecha_registro)</text>
+      </g>
+    </svg>
+    <figcaption>Figura 1. Modelo estrella implementado en Power BI.</figcaption>
+  </figure>
+
+  <h2>4.3 Limpieza y control de calidad</h2>
+  <p>La limpieza se automatizó en un script de Python (<span class="tag">src/limpieza_pideya.py</span>) que corrige los datos, valida el resultado y registra cada corrección en una bitácora (<span class="tag">log_calidad_datos.csv</span>). Esto hace que el proceso sea <b>reproducible</b>: si llegan datos nuevos, basta con volver a ejecutarlo.</p>
+  <figure><img src="../../images/eda/eda_1_calidad.png"><figcaption>Figura 2. Problemas de calidad detectados en las tres tablas y cantidad de filas afectadas.</figcaption></figure>
+  <table>
+    <tr><th style="width:32%">Problema</th><th>Tratamiento</th></tr>
+    <tr><td>Fechas en tres formatos (aaaa-mm-dd, dd/mm/aaaa, dd-mm-aaaa)</td><td>Conversión a un único tipo fecha.</td></tr>
+    <tr><td>Textos inconsistentes ("ÑUÑOA", "Nunoa", "Tajeta", espacios)</td><td>Normalización contra catálogos oficiales de comunas, categorías, métodos de pago y estados.</td></tr>
+    <tr><td>Montos con texto ("$11.200", "12600 CLP")</td><td>Conversión a número entero en pesos.</td></tr>
+    <tr><td>23 filas duplicadas</td><td>Eliminadas.</td></tr>
+    <tr><td>12 pedidos con usuario o restaurante inexistente (9999, 999)</td><td>Eliminados para no romper las relaciones del modelo.</td></tr>
+    <tr><td>12 tiempos de entrega imposibles (−5, 0, 500, 999)</td><td>Reemplazados por vacío; no se imputan para no inventar datos.</td></tr>
+    <tr><td>Comuna o tipo de cuenta vacíos</td><td>Rotulados como "Sin información" para mantenerlos visibles.</td></tr>
+    <tr><td>107 pedidos con fecha anterior al registro del usuario</td><td>Se conservan y se marcan con una columna de control.</td></tr>
+  </table>
+  <p>Regla de negocio aplicada en todos los indicadores: <b>ventas, ticket, tiempo y calificación se calculan solo con pedidos entregados</b>, ya que un pedido cancelado no genera ingreso ni recibe calificación. Los KPIs del dashboard se validaron contra cálculos independientes en Python (<span class="tag">valores_control.csv</span>).</p>
+</section>
+
+<!-- 5 -->
+<section class="sec">
+  <h1><span class="n">5</span>Análisis exploratorio</h1>
+  <h2>5.1 Ventas estables, sin tendencia de crecimiento</h2>
+  <p>Entre mayo y septiembre las ventas mensuales se mantienen entre <b>$2,5 y $2,8 millones</b>, con un volumen de 243 a 282 pedidos por mes. La caída visible en octubre no es real: los datos llegan solo hasta el día 19. El ticket promedio es estable, alrededor de <b>$11.160</b>.</p>
+  <h2>5.2 Mezcla de ventas</h2>
+  <ul>
+    <li><b>Saludable</b> es la categoría líder (35% de las ventas), seguida de Asiática (27%) e Italiana (22%). Postres y café aporta menos del 2%.</li>
+    <li><b>Santiago</b> concentra el 31% de las ventas por comuna del cliente, casi el doble que cualquier otra comuna.</li>
+    <li>La <b>tarjeta</b> es el medio de pago dominante (58% de los pedidos), seguida de efectivo (26%) y transferencia (16%).</li>
+    <li>El <b>sábado</b> es el día con más pedidos (238) y el martes el de menos (183). La combinación más intensa es Santiago los viernes.</li>
+  </ul>
+  <h2>5.3 La promesa de entrega rápida no se cumple</h2>
+  <figure><img src="../../images/eda/eda_2_tiempo.png"><figcaption>Figura 3. Distribución del tiempo de entrega de los pedidos entregados. La mediana es de 32 minutos.</figcaption></figure>
+  <p>El tiempo promedio es de 31,5 minutos y <b>solo el 45% de las entregas llega en 30 minutos o menos</b>. La distribución está centrada justo después de la meta, por lo que pequeñas mejoras operativas podrían mover una proporción importante de pedidos al rango "a tiempo".</p>
+  <h2>5.4 La rapidez no explica la satisfacción</h2>
+  <figure><img src="../../images/eda/eda_3_calif_tiempo.png"><figcaption>Figura 4. Calificación promedio según rango de tiempo de entrega. La correlación entre ambas variables es prácticamente nula (r ≈ 0,00).</figcaption></figure>
+  <p>La calificación promedio se mantiene entre 4,12 y 4,22 en todos los rangos de tiempo. Este es un hallazgo relevante: <b>acelerar las entregas no subiría la satisfacción por sí solo</b>. La experiencia depende más de factores asociados al restaurante (calidad del producto, exactitud del pedido) que del reparto.</p>
+  <h2>5.5 Cancelaciones concentradas</h2>
+  <div class="two">
+    <table>
+      <tr><th>Categoría</th><th class="num">Cancelación</th></tr>
+      <tr><td>Asiática</td><td class="num red">13,6%</td></tr>
+      <tr><td>Saludable</td><td class="num red">11,5%</td></tr>
+      <tr><td>Italiana</td><td class="num red">8,4%</td></tr>
+      <tr><td>Comida rápida</td><td class="num red">8,3%</td></tr>
+      <tr><td>Postres y café</td><td class="num red">8,3%</td></tr>
+    </table>
+    <table>
+      <tr><th>Comuna del restaurante</th><th class="num">Cancelación</th></tr>
+      <tr><td>Maipú</td><td class="num red">17,3%</td></tr>
+      <tr><td>Las Condes</td><td class="num red">13,8%</td></tr>
+      <tr><td>Ñuñoa</td><td class="num red">12,8%</td></tr>
+      <tr><td>La Florida</td><td class="num red">11,8%</td></tr>
+      <tr><td>Santiago</td><td class="num red">8,4%</td></tr>
+      <tr><td>Providencia</td><td class="num grn">7,3%</td></tr>
+    </table>
+  </div>
+  <p>Ninguna categoría alcanza la meta de 8%, y solo Providencia la cumple a nivel de comuna. Junio (14,3%) y julio (13,6%) fueron los meses con más cancelaciones, mientras que agosto bajó a 7,0%, lo que muestra que la meta es alcanzable.</p>
+  <h2>5.6 Clientes y restaurantes</h2>
+  <ul>
+    <li><b>298 clientes activos</b> realizan en promedio 5 pedidos cada uno, con un gasto de $49.697 por cliente.</li>
+    <li>Los usuarios <b>Premium</b> (27% de las ventas) cancelan más que los Estándar (<span class="red">12,4%</span> vs 10,8%) y tienen un ticket similar ($11.081 vs $11.173).</li>
+    <li><b>Dulce Tentación</b> es el 3.er restaurante en ventas ($692.300), pero tiene la calificación más baja (3,77): el 43% de sus calificaciones son de 3 estrellas o menos.</li>
+    <li>La captación de usuarios nuevos es constante, entre 6 y 18 registros por mes, sin campañas que generen peaks sostenidos.</li>
+  </ul>
+</section>
+
+<!-- 6 -->
+<section class="sec">
+  <h1><span class="n">6</span>Justificación de las representaciones gráficas</h1>
+  <p>Cada gráfico se eligió según el tipo de pregunta que responde, siguiendo principios de percepción visual: la <b>posición y la longitud</b> son los atributos que el ojo compara con mayor precisión, por lo que se priorizaron barras sobre ángulos o áreas cuando el objetivo es comparar.</p>
+  <table>
+    <tr><th style="width:23%">Visualización</th><th style="width:27%">Pregunta que responde</th><th>Por qué este gráfico</th></tr>
+    <tr><td><b>Tarjetas KPI</b></td><td>¿Cómo estamos hoy?</td><td>Muestran un número exacto de forma inmediata. El color semáforo (rojo/verde según la meta) permite detectar alertas sin leer cifras.</td></tr>
+    <tr><td><b>Columnas + línea</b> (ventas y pedidos por mes)</td><td>¿Cómo evolucionan las ventas?</td><td>El eje temporal continuo muestra la tendencia; combinar columnas (monto) y línea (cantidad) permite ver dos magnitudes distintas en un solo espacio.</td></tr>
+    <tr><td><b>Barras horizontales ordenadas</b> (ventas por categoría, cancelación por categoría, comuna y tipo de cuenta)</td><td>¿Quién vende o cancela más?</td><td>La longitud es el atributo más preciso para comparar. Horizontal porque los nombres son largos; ordenadas de mayor a menor para leer el ranking de inmediato.</td></tr>
+    <tr><td><b>Línea de referencia</b> en barras</td><td>¿Se cumple la meta?</td><td>Convierte la comparación en un juicio directo: toda barra que cruza la línea punteada incumple.</td></tr>
+    <tr><td><b>Gráfico de anillo</b> (método de pago)</td><td>¿Qué proporción paga con cada medio?</td><td>Es una relación parte-todo con solo tres categorías, caso en que el anillo es legible. El centro muestra el total de pedidos.</td></tr>
+    <tr><td><b>Dispersión</b> (ventas vs calificación por restaurante)</td><td>¿Hay restaurantes que venden mucho pero con mala calidad?</td><td>Cruza dos variables por restaurante y deja ver los casos atípicos. Un formato condicional destaca en rojo a los restaurantes bajo 3,9.</td></tr>
+    <tr><td><b>Mapa de calor</b> (pedidos por día y comuna)</td><td>¿Cuándo y dónde se concentra la demanda?</td><td>Una matriz de dos dimensiones donde la intensidad del color revela patrones que una tabla de números ocultaría.</td></tr>
+    <tr><td><b>Gráfico de área</b> (nuevos usuarios por mes)</td><td>¿Cómo crece la base de clientes?</td><td>Enfatiza el volumen acumulado en el tiempo y la regularidad de la captación.</td></tr>
+    <tr><td><b>Tabla con formato condicional</b> (detalle por restaurante)</td><td>¿Cuál es el valor exacto de cada restaurante?</td><td>Para consultar cifras puntuales la tabla es superior a un gráfico. El color de fuente en la tasa de cancelación guía la lectura sin ocupar espacio.</td></tr>
+  </table>
+  <h3>Decisiones de color y atributos visuales</h3>
+  <ul>
+    <li><b>Color semántico:</b> el rojo se reserva para incumplimientos y el verde para el cumplimiento de metas. Así el color comunica significado y no es decorativo.</li>
+    <li><b>Naranja corporativo</b> (#E4572E) para datos neutros y elementos activos, coherente con la identidad de PideYa.</li>
+    <li><b>Fondo neutro y panel oscuro</b> para separar la navegación del contenido y dar contraste a los datos.</li>
+    <li>Se evitó el 3D, los ejes truncados en barras y los gráficos de torta con muchas categorías, porque distorsionan la comparación.</li>
+  </ul>
+</section>
+
+<!-- 7 -->
+<section class="sec">
+  <h1><span class="n">7</span>Narrativa visual (Data Storytelling)</h1>
+  <p>La narrativa sigue una estructura de tres actos —<b>contexto, conflicto y resolución</b>— que coincide con el orden de las páginas del dashboard. Así, quien navega de izquierda a derecha recorre la historia completa.</p>
+  <table>
+    <tr><th style="width:18%">Acto</th><th style="width:24%">Página</th><th>Mensaje</th></tr>
+    <tr><td><b>1. Contexto</b></td><td>Resumen ejecutivo</td><td>"PideYa vende $14,8 millones de forma estable, liderado por comida saludable y la comuna de Santiago… pero tres de sus seis indicadores están en rojo."</td></tr>
+    <tr><td><b>2. Conflicto</b></td><td>Operación y calidad de servicio</td><td>"El problema está en el servicio: ninguna categoría cumple la meta de cancelación, Maipú cancela el 17% y más de la mitad de las entregas llega tarde. Además, un restaurante clave tiene la peor calificación."</td></tr>
+    <tr><td><b>3. Resolución</b></td><td>Clientes y comportamiento de compra</td><td>"Sabemos dónde y cuándo compran los clientes, y que el segmento Premium no está recibiendo una mejor experiencia. Eso indica dónde intervenir primero."</td></tr>
+  </table>
+  <h3>Recursos narrativos aplicados</h3>
+  <ul>
+    <li><b>Títulos que afirman:</b> los títulos describen qué muestra cada gráfico, y en el informe y la presentación se reemplazan por conclusiones ("El 55% de las entregas supera los 30 minutos").</li>
+    <li><b>Jerarquía visual:</b> los KPIs se ubican arriba y los detalles abajo, siguiendo el recorrido natural de lectura en Z.</li>
+    <li><b>Énfasis selectivo:</b> el color rojo aparece solo donde está el problema, para que la atención vaya directo al conflicto.</li>
+    <li><b>Contexto dinámico:</b> un subtítulo indica qué filtros están activos ("Mostrando: Maipú · todas las categorías"), para que el usuario siempre sepa qué está viendo.</li>
+    <li><b>Adaptación al canal:</b> el dashboard permite explorar; el informe explica y justifica; la presentación sintetiza en pocos mensajes para una audiencia ejecutiva.</li>
+  </ul>
+  <div class="callout"><b>Mensaje central de la historia:</b> el crecimiento de PideYa no está limitado por la demanda, sino por la calidad del servicio. Resolver las cancelaciones y la experiencia en restaurantes críticos protege los ingresos actuales y la reputación de la marca.</div>
+</section>
+
+<!-- 8 -->
+<section class="sec">
+  <h1><span class="n">8</span>Diseño e implementación del dashboard</h1>
+  <p>El dashboard se construyó en <b>Power BI Desktop</b> y está compuesto por tres páginas con una estructura común: panel lateral oscuro con logo, navegación y filtros; título con subtítulo dinámico; fila de KPIs; y área de gráficos.</p>
+  <h2>8.1 Indicadores clave (KPIs)</h2>
+  <table>
+    <tr><th>KPI</th><th>Cálculo</th><th class="num">Valor</th><th class="num">Meta</th></tr>
+    <tr><td>Ventas Totales</td><td>Suma de monto de pedidos entregados</td><td class="num">$14.809.700</td><td class="num">—</td></tr>
+    <tr><td>Total Pedidos</td><td>Cantidad de pedidos</td><td class="num">1.488</td><td class="num">—</td></tr>
+    <tr><td>Ticket Promedio</td><td>Ventas ÷ pedidos entregados</td><td class="num">$11.160</td><td class="num">—</td></tr>
+    <tr><td>Tasa de Cancelación</td><td>Cancelados ÷ total de pedidos</td><td class="num red">10,8%</td><td class="num">≤ 8%</td></tr>
+    <tr><td>Tiempo Promedio de Entrega</td><td>Promedio de minutos (entregados)</td><td class="num red">31,5 min</td><td class="num">≤ 30 min</td></tr>
+    <tr><td>% Entregas en 30 min</td><td>Entregas ≤ 30 min ÷ entregas con tiempo</td><td class="num">45,0%</td><td class="num">—</td></tr>
+    <tr><td>Calificación Promedio</td><td>Promedio de calificación (entregados)</td><td class="num red">4,14</td><td class="num">≥ 4,2</td></tr>
+    <tr><td>% Clientes Satisfechos</td><td>Calificaciones 4–5 ÷ calificaciones</td><td class="num">79,3%</td><td class="num">—</td></tr>
+    <tr><td>Clientes Activos</td><td>Usuarios distintos con pedidos</td><td class="num">298</td><td class="num">—</td></tr>
+    <tr><td>Pedidos / Gasto por Cliente</td><td>Pedidos o ventas ÷ clientes activos</td><td class="num">5,0 / $49.697</td><td class="num">—</td></tr>
+    <tr><td>% Ventas Premium</td><td>Ventas Premium ÷ ventas totales</td><td class="num">26,9%</td><td class="num">—</td></tr>
+  </table>
+  <p style="font-size:9pt;color:#6B7280">Las metas fueron definidas por el equipo como supuestos de referencia, ya que la empresa no entregó objetivos formales. Todas las medidas se implementaron en DAX dentro de una tabla de medidas organizada por carpetas (Ventas, Servicio, Clientes, Metas y colores, Textos).</p>
+  <h2>8.2 Interactividad</h2>
+  <ul>
+    <li><b>Navegación:</b> navegador de páginas con botones; la página activa se destaca en naranja.</li>
+    <li><b>Filtros (segmentaciones):</b> mes, comuna, categoría y tipo de cuenta, disponibles en cada página según su audiencia.</li>
+    <li><b>Botón "Limpiar filtros":</b> restablece todas las segmentaciones en un clic.</li>
+    <li><b>Filtro cruzado e información emergente:</b> al hacer clic en una barra, punto o celda, el resto de la página se filtra por ese elemento; al pasar el mouse se muestran los valores exactos.</li>
+    <li><b>Subtítulo dinámico</b> que describe los filtros activos.</li>
+    <li><b>Formato condicional:</b> colores de KPIs, barras y tabla que cambian según el cumplimiento de la meta para cualquier selección de filtros.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>8.3 Página 1 · Resumen ejecutivo</h2>
+  <figure class="dash"><img src="../../images/dashboard_1_resumen.png"><figcaption>Figura 5. Visión general del negocio: 6 KPIs (3 en alerta), evolución mensual, ventas por categoría y medios de pago.</figcaption></figure>
+  <h2 style="margin-top:2mm">8.4 Página 2 · Operación y calidad de servicio</h2>
+  <figure class="dash"><img src="../../images/dashboard_2_operacion.png"><figcaption>Figura 6. Diagnóstico del servicio: cancelación por categoría y comuna con línea de meta, restaurantes según ventas y calificación (Dulce Tentación en rojo) y tabla de detalle.</figcaption></figure>
+</section>
+<section>
+  <h2>8.5 Página 3 · Clientes y comportamiento de compra</h2>
+  <figure class="dash"><img src="../../images/dashboard_3_clientes.png"><figcaption>Figura 7. Perfil de clientes: ventas por comuna, mapa de calor de demanda por día, cancelación por tipo de cuenta y captación de nuevos usuarios.</figcaption></figure>
+  <h2 style="margin-top:3mm">8.6 Criterios de diseño</h2>
+  <ul>
+    <li><b>Consistencia:</b> las tres páginas comparten la misma grilla, tipografía, colores y ubicación de elementos, lo que reduce la carga cognitiva al navegar.</li>
+    <li><b>Jerarquía:</b> el título y los KPIs arriba, los gráficos de análisis al centro y el detalle abajo.</li>
+    <li><b>Minimalismo:</b> se eliminaron subtítulos redundantes, bordes innecesarios y leyendas que repetían información de las etiquetas.</li>
+    <li><b>Tema propio:</b> se creó un archivo de tema (.json) para aplicar la paleta de forma uniforme en todos los visuales.</li>
+  </ul>
+  <h2>8.7 Organización de los archivos del proyecto</h2>
+  <table style="break-inside:auto;font-size:8.8pt">
+    <tr><th>Carpeta</th><th>Contenido</th></tr>
+    <tr><td>data/raw · data/processed</td><td>Datos originales sin modificar y datos limpios listos para Power BI, con bitácora de calidad.</td></tr>
+    <tr><td>src/</td><td>limpieza_pideya.py: limpieza, validación y exportación.</td></tr>
+    <tr><td>dashboard/</td><td>PideYa_dashboard.pbix, modelo TMDL (medidas y relaciones), tema de colores, guía de construcción y valores de control.</td></tr>
+    <tr><td>images/</td><td>Capturas del dashboard, bocetos y gráficos del análisis exploratorio.</td></tr>
+    <tr><td>docs/</td><td>Informe ejecutivo (PDF) y presentación ejecutiva (PPTX).</td></tr>
+  </table>
+</section>
+
+<!-- 9 -->
+<section class="sec">
+  <h1><span class="n">9</span>Evaluación crítica de la solución</h1>
+  <h2>Fortalezas</h2>
+  <ul>
+    <li><b>Integración completa y trazable</b> de las tres fuentes, con un proceso de limpieza automatizado, reproducible y documentado en una bitácora.</li>
+    <li><b>KPIs validados:</b> los valores del dashboard coinciden con los calculados de forma independiente en Python.</li>
+    <li><b>Metas visibles:</b> los semáforos y las líneas de referencia transforman los datos en juicios accionables.</li>
+    <li><b>Estructura orientada a audiencias:</b> cada página responde la pregunta de un perfil de usuario distinto.</li>
+    <li><b>Interactividad útil:</b> filtros sincronizados, filtro cruzado y subtítulo dinámico permiten explorar sin perder el contexto.</li>
+  </ul>
+  <h2>Limitaciones</h2>
+  <ul>
+    <li><b>Calidad de origen:</b> algunas categorías no corresponden al nombre del restaurante (por ejemplo, "Pasta Nostra" y "Trattoria Roma" figuran como Asiática). No se corrigió para no inventar datos, pero afecta el análisis por categoría.</li>
+    <li><b>Inconsistencia temporal:</b> 107 pedidos tienen fecha anterior al registro de su usuario; se conservaron y marcaron.</li>
+    <li><b>Período corto e incompleto:</b> menos de seis meses de pedidos y octubre parcial; no permite analizar estacionalidad.</li>
+    <li><b>Variables faltantes:</b> no hay hora del pedido, costo de despacho, margen ni motivo de cancelación, lo que limita explicar las causas.</li>
+    <li><b>Metas supuestas</b> por el equipo, no validadas con la empresa.</li>
+    <li><b>Detalles de presentación:</b> algunas cifras se muestran abreviadas por el formato automático de Power BI ("$11,2 mil") y en Desktop los botones requieren Ctrl + clic.</li>
+  </ul>
+  <h2>Oportunidades de mejora</h2>
+  <ul>
+    <li>Incorporar el <b>motivo de cancelación</b> y la <b>hora del pedido</b> para identificar causas y franjas críticas.</li>
+    <li>Agregar una <b>página oculta de detalle por restaurante</b> (obtención de detalles) para analizar cada local en profundidad.</li>
+    <li>Conectar el modelo directamente a las bases operacionales con <b>actualización programada</b> en Power BI Service.</li>
+    <li>Corregir el catálogo de categorías junto al área comercial.</li>
+    <li>Diseñar una <b>vista móvil</b> para supervisores en terreno.</li>
+  </ul>
+</section>
+
+<!-- 10 -->
+<section class="sec">
+  <h1><span class="n">10</span>Conclusiones y recomendaciones</h1>
+  <h2>Conclusiones</h2>
+  <ol>
+    <li>PideYa tiene una <b>base comercial estable</b> ($2,5–2,8 millones mensuales, 298 clientes activos), pero <b>no está creciendo</b>.</li>
+    <li>El principal problema es la <b>calidad del servicio</b>: 10,8% de cancelación (meta 8%), 31,5 minutos de entrega promedio y solo 45% de entregas a tiempo.</li>
+    <li>Las cancelaciones se <b>concentran en zonas y categorías específicas</b> (Maipú, Las Condes, comida Asiática), por lo que se pueden abordar de forma focalizada.</li>
+    <li>La <b>satisfacción no depende de la rapidez</b> del reparto, sino de la experiencia con el restaurante.</li>
+    <li>El segmento <b>Premium no recibe una experiencia superior</b>, lo que pone en riesgo a los clientes de mayor valor.</li>
+  </ol>
+  <h2>Recomendaciones</h2>
+  <table>
+    <tr><th style="width:4%">#</th><th style="width:32%">Acción</th><th style="width:40%">Detalle</th><th>Indicador de seguimiento</th></tr>
+    <tr><td>1</td><td><b>Plan focalizado de cancelaciones</b></td><td>Revisar disponibilidad y tiempos de preparación de los restaurantes de Maipú y Las Condes, y de la categoría Asiática.</td><td>Tasa de cancelación ≤ 8% en 3 meses.</td></tr>
+    <tr><td>2</td><td><b>Programa de calidad para restaurantes</b></td><td>Plan de mejora con Dulce Tentación y con los locales bajo 4,0 estrellas; evaluar su visibilidad en la app si no mejoran.</td><td>Calificación por restaurante ≥ 4,0.</td></tr>
+    <tr><td>3</td><td><b>Rediseñar el beneficio Premium</b></td><td>Prioridad de despacho, seguimiento del pedido y compensación automática por demoras o cancelaciones.</td><td>Cancelación Premium ≤ Estándar.</td></tr>
+    <tr><td>4</td><td><b>Gestión de la promesa de entrega</b></td><td>Ajustar la cobertura de repartidores en los días y comunas de mayor demanda (Santiago, viernes y sábado).</td><td>% de entregas ≤ 30 min sobre 60%.</td></tr>
+    <tr><td>5</td><td><b>Mejorar la calidad de los datos</b></td><td>Formularios con listas cerradas (comuna, categoría, método de pago), registrar el motivo de cancelación y validar fechas al ingreso.</td><td>Cero correcciones manuales en la carga.</td></tr>
+  </table>
+  <div class="callout"><b>En síntesis:</b> PideYa no necesita más clientes para crecer, sino retener mejor a los que ya tiene. El dashboard entrega a cada área los indicadores para monitorear ese objetivo de forma continua.</div>
+</section>
+</body></html>

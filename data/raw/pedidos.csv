@@ -1,0 +1,1516 @@
+id_pedido,id_usuario,id_restaurante,fecha_pedido,monto_clp,tiempo_entrega_min,metodo_pago,calificacion,estado
+1411,7,16,19-09-2026,8700,43.0,Efectivo,5.0,Entregado
+17,90,12,03-07-2026,11400,34.0,Tarjeta,3.0,ENTREGADO
+1093,207,17,2026-06-11,16000,40.0,Transferencia,3.0,Entregado
+784,276,17,04-06-2026,13000,28.0,Tarjeta,5.0,Entregado
+1146,218,20,2026-06-19,14700,27.0,Tarjeta,5.0,Entregado
+1055,223,6,02-07-2026,15400,43.0,Tajeta,5.0,Entregado
+403,74,3,2026-07-14,9400,37.0,Efectivo,3.0,Entregado
+638,203,12,2026-10-19,7200,33.0,Tarjeta,3.0,Entregado
+895,271,22,2026-09-05,13700,35.0,Transferencia,4.0,Entregado
+1035,132,21,2026-07-26,12900,12.0,Tarjeta,5.0,Entregado
+472,79,23,2026-06-14,15400,39.0,Tarjeta,5.0,Entregado
+1014,193,11,2026-05-15,8100,19.0,Efectivo,4.0,Entregado
+84,183,9,2026-09-03,$11.200,45.0,TARJETA,5.0,Entregado
+730,90,7,2026-07-25,11200,37.0,Tarjeta,,Cancelado
+1167,22,11,2026-08-10,$17.500,36.0,Tarjeta ,3.0,Entregado
+1221,92,10,2026-05-26,8100,37.0,Tarjeta,5.0,Entregado
+822,72,29,2026-06-19,11600,33.0,Efectivo,4.0,Entregado
+71,137,30,2026-10-06,4000,26.0,Transferencia,4.0,Entregado
+493,153,22,18-05-2026,15600,42.0,Tarjeta,5.0,Entregado
+998,99,21,2026-05-28,6800,34.0,Tarjeta,4.0,Entregado
+894,220,14,17-09-2026,8900,35.0,Efectivo,4.0,Entregado
+821,76,11,2026-07-23,12500,20.0,Tarjeta,3.0,entregado
+222,9,16,2026-07-30,12100,32.0,Tarjeta,4.0,Entregado
+578,82,10,2026-08-23,15100,35.0,Tarjeta,5.0,Entregado
+1060,21,26,29-07-2026,11000,43.0,Tarjeta,3.0,Entregado
+1409,97,27,2026-05-20,$8.400,23.0,Efectivo,4.0,Entregado
+634,283,20,2026-10-06,9700,38.0,Efectivo,5.0,entregado
+70,11,20,28/05/2026,$7.500,28.0,Tarjeta,4.0,Entregado
+698,209,27,15-10-2026,10100,30.0,Tarjeta,5.0,Entregado
+1324,32,30,01-08-2026,6900,36.0,Tarjeta,5.0,Entregado
+510,249,23,2026-08-16,13000,27.0,Efectivo,4.0,ENTREGADO
+62,237,22,2026-06-18,12400,12.0,Efectivo,,Cancelado
+1262,79,1,2026-08-15,7900,26.0,Transferencia,3.0,Entregado
+356,200,20,26-08-2026,8300,28.0,Efectivo,5.0,Entregado
+1070,205,26,2026-08-07,10200,27.0,Tarjeta,5.0,Entregado
+819,31,12,2026-05-04,10300,29.0,Transferencia,5.0,Entregado
+1116,138,26,23-08-2026,11200,45.0,Tarjeta,5.0,Entregado
+1461,166,30,2026-09-12,6800,36.0,Transferencia,5.0,entregado
+51,19,20,2026-09-19,14900,39.0,Tarjeta,5.0,Entregado
+426,40,29,2026-09-09,8900,,Tarjeta,5.0,Entregado
+1338,91,17,01/07/2026,8000,34.0,Efectivo,2.0,Entregado
+1436,228,2,26-05-2026,15000,33.0,Tarjeta,,Cancelado
+870,280,30,25-08-2026,8200,22.0,Efectivo,4.0,Entregado
+689,89,10,2026-07-14,14800,36.0,Tajeta,,Cancelado
+992,14,14,2026-09-09,14000,34.0,Transferencia,,Cancelado
+611,50,27,13/08/2026,9200,26.0,Tarjeta,4.0,Entregado
+270,92,26,2026-06-04,11200,33.0,Efectivo,5.0,Entregado
+104,112,27,08-05-2026,9900,24.0,Tarjeta,5.0,Entregado
+607,112,4,2026-08-11,11100,30.0,TARJETA,5.0,Entregado
+240,83,24,03/05/2026,7700,36.0,Transferencia,5.0,Entregado
+1451,24,14,2026-06-13,12200,20.0,Tarjeta,4.0, Entregado
+189,115,3,14/08/2026,12100,12.0,Tarjeta,5.0,Entregado
+711,82,11,2026-06-11,12600 CLP,18.0,Tarjeta ,2.0,Entregado
+1270,25,20,16/09/2026,13800,31.0,Efectivo,4.0,Entregado
+304,63,4,2026-05-11,14000,24.0,Tarjeta,5.0,Entregado
+473,171,9,2026-06-29,9400,,Transferencia,,Cancelado
+1197,20,25,2026-08-07,8400,34.0,Tarjeta,4.0,Entregado
+530,55,13,2026-09-03,9500 CLP,33.0,Tarjeta,2.0,Entregado
+1487,173,2,2026-06-28,14800,39.0,Transferencia,,Entregado
+86,298,26,2026-05-23,14700,12.0,Tarjeta,5.0,Entregado
+401,239,18,01-05-2026,9800,26.0,Tarjeta,4.0,Entregado
+1424,259,11,01/09/2026,13600,30.0,Tarjeta,3.0,Entregado
+440,253,26,05-07-2026,8500 CLP,26.0,Tarjeta,3.0,Entregado
+855,128,1,2026-09-30,8300,26.0,Tarjeta,3.0,entregado
+734,142,19,13-10-2026,6200,33.0,Efectivo,4.0,Entregado
+1102,40,14,16-07-2026,$13.500,31.0,Tarjeta,5.0,Entregado
+655,40,8,2026-08-27,9300,33.0,EFECTIVO,5.0,Entregado
+1305,212,8,2026-10-04,7700,33.0,Efectivo,5.0,Entregado
+230,261,12,02-10-2026,8100,43.0,Tarjeta,,Cancelado
+195,202,2,2026-05-31,9800,26.0,Tajeta,4.0, Entregado
+5,186,3,2026-05-30,9000,33.0,Tarjeta,5.0,Entregado
+1339,176,17,2026-06-12,$15.800,27.0,Efectivo,3.0,Entregado
+563,30,23,23/05/2026,14000,28.0,Tarjeta,3.0,Entregado
+1475,207,16,05-09-2026,16200 CLP,30.0,Tarjeta,3.0,Entregado
+950,29,21,2026-06-25,9700,48.0,Transferencia,4.0,Entregado
+852,3,13,2026-08-22,7900,32.0,Tarjeta,3.0,entregado
+1201,221,7,13/08/2026,10200 CLP,43.0,Tarjeta,5.0,entregado
+762,67,20,25/05/2026,$9.900,29.0,Transferencia,3.0,Entregado
+1390,87,13,06/09/2026,9600,22.0,Tajeta,4.0,Entregado
+1348,168,30,2026-05-04,6500,13.0,Tarjeta,4.0,Entregado
+976,17,9,04/09/2026,15200,44.0,Transferencia,4.0,Entregado
+603,214,24,2026-09-08,14000,21.0,Efectivo,2.0,Entregado
+486,215,7,11/08/2026,6100,40.0,Transferencia,4.0,Entregado
+987,100,11,2026-07-26,11000,40.0,Tarjeta ,,Cancelado
+425,171,13,19/06/2026,16400,39.0,Transferencia,4.0,Entregado
+344,191,26,2026-05-24,13900,23.0,Tarjeta,,Entregado
+479,155,17,2026-07-11,8900,40.0,TARJETA,4.0,Entregado
+593,220,28,2026-05-04,8800,16.0,Tarjeta,5.0,Entregado
+1412,29,1,2026-06-18,11900,24.0,Efectivo,3.0,Entregado
+1095,278,5,17-07-2026,15900,34.0,Tarjeta,,Entregado
+1151,63,4,2026-09-03,10900,999.0,Tarjeta,4.0,entregado
+1236,123,12,2026-10-06,8500 CLP,27.0,Transferencia,4.0,ENTREGADO
+1019,4,14,2026-07-15,17500,23.0,Efectivo ,4.0,Entregado
+322,290,4,10-06-2026,7500,38.0,Tarjeta,5.0,Entregado
+752,162,21,2026-06-07,13400,23.0,Tarjeta,5.0, Entregado
+717,94,19,02-07-2026,9000,38.0,Efectivo,5.0,Entregado
+457,140,21,2026-09-17,9100,33.0,Tarjeta,4.0,Entregado
+945,226,10,2026-06-15,$8.800,29.0,Tarjeta,,Cancelado
+1028,47,13,17-07-2026,7500,31.0,Tarjeta,5.0,Entregado
+100,64,8,2026-07-28,7400,50.0,Transferencia ,5.0,Entregado
+1056,245,26,19-06-2026,7700,26.0,Tarjeta,5.0,Entregado
+877,274,13,30-05-2026,7600,18.0,Tajeta,5.0,Entregado
+267,65,22,24/08/2026,8700,12.0,Tarjeta,5.0,Entregado
+594,293,12,2026-07-30,6700,43.0,Tarjeta,5.0,Entregado
+351,62,28,16/10/2026,12800,20.0,Tarjeta,4.0,Entregado
+850,34,15,2026-07-30,9600,28.0,Transferencia,2.0,Entregado
+596,143,6,15/10/2026,10600,30.0,Efectivo ,4.0,Entregado
+1159,286,4,2026-06-22,13000,20.0,Tarjeta,4.0,Entregado
+171,181,14,2026-07-18,9600,35.0,Tarjeta,5.0,Entregado
+1375,48,14,26/09/2026,11700,31.0,Transferencia,,Cancelado
+353,21,30,2026-09-12,6800,14.0,Tarjeta,4.0,Entregado
+1471,284,7,2026-09-14,8500,42.0,Transferencia,4.0,Entregado
+325,193,15,21/05/2026,14300,28.0,Efectivo,4.0,Entregado
+1013,67,16,2026-09-22,13600,39.0,Transferencia,5.0,ENTREGADO
+745,280,26,2026-07-15,9300,34.0,Tajeta,,Cancelado
+194,80,19,02/07/2026,13100,46.0,Tarjeta,,Cancelado
+647,16,23,26/06/2026,13000,27.0,Transferencia,5.0,Entregado
+379,279,15,15-07-2026,9700,48.0,Tarjeta,,Entregado
+886,73,7,15-05-2026,6100,45.0,Tarjeta,,Cancelado
+1396,128,11,2026-10-03,12800 CLP,36.0,Efectivo,5.0,Entregado
+1358,275,13,2026-05-26,7400,35.0,Efectivo,4.0,Entregado
+1402,121,20,04/09/2026,$10.300,,Tarjeta,4.0,Entregado
+390,195,12,2026-09-22,8700,36.0,Efectivo,3.0,Entregado
+977,119,29,14/10/2026,7200,26.0,Efectivo ,5.0,Entregado
+747,163,13,2026-07-25,11700,35.0,Tarjeta,4.0,Entregado
+791,7,8,29-08-2026,9200,12.0,Efectivo,5.0,Entregado
+264,158,22,29-09-2026,10900,30.0,Tarjeta,4.0,Entregado
+973,208,30,28-05-2026,4800,19.0,Efectivo,,Cancelado
+1473,288,22,14/05/2026,15800,29.0,Efectivo,3.0,Entregado
+340,240,4,22/05/2026,14000,34.0,Tarjeta,4.0,Entregado
+1113,106,30,2026-06-23,8000 CLP,31.0,Efectivo,3.0,Entregado
+141,53,3,01/10/2026,10200,28.0,Transferencia,4.0,Entregado
+291,242,22,06/10/2026,15400,20.0,Efectivo,5.0,Entregado
+333,277,21,2026-09-21,12100,29.0,tarjeta,5.0,Entregado
+1374,242,19,2026-09-24,8400,33.0,Tarjeta,4.0,Entregado
+1399,105,5,2026-09-29,16400,34.0,Transferencia,5.0,Entregado
+1465,262,28,24/08/2026,10800,35.0,Tarjeta ,5.0,Entregado
+738,119,13,2026-09-24,16300,32.0,Tarjeta,4.0,ENTREGADO
+820,65,4,09/08/2026,9200,29.0,Transferencia,4.0,Entregado
+317,289,25,28/05/2026,8400,31.0,Transferencia,3.0,Entregado
+1090,238,15,28/06/2026,9000,38.0,Tarjeta,,Cancelado
+199,109,4,05-05-2026,10000,44.0,Efectivo,3.0,Entregado
+217,137,9,2026-06-29,14600,40.0,Efectivo,3.0,Entregado
+1442,86,27,26-05-2026,9600,23.0,Tarjeta,4.0,entregado
+1450,285,30,07/09/2026,8700,32.0,Efectivo,3.0,Entregado
+1488,197,11,16/10/2026,17000,42.0,Efectivo,2.0,Entregado
+867,188,6,2026-09-03,10900 CLP,27.0,Tarjeta,3.0,Entregado
+816,70,8,12-06-2026,8400 CLP,24.0,Transferencia,4.0,Entregado
+132,24,2,2026-07-04,9700,21.0,Transferencia,4.0,Entregado
+1188,268,21,2026-09-05,$8.200,34.0,tarjeta,4.0,Entregado
+205,87,17,2026-09-16,11900,24.0,Efectivo,3.0,Entregado
+988,160,15,24-08-2026,11000,31.0,Efectivo ,4.0,Entregado
+1108,25,11,2026-08-17,9800 CLP,41.0,Tarjeta,,Entregado
+499,42,20,03/05/2026,12400,39.0,Tarjeta,3.0,Entregado
+318,276,6,2026-10-02,14500,39.0,Transferencia,5.0, Entregado
+1124,262,6,30/06/2026,16100,32.0,Tarjeta ,4.0,Entregado
+265,117,5,2026-09-07,11400,29.0,Tarjeta,5.0,entregado
+1345,295,15,17/10/2026,11300,,tarjeta,,Cancelado
+839,199,28,17/06/2026,8200,29.0,Transferencia,5.0,Entregado
+938,213,27,2026-07-04,15100,31.0,Tarjeta,5.0,Entregado
+122,247,28,03-06-2026,15100,21.0,Tarjeta,3.0,ENTREGADO
+896,278,8,2026-08-23,10200,38.0,Efectivo,3.0,Entregado
+712,274,20,12-05-2026,13400,38.0,Efectivo,4.0,Entregado
+158,199,18,01/10/2026,10600,,Tarjeta,5.0,Entregado
+1180,46,10,2026-07-24,10200,38.0,Efectivo,5.0,Entregado
+1233,68,14,25-06-2026,16400,38.0,Tarjeta,3.0,Entregado
+613,59,30,05-10-2026,6500,26.0,Transferencia,5.0,entregado
+66,234,27,09-08-2026,$8.800,-5.0,Tarjeta,,Cancelado
+200,29,5,14-05-2026,9700,21.0,Transferencia,4.0,Entregado
+567,23,24,2026-07-05,9600,33.0,Efectivo,,Cancelado
+28,70,7,02-07-2026,8800,20.0,Tarjeta,,Cancelado
+1261,278,26,09-08-2026,11900,26.0,Efectivo,,Cancelado
+108,97,18,02-05-2026,11500,26.0,Transferencia,5.0,Entregado
+709,155,23,2026-09-24,8100,28.0,Tarjeta,4.0,Entregado
+151,256,6,2026-06-29,10600,53.0,Tarjeta,4.0,Entregado
+1071,140,2,2026-10-04,14900,,Efectivo,5.0,Entregado
+1418,91,30,2026-07-29,$5.000,16.0,Tarjeta,5.0, Entregado
+412,262,18,2026-09-30,14000,28.0,Efectivo,5.0,Entregado
+233,226,15,2026-09-04,10000 CLP,18.0,Efectivo,4.0,Entregado
+624,79,30,11/05/2026,7400,,Tarjeta,2.0,Entregado
+375,280,29,2026-08-01,7600,,Tajeta,3.0,Entregado
+449,6,7,2026-09-01,8700,36.0,Efectivo,,cancelado
+756,150,16,12-10-2026,7500 CLP,33.0,Tarjeta,4.0,Entregado
+198,10,999,2026-06-30,7100,,Tarjeta,4.0,Entregado
+782,161,10,2026-08-24,7100,29.0,Tarjeta,3.0,Entregado
+478,285,22,14-08-2026,16000,35.0,Tarjeta,5.0,Entregado
+788,4,17,31-08-2026,11100,37.0,Tarjeta,5.0, Entregado
+1310,103,1,2026-06-20,11700,33.0,Tarjeta,3.0,Entregado
+966,62,18,19-10-2026,6800,19.0,Efectivo,3.0,Entregado
+1229,245,10,15/09/2026,8000,30.0,Tarjeta,4.0,Entregado
+924,134,12,2026-05-24,6500,43.0,Efectivo,3.0,Entregado
+378,39,10,17-05-2026,13300,26.0,Transferencia ,5.0,Entregado
+588,195,26,2026-05-16,12700,33.0,TARJETA,,Cancelado
+4,139,24,18-07-2026,15100,33.0,Tarjeta,3.0,entregado
+494,229,1,02/09/2026,11400,38.0,Efectivo,3.0,Entregado
+574,264,27,06/09/2026,9500,35.0,Tarjeta,4.0,Entregado
+928,2,8,2026-10-16,16100,24.0,Tarjeta,4.0, Entregado
+289,22,23,2026-10-08,9600,39.0,Tarjeta,5.0,Entregado
+862,297,8,28-06-2026,9000,29.0,transferencia,5.0,Entregado
+1161,182,2,20/08/2026,12100,29.0,Transferencia,,CANCELADO
+612,63,18,2026-09-06,15000,25.0,Tajeta,5.0,Entregado
+1295,102,23,2026-05-08,9800,22.0,Transferencia ,4.0,Entregado
+149,56,22,07/05/2026,16800,22.0,Tarjeta,5.0,Entregado
+1048,242,14,31-08-2026,$8.500,37.0,Tarjeta ,5.0,Entregado
+161,27,21,14-07-2026,9600,48.0,Tarjeta,5.0, Entregado
+1276,194,10,13/07/2026,8600,,Tarjeta,5.0,Entregado
+305,229,1,07/05/2026,6100,24.0,TARJETA,5.0,Entregado
+1042,140,19,06-08-2026,8700,,Tarjeta,4.0,Entregado
+476,61,20,2026-07-22,14900,24.0,Transferencia,4.0,Entregado
+1352,286,30,2026-06-14,7400,29.0,Tarjeta,4.0,ENTREGADO
+1419,97,5,05/10/2026,11900,25.0,Transferencia,4.0,Entregado
+113,146,23,2026-06-04,14200,38.0,Efectivo,4.0,Entregado
+319,235,10,07-08-2026,8300,20.0,Tarjeta,4.0,Entregado
+82,41,27,2026-05-16,$12.500,28.0,TRANSFERENCIA,5.0,Entregado
+516,108,17,2026-07-10,14800,40.0,Tarjeta,4.0,entregado
+145,144,13,21-08-2026,10300,27.0,Tarjeta,5.0,Entregado
+1490,228,26,30-07-2026,14100,43.0,Efectivo,3.0,Entregado
+1249,87,11,2026-08-05,12400,38.0,Transferencia,4.0,entregado
+1349,24,11,08/08/2026,11300,,Efectivo,3.0,Entregado
+882,231,8,2026-05-19,15400,26.0,Tarjeta,,Cancelado
+1152,270,10,15-10-2026,14200,23.0,Tarjeta,3.0,Entregado
+1096,133,29,2026-07-05,8000,29.0,Tarjeta,5.0,Entregado
+417,205,19,04-05-2026,10400,26.0,Efectivo,3.0,Entregado
+138,244,9,2026-06-22,$15.600,27.0,Tarjeta,5.0, Entregado
+846,1,23,2026-07-25,8900,19.0,Transferencia,4.0,Entregado
+980,105,14,02-09-2026,15100,26.0,Tarjeta,,Cancelado
+350,48,18,2026-09-03,12700,17.0,Transferencia,5.0,Entregado
+1182,142,13,2026-07-30,13800,46.0,Tarjeta,5.0,Entregado
+609,139,6,2026-08-23,16100,42.0,Tarjeta,5.0,Entregado
+1432,187,11,2026-07-03,10800,26.0,Tarjeta,5.0,Entregado
+2,296,5,2026-09-09,14000,40.0,Tarjeta,,Cancelado
+1193,268,28,2026-05-02,8800,31.0,TARJETA,3.0,Entregado
+830,1,23,2026-08-18,8700,21.0,TARJETA,4.0,Entregado
+1235,295,21,2026-09-09,11500,41.0,Tarjeta,5.0,Entregado
+1156,121,8,2026-09-30,13900,23.0,Tarjeta,5.0,Entregado
+374,39,15,30/09/2026,14200,23.0,Transferencia,4.0,Entregado
+1364,289,6,18-05-2026,11200,17.0,Efectivo,3.0,Entregado
+550,144,9,2026-08-30,11100,34.0,transferencia,5.0,Entregado
+1036,63,16,31-07-2026,9800,43.0,Tarjeta,5.0,Entregado
+935,177,7,28-07-2026,11000,19.0,Tarjeta,4.0,Entregado
+555,103,3,2026-08-05,6300,40.0,Tarjeta,4.0,Entregado
+639,248,1,2026-09-26,8400,22.0,Tarjeta,5.0,Entregado
+188,98,24,08/10/2026,$10.100,31.0,Tarjeta,5.0,Entregado
+88,280,20,04-08-2026,8000,27.0,Efectivo,4.0,Entregado
+1328,246,21,11-08-2026,8800,39.0,Tarjeta,,Entregado
+361,222,24,10-08-2026,16700,52.0,Tarjeta,4.0,Entregado
+1029,57,3,2026-07-11,6100,,Efectivo,4.0,Entregado
+382,145,26,2026-05-07,12900,35.0,Transferencia ,,Cancelado
+817,273,16,2026-06-03,7800,35.0,Tarjeta,, Cancelado
+7,174,22,13/07/2026,11900,28.0,Tarjeta,3.0,Entregado
+249,244,4,14/08/2026,10600,31.0,Efectivo,5.0, Entregado
+891,171,28,2026-05-17,13400,49.0,Tarjeta,4.0,Entregado
+32,28,25,31-08-2026,8700,41.0,TRANSFERENCIA,4.0,Entregado
+248,148,21,2026-10-16,11900,45.0,Tarjeta,4.0,Entregado
+955,106,1,15-06-2026,6600,20.0,Efectivo,,Cancelado
+1130,166,8,2026-06-08,8400,26.0,Efectivo,3.0,Entregado
+775,68,9,10-05-2026,9900,23.0,Tarjeta,4.0,Entregado
+181,286,7,24/08/2026,11500,37.0,tarjeta,4.0,Entregado
+892,138,29,2026-09-08,10500,32.0,Tarjeta,5.0,Entregado
+1227,108,26,16-07-2026,7200,,Efectivo,4.0,Entregado
+1183,43,28,2026-08-24,6900,29.0,Tarjeta,4.0,Entregado
+884,54,16,17/07/2026,13400,22.0,Tarjeta,5.0,Entregado
+1266,199,28,2026-09-06,14600,31.0,transferencia,4.0, Entregado
+187,62,13,17/09/2026,8900,22.0,Tarjeta,,Cancelado
+1232,232,30,2026-09-14,6000,40.0,Efectivo,4.0,Entregado
+269,93,28,23-05-2026,7500,34.0,Tarjeta,5.0, Entregado
+329,130,13,2026-06-22,12500,43.0,Tarjeta,5.0,Entregado
+680,150,18,2026-05-19,9800,45.0,Tarjeta,4.0,Entregado
+824,89,6,2026-06-10,10400,29.0,TARJETA,5.0,Entregado
+808,35,28,2026-10-15,10900,32.0,Tarjeta,5.0,Entregado
+167,230,28,26-07-2026,14600 CLP,33.0,Tarjeta,4.0,Entregado
+783,230,7,2026-06-26,$10.000,36.0,Tarjeta,4.0,Entregado
+87,68,30,2026-06-20,4400,23.0,Transferencia,4.0,Entregado
+523,233,7,06-05-2026,7200,28.0,Transferencia,,Entregado
+1297,28,26,04-09-2026,7900,24.0,Transferencia,5.0,Entregado
+1110,18,23,2026-10-07,15600,25.0,Tarjeta,4.0,Entregado
+443,193,4,2026-08-27,11100 CLP,31.0,efectivo,5.0,Entregado
+719,298,30,2026-09-21,4000 CLP,29.0,Efectivo,4.0,Entregado
+124,34,29,2026-05-11,11300,12.0,Tarjeta,4.0,Entregado
+1154,73,27,15-06-2026,7600,32.0,Efectivo,3.0,entregado
+244,279,19,03-06-2026,12000 CLP,44.0,Efectivo ,3.0,Entregado
+887,213,12,22/07/2026,13200,29.0,Efectivo,4.0,Entregado
+430,144,26,2026-09-26,13100,35.0,Efectivo,,Entregado
+806,242,1,13/06/2026,8800,15.0,Transferencia,3.0,Entregado
+1005,130,18,11/10/2026,6900,,Tarjeta,3.0,Entregado
+1164,211,8,02-06-2026,10300 CLP,29.0,Efectivo,5.0,Entregado
+1394,140,18,2026-07-08,15100,39.0,tarjeta,3.0,Entregado
+1347,12,26,2026-05-23,9400,35.0,Tarjeta,3.0,Entregado
+294,9999,7,2026-08-09,9300,30.0,tarjeta,3.0,Entregado
+1388,122,4,30/07/2026,7400,39.0,Tarjeta,3.0,Entregado
+761,145,14,20/06/2026,16100,21.0,Efectivo,4.0,Entregado
+263,126,9,2026-06-14,11400,22.0,tarjeta,5.0,Entregado
+58,259,2,27-08-2026,14900,34.0,Tarjeta,3.0,Entregado
+250,282,27,2026-08-19,10600,36.0,Tarjeta,4.0,Entregado
+29,250,14,2026-07-28,10800,45.0,Transferencia,5.0,Entregado
+713,286,17,2026-08-25,14300,28.0,Transferencia,3.0,Entregado
+20,45,3,21-08-2026,10400,28.0,Tarjeta,4.0,Entregado
+1057,157,27,18-10-2026,10600,26.0,Tarjeta ,5.0,Entregado
+587,134,28,2026-10-15,12900,14.0,Tarjeta,3.0,Entregado
+707,225,9,21/07/2026,10500,42.0,Tarjeta,,Cancelado
+657,109,13,2026-07-03,12600,34.0,Transferencia,5.0,Entregado
+1286,105,18,03/06/2026,13200,24.0,TARJETA,5.0,Entregado
+1276,194,10,13/07/2026,8600,,Tarjeta,5.0,Entregado
+212,267,11,22-09-2026,16000,43.0,Efectivo,3.0,Entregado
+1479,233,29,2026-05-18,13300,13.0,Efectivo,3.0,ENTREGADO
+491,42,2,2026-07-07,9500,31.0,Transferencia,4.0,Entregado
+617,227,16,18-10-2026,9300,40.0,Tarjeta,3.0,ENTREGADO
+1389,37,3,2026-09-21,6000,22.0,Tarjeta,5.0,Entregado
+1452,138,5,20-09-2026,10000,47.0,Efectivo,5.0,Entregado
+52,73,27,2026-05-15,7400,29.0,Tarjeta,5.0,Entregado
+636,139,29,2026-06-05,7000,0.0,Tarjeta,4.0,Entregado
+579,120,5,2026-07-25,7400,36.0,Tajeta,,Cancelado
+759,102,6,2026-05-05,8500,17.0,Transferencia,2.0,Entregado
+59,244,16,2026-09-27,12500,30.0,Efectivo,,Cancelado
+505,281,1,2026-07-13,7700 CLP,25.0,Tarjeta,4.0,Entregado
+728,80,22,2026-05-13,10700,35.0,Tarjeta ,2.0,Entregado
+49,204,9,17/05/2026,11000,37.0,Tarjeta,,CANCELADO
+1068,7,14,2026-05-26,14500,35.0,Tarjeta,4.0,Entregado
+43,127,27,2026-05-04,14900,29.0,Transferencia,5.0,Entregado
+1296,122,11,17/10/2026,14100,35.0,Tarjeta,3.0,Entregado
+1318,15,14,07-10-2026,16500,34.0,Efectivo,,Cancelado
+363,8,12,08-09-2026,7800,27.0,Transferencia,5.0,Entregado
+553,230,14,12-09-2026,10600,52.0,Tarjeta,5.0,Entregado
+127,141,20,2026-07-16,9900,30.0,Tarjeta,5.0,Entregado
+1329,51,1,25/06/2026,7900,39.0,EFECTIVO,5.0,Entregado
+897,263,22,2026-07-06,8900,36.0,Tarjeta,,Cancelado
+575,252,16,05/09/2026,9500,32.0,Efectivo,3.0,entregado
+1120,104,9,01-05-2026,11900,24.0,Efectivo,,Cancelado
+313,87,21,2026-07-09,13900,15.0,Tarjeta,4.0,Entregado
+906,121,26,2026-07-09,14700,32.0,Tarjeta,,Cancelado
+1438,230,15,2026-07-12,12000,24.0,Tarjeta,4.0,Entregado
+302,50,11,15-09-2026,15900,24.0,Tarjeta,3.0,Entregado
+1016,177,3,2026-06-16,10800,38.0,Tarjeta,,Cancelado
+120,129,17,2026-06-11,16500 CLP,42.0,Tarjeta,5.0,Entregado
+288,87,4,08/07/2026,9500,25.0,Efectivo,3.0,entregado
+540,60,22,2026-06-06,9200,34.0,transferencia,,Cancelado
+1209,16,12,2026-07-20,11100,25.0,Tarjeta,3.0,Entregado
+604,173,27,2026-09-23,12500,25.0,Efectivo,5.0,Entregado
+616,68,20,04/07/2026,7100,48.0,Efectivo,4.0,Entregado
+1368,34,6,13/10/2026,12900,38.0,Tarjeta,5.0,Entregado
+31,190,18,2026-07-19,13900,45.0,Tarjeta,4.0,Entregado
+1496,101,14,2026-08-22,13000,27.0,Tarjeta,4.0,Entregado
+856,117,3,2026-09-16,13200,24.0,Efectivo,4.0,Entregado
+202,291,23,04/08/2026,16200,32.0,Tarjeta,4.0,Entregado
+358,291,27,07/09/2026,7900,40.0,Tarjeta,5.0,entregado
+764,270,1,08-06-2026,$6.100,26.0,TARJETA,5.0,Entregado
+65,27,14,2026-05-04,13700,28.0,Tarjeta,4.0,Entregado
+643,202,27,2026-08-01,9800,26.0,Efectivo,3.0,Entregado
+842,186,4,2026-08-10,9100,30.0,transferencia,3.0,ENTREGADO
+179,227,30,2026-08-09,5500,42.0,Efectivo ,4.0,Entregado
+710,36,23,2026-05-26,17000,38.0,Tarjeta,4.0,Entregado
+229,165,6,2026-10-12,11700,23.0,Transferencia,4.0,Entregado
+1241,179,16,2026-07-11,$12.900,34.0,Tarjeta,5.0,Entregado
+81,214,30,01/07/2026,6700,31.0,tarjeta,, Entregado
+779,194,11,2026-09-07,15600,24.0,Tarjeta,4.0,Entregado
+991,168,25,2026-08-28,14400,500.0,Tarjeta,4.0,Entregado
+465,3,14,2026-06-11,10000,26.0,Tarjeta,4.0,Entregado
+1299,271,10,2026-07-18,15100,,Tarjeta,3.0,Entregado
+328,58,999,2026-09-02,8200,32.0,Tarjeta,3.0,Entregado
+1333,210,21,2026-05-19,12700,47.0,Tarjeta,3.0,Entregado
+285,190,22,2026-05-11,13000,33.0,Tajeta,,Cancelado
+890,158,30,2026-07-08,8200,,tarjeta,3.0,entregado
+1172,173,8,05-08-2026,13000,36.0,Tarjeta,5.0,Entregado
+672,170,6,2026-10-08,16100,20.0,Transferencia,4.0,Entregado
+1251,157,18,2026-08-06,11200,35.0,Tarjeta,5.0,Entregado
+210,76,30,2026-07-16,4700,19.0,Tarjeta,5.0,Entregado
+1242,141,27,01-10-2026,8300,32.0,Tarjeta,5.0,Entregado
+676,66,30,2026-05-04,5400 CLP,23.0,Tarjeta,4.0,Entregado
+98,24,4,2026-07-07,16000,33.0,Transferencia,4.0,Entregado
+284,129,13,2026-06-04,12800,27.0,efectivo,5.0,Entregado
+1041,290,16,2026-08-17,13200,32.0,Efectivo,,Cancelado
+1226,99,8,13/08/2026,13100,21.0,tarjeta,,Cancelado
+598,28,22,08-08-2026,14000,40.0,Tarjeta,5.0,Entregado
+1015,94,29,2026-09-11,9700,,Tarjeta,,Cancelado
+841,222,1,08-10-2026,10200,29.0,Tarjeta,5.0,Entregado
+1125,61,7,02/09/2026,6100,32.0,Tarjeta,,Entregado
+986,297,6,01/09/2026,12000,24.0,Efectivo,, Entregado
+1437,224,20,2026-05-02,11100,25.0,Tarjeta,4.0,Entregado
+428,188,28,2026-07-11,9100,33.0,Tarjeta,3.0,Entregado
+1323,38,23,28-05-2026,9200 CLP,39.0,Efectivo,5.0,Entregado
+931,297,4,23/05/2026,12100,32.0,Efectivo,3.0,Entregado
+615,291,16,04-10-2026,15800,28.0,Tarjeta,4.0,Entregado
+362,203,9,2026-09-14,11900,40.0,Tarjeta,4.0,Entregado
+885,210,24,2026-08-24,10600,44.0,Transferencia ,4.0,Entregado
+1007,190,14,28/06/2026,16300,49.0,Transferencia,,Cancelado
+1219,188,14,01-06-2026,8200,28.0,Transferencia,,Entregado
+336,203,17,2026-08-01,$9.700,14.0,Tarjeta,,Entregado
+133,148,23,2026-06-11,14200 CLP,26.0,Efectivo,,Cancelado
+1243,173,22,2026-05-16,7400,35.0,Tarjeta,5.0,Entregado
+354,192,13,26/06/2026,15500,29.0,Efectivo,3.0,ENTREGADO
+73,152,1,2026-09-25,10900,38.0,Tarjeta,4.0,Entregado
+549,50,24,2026-07-19,7800,22.0,Tarjeta,,cancelado
+144,187,8,2026-08-09,$13.600,29.0,Tajeta,,Entregado
+690,19,28,12-09-2026,10700,13.0,Transferencia,4.0,Entregado
+1316,227,18,03-10-2026,12900 CLP,32.0,Efectivo,,Entregado
+800,11,10,2026-09-12,11400,18.0,Tarjeta,4.0,Entregado
+1240,223,23,27/09/2026,12600,17.0,Efectivo,5.0,Entregado
+381,113,18,10/07/2026,15200,28.0,Efectivo,4.0,Entregado
+1084,286,1,10/08/2026,13400,36.0,Transferencia,4.0,entregado
+290,242,2,29-09-2026,13300,26.0,Transferencia,4.0,Entregado
+315,87,2,27/05/2026,10000,36.0,Efectivo,,Cancelado
+726,36,16,30-09-2026,8400,37.0,Tarjeta,3.0,Entregado
+1309,105,23,27-05-2026,14500,,Tarjeta,5.0,ENTREGADO
+982,232,9,2026-09-30,9800,24.0,Efectivo,3.0,Entregado
+1367,70,4,2026-08-25,10100,25.0,Efectivo,5.0,Entregado
+500,256,14,2026-09-05,9100,32.0,Tarjeta,5.0,Entregado
+335,108,3,2026-08-10,12400,32.0,Tarjeta,5.0,ENTREGADO
+209,144,8,14/05/2026,11600,44.0,Transferencia,5.0,Entregado
+704,111,18,2026-09-04,12900 CLP,24.0,Transferencia,5.0,Entregado
+408,161,23,2026-10-08,14300,14.0,Tarjeta,5.0,Entregado
+1064,232,2,2026-05-13,13000,22.0,Tarjeta,3.0,Entregado
+627,7,6,01-06-2026,9100,45.0,Tarjeta,3.0,Entregado
+1052,294,8,2026-09-13,13200,49.0,Transferencia,4.0,Entregado
+889,172,28,2026-05-10,9000,26.0,Transferencia ,5.0,Entregado
+155,53,18,19-08-2026,10200,28.0,Tarjeta ,5.0,Entregado
+881,167,10,2026-05-04,11900,33.0,Tarjeta,3.0,entregado
+176,25,3,2026-09-05,7800,,Tarjeta,4.0,Entregado
+8,157,11,2026-06-29,15700,31.0,Tarjeta,4.0,Entregado
+1141,187,12,07-06-2026,8600,16.0,Tarjeta,5.0,Entregado
+1355,291,28,2026-05-25,12800,24.0,Tarjeta,3.0,ENTREGADO
+1301,200,14,06/05/2026,10000,42.0,Transferencia,,Entregado
+153,58,13,27-06-2026,11500,36.0,EFECTIVO,4.0,Entregado
+1371,115,6,2026-07-27,14600,500.0,Tarjeta,2.0,Entregado
+981,225,27,2026-10-17,9700,33.0,Efectivo,4.0,Entregado
+708,96,6,2026-05-31,16500,31.0,Tarjeta,4.0,Entregado
+239,34,25,18/05/2026,12200,26.0,Efectivo,4.0,Entregado
+360,152,17,2026-06-08,12200,16.0,Tarjeta,5.0, Entregado
+79,211,3,2026-10-16,8900,21.0,TRANSFERENCIA,,Entregado
+228,113,30,27/09/2026,5000,38.0,Tarjeta,4.0,Entregado
+597,132,14,16/09/2026,13700 CLP,40.0,Tarjeta,4.0,Entregado
+1478,270,12,2026-06-26,9100,34.0,Tarjeta,4.0,Entregado
+117,223,14,2026-08-04,10400,28.0,Transferencia,4.0,Entregado
+324,194,17,2026-05-13,12100,48.0,Tarjeta,5.0,Entregado
+147,128,8,2026-10-14,16200,26.0,Efectivo,5.0,Entregado
+1443,216,10,2026-07-23,10000,23.0,Efectivo,3.0,Entregado
+488,49,25,2026-06-08,8900,38.0,Efectivo,,Cancelado
+174,153,14,2026-10-03,14600,38.0,Tarjeta,5.0,Entregado
+693,150,21,2026-06-13,12500,12.0,tarjeta,,Entregado
+1149,219,23,2026-06-09,12700 CLP,39.0,Efectivo,5.0,Entregado
+47,131,15,2026-07-29,8800,30.0,Tarjeta,5.0,Entregado
+675,118,13,2026-06-17,8800,28.0,Tajeta,4.0,Entregado
+1289,114,29,12-09-2026,10900 CLP,25.0,Tarjeta,4.0,Entregado
+744,5,10,12-06-2026,7700,27.0,Tarjeta,4.0,Entregado
+148,56,23,2026-05-01,$13.400,34.0,Efectivo,4.0,Entregado
+415,164,12,12/10/2026,9800,31.0,Efectivo,4.0,Entregado
+154,276,25,2026-08-22,8400,43.0,Efectivo,5.0,Entregado
+572,42,6,2026-06-10,14100,35.0,Tarjeta,4.0,Entregado
+1363,154,15,11/08/2026,10500,31.0,Transferencia,4.0,Entregado
+428,188,28,2026-07-11,9100,33.0,Tarjeta,3.0,Entregado
+165,189,6,2026-08-05,8700,39.0,TARJETA,4.0,Entregado
+1484,61,21,2026-06-08,11200,35.0,Tajeta,4.0,entregado
+948,117,18,2026-06-19,7800,,Efectivo,4.0,Entregado
+632,233,22,12-06-2026,10300,32.0,EFECTIVO,4.0,Entregado
+1497,138,1,2026-05-07,6800,42.0,Tarjeta,5.0,Entregado
+1494,218,17,2026-08-26,14400,35.0,Tarjeta,5.0,Entregado
+1279,17,17,2026-07-09,13400,,Efectivo,,Cancelado
+387,167,17,2026-07-11,7700,44.0,Tarjeta,5.0,Entregado
+236,276,8,2026-05-22,16100,37.0,tarjeta,5.0,Entregado
+123,91,23,04/09/2026,12300,36.0,Efectivo,3.0,Entregado
+96,235,24,06/09/2026,14500,30.0,Transferencia,4.0,Entregado
+211,84,19,14/06/2026,7800,,efectivo,,Entregado
+46,137,21,2026-06-08,13600,23.0,Efectivo,4.0,Entregado
+1283,233,18,2026-05-24,9500,27.0,Tarjeta,5.0,Entregado
+585,112,15,13-07-2026,12200,,Transferencia,4.0,Entregado
+163,39,29,24-09-2026,8800,36.0,Tarjeta,5.0,Entregado
+383,300,11,2026-06-12,$13.000,25.0,Tarjeta,2.0,Entregado
+854,76,13,05/06/2026,10100,47.0,Efectivo,,Cancelado
+459,111,10,2026-06-24,11700,32.0,Efectivo,3.0,Entregado
+703,33,1,2026-10-19,7900,36.0,Tarjeta,,Entregado
+983,24,29,16/05/2026,9300,38.0,Transferencia,,Cancelado
+1458,287,26,09/05/2026,10800,44.0,Tarjeta,3.0,Entregado
+721,233,999,2026-06-29,12700,36.0,Tarjeta,4.0,Entregado
+860,227,9,04-08-2026,17500,37.0,Efectivo,5.0,Entregado
+191,144,3,2026-07-24,$7.300,43.0,efectivo,,Cancelado
+566,268,20,2026-09-22,13200,39.0,Tarjeta ,5.0,entregado
+942,45,16,2026-10-05,14000,,Efectivo,,Cancelado
+875,117,4,2026-05-29,$9.500,31.0,Tarjeta,4.0,Entregado
+1225,170,8,2026-07-12,8400,28.0,Tarjeta,4.0,Entregado
+1485,243,999,2026-05-08,10100,40.0,Tarjeta,5.0,Entregado
+169,280,2,11/06/2026,13200,31.0,Efectivo,4.0,Entregado
+256,215,25,30-07-2026,8000,34.0,tarjeta,5.0,Entregado
+92,55,2,2026-06-05,8000,,Efectivo,4.0,Entregado
+1326,297,20,2026-05-29,6800,54.0,Tarjeta,3.0,Entregado
+1023,165,23,2026-07-19,16100,28.0,TARJETA,3.0,Entregado
+857,147,4,2026-05-17,13100,28.0,Tarjeta,4.0,ENTREGADO
+814,95,14,2026-08-03,10300,42.0,Transferencia,5.0,Entregado
+750,269,9,2026-08-06,13900,30.0,Efectivo ,4.0,Entregado
+582,221,30,15/08/2026,4800,30.0,Tarjeta,3.0,Entregado
+1200,113,10,2026-09-06,11800,35.0,Tarjeta ,5.0,Entregado
+251,163,2,06/07/2026,9500,41.0,Tarjeta,4.0,Entregado
+371,48,24,09/06/2026,15500,30.0,Tarjeta,4.0,Entregado
+1421,139,7,25/05/2026,6100,31.0,Tarjeta,4.0,Entregado
+170,194,27,2026-06-17,12600,28.0,Tarjeta,3.0,Entregado
+74,200,24,18-10-2026,15800,29.0,Tarjeta,5.0,Entregado
+1280,194,9,2026-07-04,15500,,Tarjeta,5.0,entregado
+41,131,12,2026-07-28,$8.000,19.0,Tarjeta,4.0,Entregado
+769,149,2,2026-07-20,14400,32.0,Tarjeta,5.0,Entregado
+688,208,13,2026-10-10,10600,41.0,Tarjeta,5.0,Entregado
+394,16,22,07-06-2026,9300,12.0,Transferencia,5.0,Entregado
+1313,225,15,11-09-2026,15100,31.0,TARJETA,,Entregado
+569,39,11,23-05-2026,11500,26.0,Transferencia,5.0,Entregado
+944,134,14,30/06/2026,9700,44.0,Efectivo,5.0,Entregado
+424,232,23,2026-07-14,13900,28.0,TARJETA,3.0,Entregado
+348,170,14,2026-09-09,14200,41.0,Transferencia,3.0,Entregado
+823,97,11,23-09-2026,9900 CLP,37.0,Efectivo,4.0,Entregado
+422,139,19,05-10-2026,11000,27.0,Tarjeta,3.0,Entregado
+1037,168,8,2026-08-14,14900,18.0,Efectivo ,5.0,Entregado
+601,9,9,2026-09-05,16100,52.0,Tarjeta,,Cancelado
+1133,241,10,17-08-2026,8800,30.0,Efectivo,4.0,Entregado
+748,238,8,11-06-2026,13200,25.0,Efectivo,4.0,Entregado
+834,215,27,12-05-2026,13000,30.0,Tarjeta,,Cancelado
+571,69,9,24/07/2026,10700,27.0,Efectivo,4.0,Entregado
+1168,188,9,2026-06-02,7800,20.0,Tarjeta,4.0, Entregado
+297,51,6,2026-07-11,$11.700,32.0,Efectivo,5.0,Entregado
+1106,215,28,2026-06-24,14700,13.0,Tarjeta,,CANCELADO
+116,75,8,11/05/2026,16100,17.0,Tarjeta ,5.0,Entregado
+1470,213,28,03/10/2026,12100,28.0,Efectivo,3.0,Entregado
+1308,115,13,2026-07-18,$11.300,42.0,Tarjeta,,Cancelado
+469,152,7,2026-09-12,12600,24.0,Transferencia,5.0,Entregado
+902,196,11,2026-06-11,10300,23.0,Tarjeta,,Cancelado
+451,141,19,2026-09-06,8300,21.0,Tarjeta,4.0,Entregado
+1118,245,18,2026-05-31,13200,31.0,Tarjeta,4.0,Entregado
+1076,91,19,31-05-2026,11100,35.0,tarjeta,,Cancelado
+751,28,14,20-07-2026,12100,44.0,Efectivo,3.0,entregado
+515,203,4,18/05/2026,9300 CLP,36.0,Transferencia,4.0,Entregado
+483,33,29,13-08-2026,8700,39.0,Tarjeta,3.0,Entregado
+952,298,12,30-05-2026,13000,43.0,Tarjeta,4.0,Entregado
+807,50,15,2026-09-08,8300,30.0,Tarjeta,4.0,Entregado
+1474,180,16,2026-06-13,9100,34.0,Tarjeta,4.0,Entregado
+388,197,1,13-09-2026,12500,32.0,Efectivo,4.0,Entregado
+203,161,13,2026-05-09,10400,23.0,Transferencia,5.0,Entregado
+503,11,17,2026-06-21,9600 CLP,38.0,Efectivo,4.0,Entregado
+1082,64,25,2026-07-24,11600,36.0,TARJETA,5.0,Entregado
+1175,69,4,2026-08-18,8400,19.0,Tarjeta,5.0,ENTREGADO
+954,155,22,2026-10-19,$7.800,39.0,Tarjeta,4.0,Entregado
+110,219,15,2026-08-18,15200,29.0,Tarjeta,,Cancelado
+143,222,21,21/05/2026,12300 CLP,22.0,Efectivo,4.0,Entregado
+844,92,25,07/09/2026,8800,45.0,TARJETA,4.0,Entregado
+1344,139,24,2026-09-04,15600,46.0,Tarjeta,4.0,Entregado
+159,227,18,18/06/2026,14600,33.0,Tarjeta,2.0,Entregado
+1343,192,27,2026-06-07,10800 CLP,36.0,Tarjeta,4.0,Entregado
+1190,205,30,03/09/2026,6900,43.0,Tarjeta,4.0, Entregado
+1136,244,13,2026-09-16,16500,25.0,Efectivo,,Cancelado
+215,247,18,05/10/2026,9900,34.0,Tarjeta,5.0,Entregado
+1259,226,5,31/05/2026,10400,,Tarjeta,,Cancelado
+1092,166,28,2026-07-24,12900,17.0,Efectivo ,,Cancelado
+1391,208,2,16/06/2026,10800,24.0,Tarjeta,3.0,Entregado
+621,155,25,2026-06-13,11100,47.0,Tarjeta,5.0,Entregado
+331,116,19,2026-09-01,7000,12.0,Tarjeta,,Cancelado
+781,300,25,16/06/2026,12900,14.0,transferencia,5.0,Entregado
+150,157,23,07-09-2026,13400,26.0,Efectivo,5.0,Entregado
+1131,30,23,2026-05-12,11600,12.0,Tarjeta,5.0,Entregado
+429,61,9,18-08-2026,8800,,Tarjeta,3.0,entregado
+899,106,7,2026-09-30,7600,30.0,Tarjeta,5.0,Entregado
+880,286,28,30/07/2026,12600,32.0,Tarjeta,4.0,Entregado
+586,25,27,04/06/2026,7100,26.0,Tajeta,2.0,Entregado
+1098,280,21,2026-05-17,14700,46.0,Transferencia,4.0,Entregado
+1210,99,14,2026-09-27,14200,25.0,Tarjeta ,,Entregado
+714,48,24,05-07-2026,$8.000,42.0,Transferencia,5.0,Entregado
+838,134,25,07-08-2026,14200,36.0,Tarjeta,5.0,Entregado
+448,284,2,17/06/2026,11800,18.0,Transferencia,5.0, Entregado
+805,129,12,2026-09-27,7700,20.0,Tarjeta,4.0,Entregado
+668,13,14,11-06-2026,9700,22.0,Tarjeta,4.0,entregado
+825,144,16,10-08-2026,8800,18.0,Tarjeta,5.0,Entregado
+517,278,24,08-08-2026,16600,41.0,Efectivo,4.0,Entregado
+564,49,22,2026-09-29,10900,31.0,Tarjeta,4.0,Entregado
+273,256,5,26-06-2026,11800,32.0,Tarjeta,5.0,Entregado
+1434,85,16,14-07-2026,7400,32.0,Efectivo,5.0,Entregado
+140,133,1,2026-08-16,11300,27.0,Tarjeta,5.0,Entregado
+741,247,8,2026-07-10,13600,24.0,Tarjeta,,Cancelado
+649,153,20,20/07/2026,12300,25.0,Tarjeta,5.0,entregado
+1449,232,24,2026-09-08,15400,39.0,Tarjeta,,Cancelado
+432,11,10,2026-05-26,11900,37.0,Tarjeta,4.0,Entregado
+1460,194,7,2026-07-02,8000,16.0,Tarjeta,5.0,Entregado
+1298,293,23,2026-06-21,12700,32.0,Tarjeta,2.0,Entregado
+1429,191,17,2026-06-05,12400,45.0,Tarjeta,5.0,Entregado
+753,104,13,29-06-2026,9800,18.0,tarjeta,4.0,Entregado
+1207,259,24,2026-07-10,11100,43.0,Efectivo,4.0,ENTREGADO
+1382,254,12,27-06-2026,13200,39.0,tarjeta,5.0,Entregado
+1112,180,27,30-05-2026,14200,39.0,Tarjeta,5.0,Entregado
+1366,298,17,2026-10-03,9400,22.0,Transferencia ,3.0,Entregado
+1273,117,21,2026-07-13,10200,23.0,Tajeta,,Cancelado
+1054,240,8,04-05-2026,16500,30.0,Tarjeta,2.0,Entregado
+1342,151,21,2026-05-03,6900,24.0,Tarjeta,4.0,Entregado
+129,114,7,2026-09-02,7000,20.0,Transferencia,2.0,Entregado
+9,286,5,2026-09-17,12900,35.0,Efectivo,4.0,Entregado
+312,8,20,02/09/2026,8900,39.0,Efectivo,5.0, Entregado
+1222,162,4,2026-08-02,14400,40.0,EFECTIVO,4.0,Entregado
+527,279,21,2026-10-12,14800,35.0,Efectivo,,Cancelado
+1081,208,8,16-05-2026,15600,17.0,Tarjeta,5.0,Entregado
+1080,268,14,2026-10-14,11300,55.0,Transferencia,4.0,Entregado
+207,202,26,2026-05-03,7900,38.0,Efectivo,3.0,Entregado
+1445,51,18,17/07/2026,14600,33.0,efectivo,4.0,ENTREGADO
+847,43,16,20-09-2026,12100,34.0,Transferencia,,Entregado
+920,105,19,07/10/2026,9800,20.0,Transferencia,4.0,entregado
+204,233,30,2026-10-07,4500,24.0,Tarjeta ,4.0,Entregado
+55,56,6,2026-08-03,8500,39.0,Tajeta,4.0,Entregado
+1122,78,11,2026-08-02,17200,21.0,Tarjeta,,Entregado
+489,212,12,2026-05-02,9100,41.0,Efectivo,4.0,Entregado
+541,256,20,2026-09-22,10700,35.0,EFECTIVO,4.0,Entregado
+1231,117,4,04-09-2026,13300,39.0,Efectivo,3.0,Entregado
+190,153,12,2026-07-22,10800,38.0,Efectivo,4.0,entregado
+109,74,17,2026-06-29,9000,24.0,EFECTIVO,2.0,Entregado
+538,112,22,10/06/2026,8500,33.0,Efectivo,5.0,Entregado
+522,277,6,2026-09-28,16400,30.0,Tarjeta,5.0,Entregado
+898,9999,15,04-05-2026,8700 CLP,33.0,Efectivo,4.0,Entregado
+551,143,4,2026-08-14,14000,17.0,Efectivo,5.0,Entregado
+23,25,26,17-10-2026,$9.500,17.0,Tarjeta,5.0,Entregado
+377,51,19,2026-10-02,11900,34.0,Tarjeta,3.0,Entregado
+949,58,15,06/05/2026,10300,14.0,Tarjeta,4.0,Entregado
+595,174,14,2026-07-22,12200,29.0,Efectivo,3.0,Entregado
+1351,167,27,2026-05-01,11000,25.0,Tarjeta,4.0,Entregado
+206,278,12,2026-09-12,9500,42.0,Efectivo,5.0,Entregado
+94,53,16,28-09-2026,15400,15.0,Efectivo,5.0,Entregado
+225,253,19,2026-07-19,11100,26.0,Tarjeta ,3.0,Entregado
+1307,180,23,2026-06-20,17100,45.0,Efectivo,4.0,Entregado
+1078,11,1,2026-10-13,7900,31.0,Tarjeta,,Entregado
+1257,189,3,16/09/2026,13200,31.0,Tarjeta,5.0,Entregado
+1135,152,20,2026-08-24,13700,,TARJETA,3.0,Entregado
+441,37,18,2026-08-28,6900,29.0,Tarjeta,,Cancelado
+589,292,3,2026-07-11,6000,28.0,Tarjeta,4.0,Entregado
+878,45,24,2026-09-19,9900,34.0,Tarjeta,4.0,Entregado
+1069,180,28,25/07/2026,7500,44.0,Tarjeta,5.0,ENTREGADO
+746,5,14,2026-06-12,15600,29.0,Tarjeta,5.0, Entregado
+93,236,2,2026-09-05,7400 CLP,27.0,Efectivo,,ENTREGADO
+989,22,12,2026-08-08,13100,23.0,Efectivo,5.0, Entregado
+1012,261,11,2026-07-16,14400,34.0,Transferencia,3.0,Entregado
+271,1,2,2026-10-09,10300,41.0,Tarjeta,4.0,Entregado
+1260,72,8,2026-06-06,12200,34.0,Tarjeta,5.0,Entregado
+1353,102,7,2026-10-05,10800,34.0,Tarjeta,4.0,entregado
+76,255,4,09/09/2026,7600,36.0,TRANSFERENCIA,5.0,Entregado
+972,32,22,2026-07-07,$12.700,50.0,Tarjeta,4.0,Entregado
+1153,273,8,2026-06-18,9000,,Tarjeta,4.0,Entregado
+1500,160,1,24/09/2026,8000,27.0,Tarjeta,5.0,Entregado
+561,267,11,09-08-2026,$11.600,21.0,Efectivo,4.0,Entregado
+793,16,29,2026-07-14,10000,36.0,Transferencia,4.0,Entregado
+1128,76,24,2026-07-04,8900,22.0,Efectivo,3.0,Entregado
+905,122,20,2026-08-03,10600,22.0,tarjeta,,Entregado
+247,150,16,2026-07-28,9700,,Tarjeta,5.0,Entregado
+1392,164,14,2026-06-06,16900,38.0,Tarjeta,5.0,Entregado
+1053,125,24,09-05-2026,$12.500,24.0,Tarjeta,4.0,Entregado
+470,72,11,2026-10-05,10400,35.0,Tajeta,,Entregado
+1499,174,1,23/07/2026,8500,28.0,Tarjeta,5.0,Entregado
+1385,66,14,15/07/2026,8700,39.0,Tarjeta,,Cancelado
+1145,167,7,2026-08-13,10600,,Transferencia,4.0,Entregado
+131,234,29,2026-05-25,6700,51.0,Tarjeta,5.0,Entregado
+1263,292,26,09/07/2026,14800,45.0,Tarjeta,4.0,Entregado
+25,250,13,2026-06-23,15500,40.0,Tarjeta,,Cancelado
+584,104,3,20-07-2026,7300,12.0,Tarjeta,3.0,Entregado
+392,197,11,2026-05-17,16700,47.0,Tajeta,5.0,Entregado
+720,203,13,26-07-2026,14200,33.0,Tarjeta,,Entregado
+1171,237,18,2026-06-20,13600,42.0,Tarjeta,4.0,Entregado
+1379,43,27,2026-09-06,14100,25.0,Tarjeta,3.0,Entregado
+792,114,12,01-05-2026,7500,33.0,TARJETA,5.0,Entregado
+26,271,14,2026-09-12,12000,25.0,Tarjeta,4.0,Entregado
+156,222,11,2026-07-22,10700,40.0,Efectivo,5.0,Entregado
+1440,162,25,2026-05-20,6700,45.0,Tarjeta,,Cancelado
+1383,55,28,2026-10-12,8300,51.0,Efectivo,4.0,Entregado
+543,13,14,16-10-2026,8000,22.0,Tarjeta,4.0,Entregado
+960,204,7,2026-09-28,13300,17.0,Efectivo ,5.0,Entregado
+670,100,18,2026-06-26,13800 CLP,32.0,Tarjeta,5.0,Entregado
+671,120,24,2026-10-14,12000,38.0,Efectivo,2.0,Entregado
+1127,180,22,17/06/2026,$11.300,47.0,Efectivo,,Cancelado
+678,190,16,2026-07-11,11400,41.0,Tarjeta,4.0,Entregado
+446,292,30,2026-06-10,7100,30.0,TRANSFERENCIA,5.0,Entregado
+686,70,29,16-05-2026,12800,32.0,Transferencia,5.0,Entregado
+1357,50,18,2026-08-24,15200,39.0,Transferencia,4.0,Entregado
+963,43,17,2026-07-02,16800 CLP,32.0,Tarjeta,5.0, Entregado
+180,263,14,2026-06-30,16500,30.0,Tarjeta,5.0,Entregado
+1422,28,15,2026-10-02,7200,38.0,Tarjeta,, Cancelado
+1359,109,2,2026-08-13,14700,30.0,Tarjeta,2.0,Entregado
+1495,222,18,01-10-2026,13700,41.0,Tarjeta,3.0, Entregado
+11,103,7,2026-08-24,11300 CLP,28.0,EFECTIVO,4.0,Entregado
+355,85,18,18/09/2026,9700,50.0,Transferencia,5.0,Entregado
+68,144,27,2026-07-15,8100,36.0,Tarjeta,,Entregado
+1386,170,3,2026-05-05,8300,29.0,Tarjeta,,Entregado
+146,43,8,2026-05-25,15300,39.0,Tarjeta,5.0,Entregado
+1138,107,3,26-07-2026,9100,15.0,Efectivo,4.0,Entregado
+416,213,3,2026-10-17,9200,22.0,tarjeta,5.0,Entregado
+914,261,2,10/06/2026,13100,31.0,Tarjeta,4.0,Entregado
+507,97,17,20-09-2026,$10.900,24.0,Tarjeta,5.0,Entregado
+301,105,26,24/06/2026,11500,32.0,Tarjeta,3.0,Entregado
+524,267,20,2026-06-01,14300,34.0,Tarjeta,3.0,Entregado
+1469,173,28,2026-10-03,7800,35.0,Tarjeta,4.0,Entregado
+1134,67,4,2026-08-29,7500,22.0,efectivo,4.0,Entregado
+438,215,24,2026-07-21,12400,31.0,Tarjeta,5.0,Entregado
+1169,257,15,04-09-2026,13000,35.0,Efectivo,5.0,Entregado
+812,85,5,20/09/2026,13200,31.0,TRANSFERENCIA,5.0,Entregado
+843,117,21,15/07/2026,7200,500.0,Transferencia,3.0,Entregado
+139,30,18,2026-06-04,$9.300,25.0,Tarjeta,4.0,entregado
+1234,298,15,2026-07-31,8800,42.0,Tarjeta,5.0,Entregado
+196,197,4,2026-05-28,12800,41.0,TARJETA,3.0,Entregado
+1327,33,22,2026-09-09,16000,14.0,Tarjeta,5.0,Entregado
+450,232,11,18/05/2026,13400,25.0,Efectivo,4.0,Entregado
+1162,213,3,2026-06-16,7200,42.0,Transferencia,5.0,Entregado
+1202,285,17,17-05-2026,10900,27.0,Tarjeta,4.0,Entregado
+731,14,19,26/06/2026,13200,42.0,tarjeta,,cancelado
+1178,221,3,2026-07-12,8900,32.0,Tarjeta,4.0,Entregado
+175,211,22,16/05/2026,11200,43.0,tarjeta,3.0,entregado
+223,75,4,2026-07-16,13900,37.0,Tarjeta,5.0,ENTREGADO
+255,74,21,2026-10-04,9400,37.0,Transferencia,4.0,Entregado
+1381,171,4,2026-08-10,12400 CLP,25.0,Transferencia,4.0,Entregado
+386,68,9,25-09-2026,12000,33.0,Tarjeta ,4.0,Entregado
+832,275,20,2026-08-24,11000,29.0,Efectivo,4.0,Entregado
+1427,200,11,10-09-2026,16600,41.0,Efectivo,4.0,Entregado
+826,22,3,2026-10-11,$13.000,36.0,Transferencia,3.0,Entregado
+1482,4,14,2026-08-28,17300,44.0,Tarjeta,4.0,Entregado
+35,90,28,2026-06-12,15200,37.0,Transferencia,3.0,Entregado
+810,31,19,15-06-2026,8200,25.0,Efectivo,4.0,Entregado
+266,158,27,2026-07-07,14700,28.0,Tarjeta,5.0,Entregado
+558,76,28,2026-05-13,15200,29.0,Tarjeta,5.0,Entregado
+90,253,5,2026-08-19,9000,43.0,Tarjeta,5.0,Entregado
+778,37,20,22-09-2026,9500,12.0,Tarjeta,,Cancelado
+1158,156,27,2026-06-10,14200,28.0,Efectivo,, Cancelado
+1066,178,3,2026-07-11,6000,28.0,Tarjeta,4.0,entregado
+1,90,23,12-06-2026,10700 CLP,25.0,Tarjeta,5.0,Entregado
+1186,169,27,2026-07-11,9900,38.0,TRANSFERENCIA,3.0,entregado
+614,169,11,10-10-2026,16500,19.0,Efectivo,,Entregado
+6,260,9,02-07-2026,10800,25.0,Tarjeta,5.0,Entregado
+343,218,7,29-09-2026,9400,16.0,Tarjeta,4.0, Entregado
+893,217,2,08/05/2026,13200,24.0,Efectivo,,Cancelado
+102,250,18,2026-08-28,9300,37.0,Transferencia,4.0,Entregado
+1387,8,4,06-09-2026,12900,12.0,Tarjeta,,Cancelado
+40,42,18,26/08/2026,11500,37.0,Efectivo,4.0,entregado
+529,150,27,2026-07-17,14400,38.0,Efectivo,4.0,Entregado
+666,141,8,2026-07-26,8400,34.0,Tarjeta,,Entregado
+453,251,4,04-10-2026,12000,42.0,Tarjeta,5.0,Entregado
+661,128,22,10/08/2026,9700,25.0,Transferencia,5.0, Entregado
+125,30,28,13/05/2026,12600,39.0,Tarjeta,5.0,Entregado
+178,60,5,2026-05-01,14400,47.0,Tarjeta,5.0,Entregado
+137,19,22,17/08/2026,8900,28.0,Transferencia,4.0,Entregado
+337,72,22,2026-05-21,$15.800,18.0,efectivo,4.0,Entregado
+119,159,22,22-05-2026,14300,,Tarjeta,4.0,Entregado
+1083,232,28,29-08-2026,12000,35.0,Efectivo,4.0,Entregado
+1408,38,4,2026-09-04,11600,35.0,Efectivo,5.0,Entregado
+506,30,5,2026-09-06,$8.200,32.0,TARJETA,4.0,Entregado
+1267,55,17,10-07-2026,9100,43.0,Efectivo,5.0,Entregado
+618,33,21,29-07-2026,14400,27.0,Tarjeta,3.0,Entregado
+979,184,29,2026-05-03,14400,40.0,Transferencia,,Entregado
+871,68,25,31/08/2026,11800,37.0,Tarjeta,4.0,Entregado
+193,268,18,13-06-2026,13600,,Tarjeta,4.0,Entregado
+1407,143,27,11-08-2026,12100 CLP,31.0,Tarjeta,5.0,Entregado
+1272,22,23,29-08-2026,8700,45.0,Transferencia,3.0, Entregado
+1492,12,19,12-07-2026,11600,35.0,Efectivo ,4.0,Entregado
+801,31,12,2026-09-05,7900,27.0,Efectivo,5.0, Entregado
+136,247,12,2026-05-06,$11.000,34.0,Tarjeta,2.0, Entregado
+245,226,9,2026-07-20,16100,22.0,Efectivo,4.0,Entregado
+461,113,24,2026-06-20,12900,37.0,Tarjeta,4.0,Entregado
+42,164,21,21/05/2026,12500,16.0,Tarjeta,5.0,Entregado
+724,271,24,17-05-2026,13800,31.0,Efectivo,5.0,Entregado
+904,57,20,2026-07-08,11900,40.0,Tarjeta,,Cancelado
+637,42,12,2026-07-05,6600 CLP,23.0,Transferencia,5.0,Entregado
+359,222,19,15/05/2026,8300,32.0,Tarjeta,,Entregado
+1143,78,18,22/07/2026,11900,38.0,Tarjeta,3.0,Entregado
+298,172,10,23/06/2026,12600,39.0,Tarjeta,,Cancelado
+797,136,22,2026-06-15,12800,29.0,Efectivo,4.0,Entregado
+1415,11,29,08-06-2026,9700,36.0,tarjeta,,Cancelado
+518,105,2,2026-10-15,9900,29.0,Tarjeta,3.0,Entregado
+559,224,26,25/09/2026,10400,32.0,Tarjeta,5.0,Entregado
+1101,162,1,2026-06-11,9400,39.0,Tarjeta,4.0,Entregado
+619,234,16,2026-05-30,11900,31.0,Efectivo,4.0,entregado
+466,9999,24,2026-08-10,12000,21.0,TRANSFERENCIA,4.0,Entregado
+411,235,23,2026-09-16,13400,34.0,Tarjeta,4.0,Entregado
+922,268,23,2026-07-14,17200,33.0,Transferencia,4.0,Entregado
+1258,113,6,2026-08-26,15900,26.0,Transferencia,4.0,Entregado
+1062,234,24,26/09/2026,9700,55.0,Tarjeta,3.0,Entregado
+39,101,17,2026-07-28,9100,36.0,Tarjeta,5.0,Entregado
+679,77,7,2026-05-12,7300,32.0,Tarjeta,4.0,Entregado
+80,174,3,2026-09-30,$10.500,35.0,Tarjeta,5.0,Entregado
+1319,79,13,2026-06-05,13000,35.0,Tarjeta,5.0,Entregado
+687,184,8,28/06/2026,8300,27.0,Transferencia,,Cancelado
+492,229,21,2026-08-16,14200,54.0,Tarjeta,5.0,Entregado
+528,216,30,2026-07-29,8300,39.0,Efectivo,5.0, Entregado
+912,67,22,2026-08-20,8100,45.0,Tarjeta,5.0,Entregado
+760,39,12,2026-08-29,12500,45.0,Tarjeta,3.0,Entregado
+1294,256,25,2026-09-15,13300,20.0,Tarjeta,4.0,Entregado
+939,246,3,2026-10-18,11400,29.0,Transferencia,3.0, Entregado
+959,253,16,20-05-2026,8600,,Tarjeta,5.0,Entregado
+1466,179,21,15-06-2026,7000,60.0,Transferencia,4.0,Entregado
+694,147,22,2026-09-02,11800,15.0,Tarjeta,4.0,Entregado
+903,57,28,2026-05-12,10900 CLP,53.0,Tarjeta,5.0,Entregado
+421,293,11,2026-09-15,14500,26.0,tarjeta,5.0,Entregado
+1195,27,9,2026-06-12,16600,27.0,Tarjeta,4.0,Entregado
+1188,268,21,2026-09-05,$8.200,34.0,tarjeta,4.0,Entregado
+1350,236,18,2026-06-02,8400,35.0,Tarjeta,4.0,Entregado
+1457,251,18,21-09-2026,7400,39.0,Efectivo,4.0,Entregado
+591,190,7,2026-08-03,8900,18.0,Tarjeta,,Entregado
+1268,104,17,07-09-2026,12800,35.0,Efectivo,,Cancelado
+458,228,25,07-05-2026,$11.200,41.0,Tarjeta,5.0,Entregado
+767,179,14,01-06-2026,12800,40.0,Tarjeta,4.0,Entregado
+112,77,3,04/09/2026,7100,28.0,Tarjeta,3.0,Entregado
+872,171,22,10-09-2026,10700,53.0,Efectivo,5.0,Entregado
+917,263,11,2026-08-06,14400,35.0,Tarjeta,5.0,Entregado
+1123,162,23,2026-06-18,11200 CLP,26.0,Efectivo,5.0,Entregado
+936,235,4,05/09/2026,10200,41.0,Transferencia,3.0,Entregado
+957,122,3,2026-09-17,11900,17.0,Tarjeta,3.0,Entregado
+974,62,19,2026-08-15,12300,26.0,Tarjeta,4.0,Entregado
+103,242,15,2026-09-11,12700,26.0,Efectivo,4.0,ENTREGADO
+455,290,14,10/07/2026,15300,28.0,Tarjeta,4.0,Entregado
+1238,245,26,10/06/2026,13800,22.0,Efectivo,5.0,Entregado
+1044,289,27,2026-08-03,7300,29.0,Tarjeta,,Cancelado
+664,87,25,2026-08-20,12600,34.0,Tarjeta,4.0,Entregado
+1483,257,6,27-08-2026,13800,33.0,Efectivo,2.0,Entregado
+1032,272,23,2026-06-22,13300,32.0,Tajeta,5.0,Entregado
+1306,286,1,06/05/2026,10400,22.0,Efectivo,4.0,Entregado
+1252,220,30,04/07/2026,5600,23.0,efectivo,,Cancelado
+757,155,11,2026-05-25,14700 CLP,33.0,Tarjeta,5.0,Entregado
+1211,20,29,2026-08-21,14700,20.0,Tarjeta,5.0,Entregado
+1001,66,5,2026-05-01,12200,36.0,Transferencia,3.0,Entregado
+1441,34,15,2026-08-21,10100,32.0,Transferencia,4.0,Entregado
+932,88,21,17/07/2026,$12.900,28.0,Tarjeta,,Cancelado
+115,108,2,2026-10-03,9500,35.0,Tarjeta,5.0,Entregado
+69,174,25,2026-09-16,13600,47.0,Efectivo,5.0,Entregado
+916,269,6,2026-08-10,7400,27.0,Tarjeta,5.0,Entregado
+547,62,17,22-08-2026,12900,21.0,Transferencia,3.0,Entregado
+718,29,10,2026-10-03,7300,27.0,Tarjeta,,Entregado
+1420,145,18,2026-08-15,10900,24.0,Tarjeta,3.0,entregado
+727,167,3,2026-07-26,11700,24.0,Tarjeta,,cancelado
+900,22,20,2026-07-12,6700,50.0,tarjeta,5.0,Entregado
+650,119,8,2026-08-21,15000,44.0,Efectivo,5.0,Entregado
+272,142,5,11-06-2026,15800,41.0,Transferencia,4.0,Entregado
+964,123,4,2026-05-27,13400,30.0,Tarjeta,4.0,Entregado
+787,54,17,2026-06-06,10800,32.0,Efectivo,5.0,Entregado
+253,58,10,12-05-2026,12400,32.0,Tarjeta,5.0,Entregado
+990,244,22,2026-10-02,7400,40.0,Transferencia,,Cancelado
+785,59,16,2026-08-11,8100,20.0,Tarjeta,2.0,Entregado
+1205,96,3,26/08/2026,13400,45.0,Tarjeta,4.0,Entregado
+135,212,8,2026-08-14,9500,38.0,Transferencia,4.0,Entregado
+1365,67,24,2026-08-27,14000,21.0,Efectivo,,Entregado
+1140,25,9,22/06/2026,10200,28.0,Tarjeta,3.0,Entregado
+1043,120,10,17-10-2026,12700,24.0,Efectivo,5.0,Entregado
+345,179,25,2026-08-07,14700,22.0,efectivo,4.0, Entregado
+659,138,10,2026-08-21,10500,33.0,transferencia,5.0,Entregado
+128,106,22,09/10/2026,10400,35.0,Tarjeta,4.0,Entregado
+1423,249,14,2026-05-03,14400,31.0,Transferencia,,Cancelado
+1378,54,23,2026-05-18,15400,45.0,TARJETA,5.0,Entregado
+1129,218,23,2026-06-08,14100,,Tarjeta,4.0,Entregado
+238,105,9,09-06-2026,17500,25.0,Tarjeta,,CANCELADO
+1369,227,20,2026-06-18,8600,25.0,Tarjeta,3.0,Entregado
+1103,6,22,2026-07-10,9300,35.0,Efectivo,,Cancelado
+460,62,19,11-06-2026,12000,12.0,Efectivo,,Entregado
+1142,247,26,2026-06-19,12700,20.0,Efectivo,5.0,entregado
+56,97,1,2026-07-04,9400,28.0,Efectivo,4.0,Entregado
+770,17,17,26-09-2026,15200,22.0,TARJETA,5.0,Entregado
+75,152,17,08/06/2026,15100,29.0,Efectivo,5.0,Entregado
+1176,16,23,10-05-2026,9600,36.0,TARJETA,5.0,Entregado
+106,80,22,2026-09-16,10100,23.0,Tarjeta ,4.0,Entregado
+164,170,25,18/05/2026,11400,29.0,EFECTIVO,5.0,Entregado
+1111,61,17,2026-05-27,8300,53.0,Tarjeta,4.0, Entregado
+958,80,27,2026-05-17,13600,36.0,Tajeta,5.0,Entregado
+956,23,22,06-09-2026,11200,23.0,Tarjeta,5.0,Entregado
+1089,51,15,31-07-2026,7100,36.0,Tarjeta,4.0,Entregado
+640,26,20,2026-05-31,7800,36.0,Tarjeta ,5.0,Entregado
+1284,109,14,12-07-2026,9600,32.0,transferencia,5.0,Entregado
+1406,54,2,2026-06-19,14400,25.0,Tarjeta,,Cancelado
+519,56,1,2026-07-21,9600,15.0,Efectivo,5.0,Entregado
+1265,213,19,2026-07-02,9900,23.0,Transferencia,5.0,Entregado
+592,250,8,2026-09-28,12000,38.0,Tarjeta,3.0,Entregado
+1010,293,21,10-06-2026,13700,31.0,Tarjeta,5.0,Entregado
+771,299,11,2026-07-01,11200,29.0,Efectivo,4.0,Entregado
+413,68,15,2026-08-08,8800,,EFECTIVO,4.0,Entregado
+1433,135,27,2026-08-14,7600,27.0,Tarjeta,4.0,Entregado
+556,267,8,2026-05-09,9500,17.0,Tajeta,1.0,Entregado
+544,269,3,12/10/2026,9100,33.0,Efectivo,5.0,Entregado
+934,28,14,2026-09-05,11900 CLP,19.0,Efectivo,3.0,Entregado
+537,9,13,10-10-2026,10100,23.0,Transferencia,4.0,Entregado
+1088,88,3,2026-08-20,11700,19.0,Tarjeta,5.0,Entregado
+911,119,10,09/10/2026,$8.800,24.0,Tarjeta,4.0,Entregado
+1039,156,12,2026-05-16,12100,34.0,Efectivo,3.0, Entregado
+1191,92,8,30/07/2026,15500,42.0,Tarjeta,5.0,Entregado
+625,250,26,28-08-2026,12300,38.0,Tarjeta,,Entregado
+407,189,1,28-07-2026,13100,33.0,Efectivo,5.0,Entregado
+1312,162,8,05/05/2026,9400,42.0,Tarjeta,4.0,Entregado
+645,246,19,2026-06-22,6800,20.0,Tarjeta,3.0,Entregado
+864,292,16,15/05/2026,13100 CLP,28.0,Tarjeta,4.0,Entregado
+433,209,18,2026-05-01,8300,25.0,Tarjeta,4.0,Entregado
+1334,160,22,2026-06-18,10900,27.0,Tarjeta,5.0,Entregado
+447,270,27,2026-09-23,13600,33.0,Tarjeta,3.0,Entregado
+665,148,15,27/05/2026,10400,26.0,Tarjeta,5.0,Entregado
+1401,257,26,2026-07-11,15200,36.0,Transferencia,4.0,Entregado
+1405,231,11,19-09-2026,15900,25.0,Tarjeta,3.0,Entregado
+772,26,26,2026-08-17,10000,20.0,Tajeta,4.0,Entregado
+480,225,28,2026-09-26,13100,27.0,Efectivo,,Entregado
+1105,88,19,19/09/2026,7600,24.0,Tarjeta,4.0,Entregado
+580,201,3,21/06/2026,13100,,Tarjeta,,entregado
+1354,249,16,29-07-2026,16200,35.0,Efectivo,5.0,Entregado
+262,177,12,2026-09-03,10300,46.0,Tarjeta,4.0,Entregado
+295,78,14,2026-05-24,15100,22.0,Efectivo,5.0,Entregado
+722,253,20,28/06/2026,9600,34.0,Transferencia,2.0,Entregado
+915,15,22,2026-06-17,$9.200,42.0,Transferencia,4.0,Entregado
+1199,196,23,2026-10-14,14900,31.0,Efectivo,5.0,Entregado
+1038,272,12,2026-07-09,12900,26.0,Transferencia,4.0,Entregado
+970,153,30,2026-10-18,$8.500,,Transferencia,5.0,Entregado
+1414,126,13,2026-07-22,11900,41.0,Efectivo,4.0,Entregado
+160,271,11,2026-05-31,11100,45.0,Tarjeta,5.0,Entregado
+1380,234,14,19/05/2026,13900,22.0,Tarjeta,,Entregado
+651,14,8,2026-09-08,7400,30.0,Efectivo,3.0,entregado
+610,69,26,26-09-2026,6900,29.0,Tarjeta,4.0,Entregado
+1254,193,29,2026-05-07,9200,36.0,Tarjeta,5.0,Entregado
+334,133,15,29/07/2026,10200,0.0,Transferencia,4.0,Entregado
+1416,23,8,2026-05-14,16200,33.0,Tarjeta,5.0,ENTREGADO
+280,160,28,14/05/2026,7500,23.0,tarjeta,4.0,Entregado
+1030,266,19,2026-05-11,13600,20.0,Transferencia,5.0,Entregado
+699,105,2,07/06/2026,9900,39.0,Transferencia,4.0,Entregado
+1476,105,29,04/08/2026,7600,34.0,Tarjeta,5.0,Entregado
+869,300,5,2026-05-16,10900,,Efectivo,4.0,Entregado
+630,86,29,2026-09-15,13600,23.0,Tarjeta,,Cancelado
+534,14,27,2026-06-03,13200,31.0,TARJETA,3.0,Entregado
+1285,241,29,02-07-2026,10100,33.0,Tarjeta,,Entregado
+737,44,9,2026-05-28,15500,50.0,EFECTIVO,,cancelado
+15,169,26,15-06-2026,10800 CLP,30.0,Transferencia,4.0,Entregado
+683,225,13,2026-07-18,13100,27.0,Efectivo,,Cancelado
+1000,98,17,2026-07-08,7800,33.0,Tarjeta,5.0,Entregado
+393,46,16,2026-08-29,8300 CLP,27.0,Tarjeta,,Entregado
+423,147,7,27/05/2026,9700,22.0,Tarjeta,4.0,entregado
+1293,282,30,2026-08-12,4300,41.0,Efectivo,,Cancelado
+463,62,24,13-10-2026,15900,42.0,Tarjeta,,Entregado
+1287,202,9,2026-08-31,12000,41.0,Tarjeta ,5.0,Entregado
+996,121,10,01-10-2026,7000,30.0,Tarjeta,5.0,Entregado
+1250,199,13,2026-08-23,14300,35.0,Tarjeta,, Cancelado
+802,276,23,29/06/2026,14400,31.0,Transferencia,5.0,ENTREGADO
+1425,203,9,2026-10-18,9600,38.0,Efectivo,5.0,Entregado
+1121,30,1,13-10-2026,$6.600,29.0,Tarjeta,5.0,Entregado
+1204,160,13,17/09/2026,11600,17.0,Transferencia,5.0,Entregado
+909,10,22,2026-10-16,7700,18.0,Tarjeta,5.0,Entregado
+620,177,9,2026-09-28,9300,50.0,Efectivo,4.0,Entregado
+1224,242,4,2026-05-01,11400,40.0,Tarjeta,3.0,Entregado
+1215,180,25,21/05/2026,10700,40.0,Efectivo,5.0,Entregado
+237,202,17,2026-07-22,16600,20.0,Tarjeta,4.0,Entregado
+858,173,14,2026-05-19,14300,35.0,Tarjeta,3.0,entregado
+874,133,19,2026-10-05,10300 CLP,28.0,TARJETA,5.0,Entregado
+467,14,30,11-08-2026,7000 CLP,29.0,Tarjeta,,Entregado
+1073,120,2,2026-06-20,10600,31.0,Tarjeta,,Entregado
+754,100,26,01/09/2026,9600,26.0,Tarjeta,4.0,Entregado
+1148,111,3,20-06-2026,7700,33.0,Efectivo,5.0,Entregado
+883,141,30,21-07-2026,5900,26.0,Efectivo,5.0,Entregado
+292,190,18,20/05/2026,6900,27.0,Tarjeta,4.0,Entregado
+234,265,14,08/07/2026,14000,24.0,Tarjeta,4.0,Entregado
+742,298,3,31/08/2026,8300,52.0,Transferencia,4.0,Entregado
+1444,237,8,2026-08-30,8100,27.0,Efectivo,,Cancelado
+410,292,19,2026-09-23,12700,27.0,Tarjeta,4.0,Entregado
+851,284,11,17/07/2026,16900,42.0,Transferencia,3.0,Entregado
+1184,6,25,2026-08-02,15200,36.0,Tarjeta,4.0,ENTREGADO
+1489,110,24,02-09-2026,13900,52.0,Tarjeta,5.0,Entregado
+320,211,25,07-08-2026,10500,,Efectivo,5.0,Entregado
+743,180,6,2026-05-18,$9.100,29.0,tarjeta,4.0, Entregado
+1213,244,22,28-06-2026,8500,41.0,Tarjeta,5.0,Entregado
+1454,258,16,09/06/2026,$12.500,32.0,Tarjeta,,Entregado
+1376,186,23,14-07-2026,12800,47.0,efectivo,4.0,Entregado
+1137,180,6,2026-07-27,$16.400,,Efectivo,3.0,Entregado
+50,118,30,2026-07-09,4600,12.0,Tarjeta,5.0,Entregado
+786,283,7,05/05/2026,13000 CLP,38.0,Tarjeta,4.0,Entregado
+60,239,4,12/09/2026,14600,41.0,Efectivo,4.0,Entregado
+1218,263,6,31-05-2026,15100,38.0,Efectivo,4.0,Entregado
+978,28,11,2026-08-07,9900,47.0,Tarjeta,3.0,Entregado
+462,230,4,2026-10-08,7900,47.0,Transferencia,5.0,Entregado
+1340,287,12,2026-05-29,9300,27.0,TARJETA,5.0,Entregado
+535,226,28,2026-09-17,9500,30.0,Tarjeta,5.0,Entregado
+629,29,18,2026-08-27,8800,30.0,TARJETA,5.0,Entregado
+929,13,10,2026-06-03,9400,34.0,Tajeta,4.0,Entregado
+1304,154,20,2026-06-21,8700,32.0,Tajeta,5.0,entregado
+951,192,3,2026-10-05,13400,20.0,Tarjeta,3.0,Entregado
+1021,221,3,2026-05-05,10100,27.0,Transferencia,2.0,Entregado
+1330,131,15,2026-09-30,14600 CLP,27.0,Tarjeta,,Cancelado
+402,295,4,2026-09-20,10400,28.0,Tarjeta,5.0,Entregado
+1255,177,4,03-07-2026,11200,16.0,TARJETA,4.0,entregado
+372,299,6,2026-10-12,12100,17.0,TARJETA,5.0,Entregado
+400,62,9,2026-05-14,9000,36.0,Efectivo,5.0,Entregado
+985,98,16,28-07-2026,14600,22.0,Efectivo,3.0,Entregado
+1208,286,22,2026-07-31,16100,48.0,Tarjeta,3.0,Entregado
+1009,281,12,2026-10-03,10300,38.0,Efectivo,4.0,Entregado
+1214,237,5,2026-05-23,16600,45.0,Transferencia,3.0, Entregado
+38,228,16,2026-05-21,11600,37.0,Tarjeta,4.0,Entregado
+590,246,21,2026-08-20,$12.500,29.0,Tarjeta,5.0,Entregado
+674,183,17,2026-08-30,9600 CLP,32.0,Tarjeta,4.0,Entregado
+1086,146,26,15-06-2026,12100,39.0,Transferencia,4.0,Entregado
+107,166,10,2026-06-20,9200,38.0,Transferencia,,Cancelado
+323,195,5,2026-06-08,9200,17.0,tarjeta,4.0,Entregado
+352,184,2,25-05-2026,10300,32.0,Efectivo,,Entregado
+357,213,24,2026-05-14,10600,40.0,Tarjeta,4.0,Entregado
+836,131,24,09/07/2026,7500,35.0,Tarjeta,3.0,entregado
+716,174,27,21/07/2026,14400,39.0,Tarjeta,4.0,Entregado
+252,199,22,30-08-2026,14300,21.0,Tarjeta,,Entregado
+1189,116,1,06-09-2026,11300,42.0,Tarjeta,4.0,Entregado
+1337,67,14,2026-08-27,7900,22.0,Tarjeta,5.0,Entregado
+848,285,25,18-06-2026,9100,44.0,Transferencia,,Cancelado
+391,111,26,2026-06-14,11700,30.0,Tarjeta,4.0,Entregado
+444,192,22,07/06/2026,12800,30.0,Tarjeta,5.0,Entregado
+568,284,26,2026-06-21,10000,39.0,Transferencia,4.0,Entregado
+216,66,15,2026-05-01,9100,15.0,Efectivo,4.0,Entregado
+339,266,17,2026-05-29,8900,28.0,Tarjeta,5.0,Entregado
+795,103,25,29-07-2026,14100 CLP,34.0,Tarjeta,5.0,Entregado
+1072,182,4,2026-08-25,$16.600,,Efectivo,3.0,Entregado
+910,227,2,12/09/2026,10000,21.0,Transferencia,4.0,Entregado
+57,53,10,2026-07-11,12200,31.0,Tarjeta,4.0,Entregado
+669,84,6,2026-09-05,12300,34.0,Tarjeta,5.0,Entregado
+633,244,5,25/07/2026,12500,,Efectivo,4.0,entregado
+682,75,25,2026-07-02,15000,24.0,Tarjeta,5.0,Entregado
+804,253,29,10/05/2026,13400,0.0,Tarjeta,4.0,Entregado
+182,25,999,29-07-2026,14500,34.0,Transferencia,3.0,Entregado
+54,237,10,15/08/2026,13200,40.0,Tarjeta,5.0,Entregado
+1480,240,15,2026-09-01,15100,32.0,Tarjeta,,CANCELADO
+1413,249,18,11-06-2026,9000,25.0,Efectivo,3.0,entregado
+347,193,20,09/05/2026,14600,26.0,Efectivo,4.0,Entregado
+232,228,8,2026-07-11,16100,20.0,Tarjeta,3.0,Entregado
+152,225,3,2026-07-05,13400,38.0,Tarjeta,5.0,Entregado
+501,22,4,2026-08-09,16200,32.0,Tarjeta,4.0,Entregado
+1291,201,9,14/07/2026,15900,46.0,Tarjeta,5.0,Entregado
+828,249,27,2026-05-06,9300,25.0,Efectivo,3.0,Entregado
+231,298,23,2026-05-30,8700,31.0,Efectivo,5.0,Entregado
+926,68,26,20-06-2026,13500,42.0,Efectivo,5.0,Entregado
+525,65,22,2026-09-19,13400,18.0,Efectivo,5.0,Entregado
+1228,209,25,24-06-2026,6700,17.0,Transferencia,5.0,Entregado
+22,289,13,2026-05-19,10000,36.0,Transferencia,, Entregado
+406,122,15,24/08/2026,11000,,Tarjeta,5.0,Entregado
+258,89,30,19/05/2026,8300,40.0,Tarjeta,4.0,Entregado
+930,237,18,2026-06-17,9400,31.0,Tarjeta,,Entregado
+701,92,4,2026-10-15,14700,54.0,Transferencia,4.0,Entregado
+389,196,14,2026-08-29,10300,26.0,Tarjeta,4.0,Entregado
+695,296,7,2026-05-26,6500,29.0,Efectivo,5.0,Entregado
+526,27,27,05/09/2026,11200,27.0,efectivo,5.0,Entregado
+1331,24,20,2026-06-20,12700,21.0,Efectivo,,Cancelado
+186,200,10,13-07-2026,8600,23.0,Tarjeta,3.0, Entregado
+943,104,22,05-09-2026,14400,31.0,Tajeta,4.0,Entregado
+44,60,6,2026-08-29,9300,40.0,Transferencia,5.0,Entregado
+474,146,1,20-06-2026,8700,30.0,Efectivo,3.0,entregado
+853,33,25,22/08/2026,11300,31.0,Efectivo,5.0,Entregado
+1315,166,10,17-05-2026,9200,39.0,Tarjeta,4.0,Entregado
+341,168,10,2026-06-03,13600,37.0,Efectivo,3.0,Entregado
+1264,279,20,2026-10-02,9800,33.0,Tarjeta,5.0,Entregado
+1155,268,3,12/06/2026,8400,21.0,Efectivo,4.0,Entregado
+1455,10,9,2026-06-26,17400,41.0,Efectivo,5.0,Entregado
+961,167,21,08/06/2026,14500,35.0,Efectivo,,Cancelado
+1126,139,11,25-09-2026,15800,-5.0,Efectivo,4.0,Entregado
+316,241,30,2026-05-06,3900,41.0,Tarjeta,5.0, Entregado
+330,90,4,17-09-2026,11000,19.0,Efectivo,3.0,Entregado
+513,232,5,2026-08-28,9600 CLP,28.0,Tarjeta,,Cancelado
+1498,52,1,09/10/2026,10100,26.0,Tarjeta ,4.0,Entregado
+346,130,19,2026-09-24,13300,,Tarjeta,5.0,Entregado
+833,32,29,2026-09-11,10300,49.0,Transferencia,4.0,Entregado
+684,155,2,15-09-2026,13000,35.0,Tarjeta,,Entregado
+1003,23,2,28/07/2026,8500,35.0,Efectivo,4.0,Entregado
+1468,106,16,04/06/2026,13800,31.0,Tarjeta,4.0,Entregado
+773,41,22,2026-07-09,14100,19.0,Tarjeta,5.0,Entregado
+67,291,19,2026-05-18,$12.500,32.0,TARJETA,4.0,Entregado
+933,270,27,2026-07-04,13800,13.0,Tarjeta,5.0,Entregado
+1462,154,23,15/05/2026,$8.900,40.0,Transferencia,4.0,Entregado
+1377,98,8,16/05/2026,15300,35.0,Transferencia,4.0,Entregado
+644,176,2,2026-09-03,12200,37.0,Tarjeta,4.0,Entregado
+1335,213,28,01-09-2026,8800,26.0,Efectivo,4.0,Entregado
+809,238,23,2026-06-26,8900,23.0,Tarjeta,2.0,Entregado
+646,264,11,26/09/2026,12500,41.0,Tarjeta,3.0,Entregado
+418,139,23,28-08-2026,13800,41.0,Tarjeta,5.0,Entregado
+1288,166,30,2026-07-19,$6.500,41.0,Tarjeta,5.0,Entregado
+1220,144,24,01-10-2026,$16.500,25.0,Tarjeta,3.0,Entregado
+542,212,15,2026-09-19,13500,39.0,efectivo,4.0,Entregado
+1370,227,30,2026-05-09,6700,27.0,Efectivo,3.0,Entregado
+314,125,1,13-05-2026,10300,33.0,Efectivo,4.0,ENTREGADO
+307,191,23,2026-05-06,10700,39.0,Transferencia,,Cancelado
+941,294,7,19-09-2026,6600,35.0,Efectivo,,Cancelado
+130,207,28,2026-09-04,$9.500,36.0,Transferencia,3.0,Entregado
+396,87,15,2026-06-11,12700,40.0,Tarjeta ,3.0,Entregado
+1383,55,28,2026-10-12,8300,51.0,Efectivo,4.0,Entregado
+327,30,15,2026-08-25,13100,27.0,Tarjeta,5.0,Entregado
+192,14,17,2026-06-02,10800,36.0,Efectivo,3.0,Entregado
+723,255,999,2026-06-18,10200,17.0,tarjeta,4.0,Entregado
+1132,177,2,15-08-2026,$12.200,32.0,Transferencia,4.0,Entregado
+1065,129,21,2026-07-18,12100,35.0,Tarjeta,,cancelado
+994,168,2,2026-05-10,8400,26.0,Efectivo,5.0,Entregado
+921,122,1,2026-06-10,12300,30.0,Transferencia,5.0,Entregado
+496,23,21,15/09/2026,8400,34.0,Tarjeta,5.0,Entregado
+1033,205,19,22/05/2026,13100,36.0,Tarjeta,4.0,ENTREGADO
+868,82,23,2026-08-03,16900,29.0,Transferencia,,Cancelado
+385,202,6,2026-09-16,11600,29.0,Tarjeta,2.0,Entregado
+1104,287,12,2026-08-31,9400,32.0,Tarjeta,4.0,ENTREGADO
+653,275,1,2026-09-20,13400,20.0,Tarjeta ,,cancelado
+1239,213,9,10/05/2026,9900,30.0,Tarjeta,5.0,Entregado
+398,42,16,2026-07-22,16000,36.0,Tarjeta,,Cancelado
+947,235,17,2026-09-23,8400,38.0,Transferencia,,Cancelado
+1117,48,12,19-06-2026,9000,28.0,Tarjeta,4.0,Entregado
+1486,41,26,2026-07-22,7000 CLP,51.0,Efectivo,,Cancelado
+725,133,21,2026-08-15,12500,35.0,Tarjeta,4.0,Entregado
+533,184,24,2026-07-08,10900,16.0,Efectivo,4.0,Entregado
+763,293,21,2026-08-04,7500,25.0,Tarjeta,5.0,Entregado
+162,47,12,2026-09-26,7400,41.0,Tarjeta,4.0,Entregado
+1247,72,15,2026-06-21,12200,45.0,Tarjeta,4.0,Entregado
+937,43,23,2026-07-08,10200,23.0,Transferencia,,Cancelado
+1040,219,11,21/07/2026,13000,28.0,Efectivo,3.0,Entregado
+1074,148,5,12-10-2026,7400,31.0,Tarjeta,4.0,Entregado
+1271,8,21,2026-06-12,13600,36.0,Efectivo,,Cancelado
+21,277,8,15/07/2026,7900,34.0,Transferencia,3.0,Entregado
+570,33,18,2026-07-27,7600,30.0,Tarjeta,,Cancelado
+654,254,15,2026-08-05,10000,20.0,Efectivo,4.0,Entregado
+697,166,10,2026-05-28,13900,36.0,Tarjeta,,Cancelado
+482,296,2,2026-09-02,9200,33.0,Tarjeta,5.0,Entregado
+34,45,10,2026-07-15,13300,-5.0,Efectivo,5.0, Entregado
+1050,197,30,22/07/2026,4100,27.0,Efectivo,3.0,Entregado
+48,169,19,14/05/2026,10700,34.0,Efectivo,4.0,Entregado
+30,9999,23,2026-09-16,12000,25.0,Tarjeta,4.0,Entregado
+1006,155,24,2026-06-30,15300,23.0,Tarjeta,,Cancelado
+1107,72,10,11-05-2026,12800,26.0,Tarjeta,,Cancelado
+1139,267,17,2026-07-13,16000,33.0,Efectivo,5.0,Entregado
+1278,176,1,01-06-2026,9400,25.0,Tarjeta,4.0,Entregado
+511,218,5,13-08-2026,11900,28.0,Tarjeta,4.0,Entregado
+531,215,9,2026-08-30,12600,36.0,Tarjeta,4.0,Entregado
+923,220,9,2026-05-23,13400,35.0,Efectivo,4.0,Entregado
+502,284,20,2026-06-06,9400,29.0,Efectivo,5.0,Entregado
+433,209,18,2026-05-01,8300,25.0,Tarjeta,4.0,Entregado
+254,15,1,25-07-2026,12500,40.0,Tarjeta,4.0,Entregado
+1463,168,2,26-09-2026,14400,23.0,Efectivo,5.0,Entregado
+1373,169,3,2026-08-05,8000,53.0,Transferencia,2.0,Entregado
+1217,126,2,2026-06-10,11000,34.0,Tarjeta,4.0,Entregado
+780,98,9,2026-09-27,7900,38.0,Tarjeta,3.0,Entregado
+367,217,30,10-09-2026,4900,22.0,Transferencia,4.0,Entregado
+1077,135,15,2026-07-09,13300,25.0,Tarjeta,4.0,Entregado
+1079,146,11,18/08/2026,14800,31.0,Tarjeta,3.0,Entregado
+681,26,25,2026-09-08,8800,54.0,Efectivo,4.0,Entregado
+1206,195,18,2026-09-19,10900,26.0,Tarjeta,5.0,Entregado
+813,26,13,2026-07-09,12500,30.0,Transferencia,2.0,Entregado
+736,114,26,31-07-2026,9800,40.0,Tarjeta,5.0,Entregado
+1049,271,17,21/07/2026,16500 CLP,0.0,Tarjeta,4.0,Entregado
+299,179,19,15-09-2026,7400,41.0,Efectivo,4.0,Entregado
+557,299,26,26/07/2026,12900,31.0,Tarjeta,2.0,Entregado
+576,81,25,2026-07-14,7500,27.0,Tarjeta,4.0,Entregado
+19,1,14,2026-08-11,15400,21.0,Transferencia,5.0,Entregado
+573,257,25,30-09-2026,8400,31.0,Tarjeta,3.0,Entregado
+226,204,13,25-07-2026,14100 CLP,37.0,Transferencia,3.0,Entregado
+600,260,3,18-05-2026,8100,32.0,Tarjeta,,Cancelado
+420,249,17,2026-07-27,9900,31.0,Transferencia,4.0,Entregado
+1174,275,6,16/06/2026,13800,32.0,Tarjeta,4.0,Entregado
+219,3,22,2026-05-21,12400,13.0,Tarjeta,4.0,Entregado
+308,58,12,06-08-2026,11000,39.0,Efectivo,4.0,Entregado
+157,121,27,19/08/2026,7800,27.0,Tarjeta,5.0,Entregado
+172,271,30,2026-05-29,4200,41.0,Efectivo ,3.0,Entregado
+1194,253,23,06/10/2026,12900,28.0,Tarjeta,4.0,Entregado
+706,118,2,2026-07-05,6800,39.0,Tarjeta,,Cancelado
+287,155,19,2026-05-15,8900,,Tarjeta,4.0,ENTREGADO
+1091,258,21,27-09-2026,11400,40.0,Efectivo,5.0,Entregado
+454,23,12,2026-09-21,9200,32.0,Transferencia,5.0,Entregado
+1467,238,15,2026-09-25,9400,25.0,Tarjeta,4.0,Entregado
+72,51,2,27/08/2026,9000,12.0,Transferencia,2.0,Entregado
+83,15,23,2026-10-04,15800,40.0,Tarjeta,,Cancelado
+1170,235,27,06/08/2026,12000,43.0,Tarjeta,,Cancelado
+1453,58,1,20/05/2026,8600,39.0,Tarjeta,4.0,Entregado
+16,9,24,08-05-2026,11700,36.0,Tarjeta,4.0,Entregado
+536,286,2,2026-08-24,15000,,Efectivo,4.0,Entregado
+1160,43,16,2026-05-14,8700,14.0,Transferencia,3.0,Entregado
+919,121,12,2026-08-13,11200,46.0,Tarjeta,5.0,Entregado
+452,297,11,11-09-2026,15200 CLP,30.0,Tarjeta,3.0,Entregado
+1157,17,22,2026-05-28,16000,25.0,Tarjeta,4.0,Entregado
+405,268,14,2026-07-19,13600,25.0,Efectivo,4.0,Entregado
+1398,159,20,2026-09-04,$11.600,26.0,Efectivo,5.0,ENTREGADO
+1356,54,29,2026-06-18,8300,45.0,Tarjeta,,Cancelado
+740,107,20,2026-05-15,11700,39.0,Tarjeta,4.0,Entregado
+365,223,15,20-05-2026,10800,,Tarjeta ,5.0,Entregado
+105,158,14,18-07-2026,9400,26.0,Transferencia,4.0,Entregado
+1404,111,11,04/08/2026,14700,21.0,Tarjeta,3.0,Entregado
+1245,128,21,09/09/2026,7300,48.0,Tarjeta,3.0,Entregado
+662,147,20,2026-09-27,$12.400,30.0,Transferencia,,Cancelado
+242,79,6,2026-08-16,9200,,Tarjeta,5.0,Entregado
+431,224,28,20/09/2026,8600,34.0,Efectivo,3.0,Entregado
+815,165,24,05/09/2026,10700,19.0,Tarjeta,5.0,entregado
+631,269,7,2026-06-15,12900,29.0,Tarjeta,4.0,Entregado
+97,201,17,2026-07-22,14200,19.0,Tarjeta,5.0,Entregado
+468,68,3,2026-07-18,9500,30.0,Efectivo,5.0,Entregado
+85,80,18,2026-08-22,11400,36.0,Efectivo,5.0,Entregado
+702,18,27,08-07-2026,9300,32.0,Tarjeta,,Entregado
+10,231,14,2026-07-10,11500,42.0,Efectivo,5.0,Entregado
+605,148,12,2026-09-22,8200,19.0,Transferencia,5.0,Entregado
+879,300,11,2026-10-15,12600,25.0,Tarjeta,4.0,Entregado
+774,92,27,2026-06-27,10000,39.0,Transferencia,4.0,Entregado
+1163,260,16,2026-07-20,13300,35.0,TARJETA,4.0,Entregado
+277,140,2,19/10/2026,14800,47.0,Tarjeta,,Cancelado
+89,248,23,2026-08-01,11800,46.0,Transferencia,4.0,Entregado
+91,7,20,14-06-2026,11700,22.0,Efectivo,4.0,Entregado
+766,251,9,2026-08-14,14100,38.0,Tarjeta,4.0,Entregado
+281,222,6,2026-05-18,13500,24.0,Transferencia,4.0,entregado
+1008,93,5,2026-06-28,11000,33.0,Tarjeta,5.0,Entregado
+652,291,8,31/07/2026,12000,22.0,Tarjeta ,4.0,Entregado
+993,293,1,2026-06-22,9600,33.0,Tarjeta,,Cancelado
+366,201,11,2026-09-12,11000,40.0,Tarjeta,2.0, Entregado
+24,249,7,2026-10-18,11200,28.0,Tarjeta,4.0,Entregado
+677,49,27,2026-07-24,10400,21.0,Efectivo,5.0,Entregado
+999,165,12,07-05-2026,7700,21.0,Efectivo,4.0,Entregado
+311,105,11,2026-05-28,9200,25.0,transferencia,5.0,Entregado
+1061,18,1,2026-08-07,6300,37.0,Tarjeta,5.0,Entregado
+641,9999,23,29-06-2026,10900,32.0,Tarjeta,4.0,Entregado
+241,288,18,2026-06-08,12200,39.0,Tarjeta ,5.0,Entregado
+667,264,30,2026-06-01,7800,36.0,Tarjeta,,Cancelado
+1302,218,21,2026-10-13,7100,25.0,Tarjeta,4.0,Entregado
+99,13,9,2026-09-04,11900,39.0,Efectivo,4.0,Entregado
+168,120,1,02/10/2026,6400,40.0,Transferencia,3.0,Entregado
+497,95,22,2026-06-04,14700,25.0,Tarjeta,5.0,Entregado
+276,82,15,2026-05-22,$9.600,18.0,Transferencia,5.0, Entregado
+1114,155,12,2026-07-30,9000,39.0,Efectivo,,Entregado
+715,171,23,11-08-2026,11200,44.0,Transferencia,4.0,Entregado
+1269,264,4,2026-05-20,9400,43.0,Transferencia,4.0,Entregado
+332,28,25,2026-05-14,11400,34.0,tarjeta,5.0,Entregado
+220,159,26,2026-05-28,9900,24.0,Efectivo,4.0,Entregado
+434,295,8,10/09/2026,14600,22.0,Tarjeta,4.0,ENTREGADO
+1456,269,8,2026-10-19,15200,22.0,Tarjeta,3.0,Entregado
+1320,297,3,16-07-2026,7300,35.0,efectivo,,Entregado
+487,81,4,2026-06-03,8700,42.0,Tarjeta,5.0,ENTREGADO
+532,125,28,05-08-2026,9700,31.0,Transferencia,5.0,Entregado
+1311,116,17,14-07-2026,15900,29.0,Efectivo,5.0,Entregado
+261,278,20,2026-09-09,7300,51.0,Tarjeta ,5.0,Entregado
+811,112,20,2026-07-22,14700,35.0,Tarjeta,3.0,Entregado
+306,297,2,22-05-2026,13500,38.0,Tajeta,5.0,Entregado
+1349,24,11,08/08/2026,11300,,Efectivo,3.0,Entregado
+197,42,20,06/10/2026,6800,30.0,Transferencia,4.0,Entregado
+1165,148,5,29/07/2026,11500,38.0,Transferencia,4.0,Entregado
+1147,227,17,26-06-2026,11300,23.0,Tarjeta,3.0,entregado
+495,101,10,06-09-2026,9300,30.0,Transferencia,,Entregado
+111,156,26,2026-08-30,11000,28.0,Transferencia,4.0,Entregado
+1109,5,6,2026-05-28,12700,32.0,Efectivo,4.0,Entregado
+514,128,16,06/09/2026,10200,32.0,Efectivo,,Cancelado
+692,53,15,2026-08-14,15200,36.0,Tarjeta,4.0,Entregado
+370,29,18,21/05/2026,14400,29.0,Efectivo,4.0,Entregado
+794,297,13,2026-10-11,16600,31.0,Tarjeta,4.0,Entregado
+1099,187,25,2026-09-18,12600,32.0,Tarjeta,,Cancelado
+927,279,9,18-08-2026,16000,17.0,Tarjeta,3.0,Entregado
+274,115,1,03/08/2026,11400,36.0,Tarjeta,3.0,Entregado
+397,33,19,24/08/2026,6900,17.0,Tarjeta,4.0,ENTREGADO
+1179,92,6,02/09/2026,8600,37.0,Tarjeta,4.0,Entregado
+740,107,20,2026-05-15,11700,39.0,Tarjeta,4.0,Entregado
+1216,92,11,30/06/2026,16300 CLP,33.0,Tarjeta,4.0,Entregado
+798,192,1,25-05-2026,13400,20.0,Transferencia,3.0,ENTREGADO
+1212,299,20,2026-06-04,14600,42.0,Efectivo ,5.0,entregado
+1075,138,25,02/08/2026,10400,40.0,TRANSFERENCIA,5.0,Entregado
+1063,252,4,25-07-2026,14300,43.0,Tarjeta,5.0,Entregado
+962,290,19,2026-07-25,12600,32.0,Efectivo,4.0,Entregado
+419,23,27,2026-07-19,14800,37.0,Tarjeta,4.0,Entregado
+376,76,12,15-10-2026,9500,46.0,Tarjeta,5.0,Entregado
+464,21,2,2026-07-08,13000,36.0,Efectivo,5.0,Entregado
+471,149,28,14-08-2026,8200,41.0,Tarjeta,4.0,ENTREGADO
+1100,215,21,17/07/2026,7000,36.0,Efectivo,5.0,Entregado
+560,110,22,2026-06-29,7400,30.0,Tarjeta,,Cancelado
+303,30,29,06-08-2026,7900,24.0,Tarjeta,4.0,Entregado
+583,20,24,31-07-2026,11800,29.0,Efectivo,,Entregado
+799,38,30,2026-10-11,5600,16.0,Efectivo,5.0,Entregado
+12,182,10,2026-09-18,9500,34.0,Tarjeta,,cancelado
+1275,240,12,2026-09-05,11600,34.0,Transferencia,4.0,Entregado
+539,158,4,2026-06-18,$13.000,28.0,Transferencia,,CANCELADO
+628,276,4,2026-06-01,9700,31.0,Transferencia,5.0,Entregado
+282,221,27,2026-09-10,8900,20.0,Efectivo,3.0,Entregado
+984,299,8,25-05-2026,13200,36.0,Efectivo,,Cancelado
+823,97,11,23-09-2026,9900 CLP,37.0,Efectivo,4.0,Entregado
+224,184,29,2026-07-26,$8.500,19.0,Tarjeta,5.0,Entregado
+673,84,20,2026-06-10,14900,22.0,Tarjeta,5.0,Entregado
+1244,257,12,2026-10-03,12200,29.0,Transferencia,3.0,Entregado
+967,275,11,2026-10-17,13800,23.0,Efectivo,,Entregado
+1150,10,29,09-09-2026,11400,19.0,Tarjeta,5.0,Entregado
+1094,25,2,2026-10-17,9800,41.0,Transferencia,5.0,Entregado
+932,88,21,17/07/2026,$12.900,28.0,Tarjeta,,Cancelado
+995,139,30,2026-05-01,6800 CLP,24.0,Efectivo,4.0,Entregado
+581,233,28,18-06-2026,8600,42.0,Tarjeta,4.0,ENTREGADO
+1046,178,22,18-09-2026,9100,27.0,Tarjeta,4.0,Entregado
+78,147,4,2026-10-08,15500,28.0,Tarjeta,5.0,Entregado
+548,215,10,2026-08-17,15100,38.0,transferencia,5.0,Entregado
+1441,34,15,2026-08-21,10100,32.0,Transferencia,4.0,Entregado
+749,293,6,2026-06-19,13000,24.0,Transferencia,4.0,Entregado
+827,202,4,2026-06-24,10700,32.0,Tarjeta,5.0,ENTREGADO
+126,213,25,2026-07-06,7600 CLP,,Tarjeta,4.0,Entregado
+1253,279,8,2026-05-18,16800,36.0,Efectivo,,Cancelado
+758,297,27,2026-07-10,10600,35.0,Tarjeta,4.0,Entregado
+1067,100,15,04-08-2026,10300 CLP,53.0,Transferencia,,Entregado
+577,128,25,16/05/2026,14200,28.0,Efectivo,3.0,Entregado
+622,115,19,2026-05-16,11600,42.0,Tarjeta,5.0,Entregado
+768,164,12,24/07/2026,11400,37.0,Tarjeta,4.0,Entregado
+1230,109,9,2026-09-17,14100,12.0,Efectivo,4.0,Entregado
+812,85,5,20/09/2026,13200,31.0,TRANSFERENCIA,5.0,Entregado
+1031,291,13,2026-08-05,12300,26.0,Tarjeta,3.0,Entregado
+1372,6,3,2026-07-06,13300,33.0,Tarjeta,5.0,Entregado
+803,266,12,2026-07-02,8400,32.0,Tarjeta,5.0,Entregado
+845,153,23,2026-08-22,11000,26.0,Tarjeta,4.0,Entregado
+1281,257,25,2026-07-05,14600,37.0,Tarjeta,4.0,entregado
+1491,86,3,2026-10-02,6400,35.0,transferencia,4.0,Entregado
+1303,284,9,09-05-2026,16500,46.0,Tarjeta,4.0,Entregado
+260,266,25,2026-07-04,9900,22.0,Efectivo,4.0,Entregado
+283,99,17,2026-05-23,8500,44.0,Efectivo,3.0,Entregado
+635,15,28,04/05/2026,13500,34.0,Tarjeta,4.0,entregado
+1431,55,4,2026-07-01,8300,12.0,Tarjeta,4.0,Entregado
+475,43,28,2026-09-05,9300,26.0,Tarjeta,4.0, Entregado
+456,37,20,2026-09-18,8500,42.0,Efectivo,3.0,Entregado
+321,136,8,09-10-2026,13100,45.0,Tarjeta,2.0,Entregado
+435,87,23,2026-07-09,11000,21.0,Efectivo,5.0,Entregado
+1464,274,17,2026-09-11,12700,24.0,Tarjeta,3.0,Entregado
+300,242,30,2026-08-04,7900 CLP,22.0,Tarjeta,4.0,Entregado
+437,45,6,2026-09-18,8000,24.0,Transferencia,3.0,Entregado
+1384,262,3,2026-06-25,11600,28.0,Efectivo,5.0,Entregado
+439,22,24,15-10-2026,10500 CLP,29.0,Tarjeta,4.0,Entregado
+326,45,18,22/08/2026,9700,28.0,Tarjeta,4.0,Entregado
+404,237,1,2026-10-19,13000,22.0,Transferencia,4.0,Entregado
+1290,59,25,27-09-2026,11300,32.0,Tarjeta,4.0,Entregado
+565,270,27,24/05/2026,7400,21.0,Efectivo,4.0, Entregado
+293,118,29,2026-06-27,10500,29.0,Tarjeta,,Cancelado
+279,229,29,2026-07-07,12600,36.0,Tajeta,4.0,Entregado
+656,47,8,17-07-2026,11000,32.0,Transferencia,5.0,Entregado
+1321,228,27,2026-07-20,11500,46.0,Efectivo,4.0,Entregado
+733,74,20,2026-10-03,8100,49.0,Efectivo,4.0,Entregado
+554,155,21,2026-09-20,9800,27.0,Tarjeta,4.0,Entregado
+95,233,8,2026-06-07,14700,32.0,Efectivo,5.0,Entregado
+1435,134,8,2026-10-12,15000,37.0,Efectivo,,Cancelado
+1256,261,28,2026-10-15,11300,21.0,Tarjeta,4.0,Entregado
+246,241,15,02/10/2026,13900,38.0,Tarjeta,5.0,Entregado
+946,230,29,2026-06-24,8900,36.0,Tarjeta,5.0,Entregado
+1192,178,22,03/07/2026,$10.200,999.0,Tarjeta,,Cancelado
+776,266,12,07/06/2026,6100,37.0,Efectivo,,Entregado
+427,297,13,2026-10-14,16300,21.0,Tarjeta,4.0,Entregado
+1187,138,2,03/09/2026,7700,43.0,Tarjeta,5.0,entregado
+150,157,23,07-09-2026,13400,26.0,Efectivo,5.0,Entregado
+227,36,10,2026-07-07,9300,35.0,Tarjeta,4.0,Entregado
+866,287,25,12-09-2026,7100 CLP,40.0,Efectivo,5.0,Entregado
+968,202,7,22/08/2026,7200,22.0,Tarjeta,5.0,Entregado
+1119,248,4,2026-09-25,10500,39.0,Transferencia,5.0,Entregado
+1246,94,3,2026-05-10,9300,37.0,Efectivo,4.0,Entregado
+901,115,20,2026-06-18,13800,,Transferencia,5.0, Entregado
+700,135,9,2026-05-08,8800,37.0,Tarjeta,4.0, Entregado
+602,242,25,2026-09-26,14800 CLP,43.0,Transferencia,5.0,Entregado
+1292,198,28,28/06/2026,9600,35.0,Tarjeta,5.0,Entregado
+1059,67,27,2026-07-01,7900,26.0,Tarjeta,5.0,Entregado
+218,120,19,2026-08-18,13300,29.0,Transferencia,4.0,Entregado
+1097,214,26,2026-07-31,12100,37.0,Transferencia,4.0,Entregado
+818,238,21,2026-09-01,9400,35.0,Tajeta,4.0,Entregado
+221,45,3,2026-09-04,9600 CLP,37.0,Efectivo,3.0,ENTREGADO
+214,115,27,2026-10-03,15100,23.0,Efectivo,5.0,Entregado
+1410,248,4,19-05-2026,9700,32.0,Tarjeta,,Cancelado
+908,12,12,01-07-2026,6100,34.0,Tarjeta,5.0,Entregado
+395,79,7,30/08/2026,6600,12.0,Efectivo,4.0,Entregado
+368,257,26,2026-09-20,10900,21.0,Tarjeta,5.0,Entregado
+925,205,13,2026-08-13,$9.500,48.0,Efectivo,3.0,Entregado
+13,238,24,2026-09-14,13500,22.0,Transferencia,5.0,Entregado
+1400,233,7,2026-05-01,6700,40.0,Efectivo,3.0,entregado
+1223,47,12,24/06/2026,10900,29.0,Efectivo,3.0,Entregado
+235,32,16,2026-08-09,14000 CLP,45.0,Tarjeta,,Cancelado
+696,227,6,04-06-2026,16700,37.0,Tarjeta,,Cancelado
+1085,142,14,05-09-2026,9100,31.0,Tarjeta,4.0,Entregado
+1426,18,1,14/10/2026,$11.400,39.0,Tarjeta,4.0,Entregado
+1346,229,10,22-06-2026,15200,43.0,Efectivo,5.0,Entregado
+1322,246,30,2026-08-04,4700,34.0,Efectivo,2.0,Entregado
+64,202,25,18/06/2026,9400,34.0,Efectivo,5.0,Entregado
+735,253,17,2026-08-19,8400,29.0,Tarjeta,4.0,Entregado
+1024,204,7,2026-08-20,8600,33.0,Tarjeta,5.0,Entregado
+965,191,17,29-09-2026,8400,19.0,Tarjeta,5.0,Entregado
+608,135,19,2026-05-20,12000,36.0,Tarjeta,5.0,Entregado
+14,110,8,07-08-2026,12000,24.0,Tajeta,4.0,ENTREGADO
+840,105,27,2026-08-01,11500,16.0,Tarjeta,5.0,Entregado
+436,15,21,12-06-2026,14300,22.0,Tarjeta,4.0,Entregado
+18,223,27,13-07-2026,$9.200,30.0,Tarjeta,,cancelado
+765,40,18,2026-07-24,12800,32.0,tarjeta,3.0,Entregado
+349,237,7,2026-10-06,6800,34.0,Tarjeta,4.0,Entregado
+208,224,11,06/09/2026,13300,29.0,Efectivo ,4.0, Entregado
+1115,219,22,2026-05-05,9100,36.0,Efectivo,5.0,Entregado
+1332,259,9,26/09/2026,12200,33.0,Tarjeta,3.0,Entregado
+342,239,7,2026-05-10,7800,37.0,Tarjeta,4.0,Entregado
+345,179,25,2026-08-07,14700,22.0,efectivo,4.0, Entregado
+1361,66,19,07/10/2026,7300,32.0,Tarjeta,,Entregado
+1393,101,8,2026-06-27,12900,42.0,tarjeta,3.0,Entregado
+552,169,14,2026-06-01,8400,23.0,Efectivo,5.0,Entregado
+599,85,6,2026-05-08,12700,26.0,Tarjeta,3.0,Entregado
+33,130,7,15/07/2026,9500,33.0,Transferencia,,Cancelado
+373,242,3,2026-05-25,6200,48.0,Transferencia,3.0,Entregado
+658,143,26,2026-07-26,7000,30.0,TARJETA,,Cancelado
+173,264,6,15-06-2026,$14.700,,Transferencia,4.0,entregado
+1087,263,5,2026-06-23,13600,37.0,Tarjeta ,3.0,Entregado
+1403,127,26,14/09/2026,14000,34.0,Tarjeta,5.0,Entregado
+409,178,1,09/07/2026,9300,31.0,Efectivo,5.0,Entregado
+1051,127,16,2026-06-16,13600,28.0,Tarjeta,3.0, Entregado
+670,100,18,2026-06-26,13800 CLP,32.0,Tarjeta,5.0,Entregado
+201,125,10,2026-08-25,10000,33.0,Tarjeta,5.0,Entregado
+1317,255,21,27/08/2026,14000,33.0,Tarjeta,5.0,Entregado
+861,11,3,03/10/2026,$12.100,28.0,Transferencia,4.0,entregado
+1417,48,3,16/08/2026,10400,26.0,Tarjeta,2.0,Entregado
+1166,163,25,2026-06-20,11600,36.0,Tarjeta,5.0,Entregado
+1395,88,8,03-09-2026,15200,26.0,Tarjeta,4.0,Entregado
+1477,12,10,2026-10-07,7900,43.0,Transferencia,,Entregado
+1362,16,22,2026-06-18,8600,23.0,Tarjeta,5.0,Entregado
+490,50,12,2026-05-12,11300,32.0,Transferencia,5.0,Entregado
+1428,32,21,22/06/2026,8100,32.0,Tarjeta,4.0,Entregado
+213,185,26,10-10-2026,11100,29.0,Transferencia,5.0,Entregado
+134,243,12,15/10/2026,12800,19.0,Efectivo,4.0,Entregado
+61,110,19,17/07/2026,11600,40.0,Tarjeta,,Cancelado
+691,286,28,2026-05-28,13200,37.0,tarjeta,2.0,Entregado
+27,71,15,2026-08-30,13000,30.0,Transferencia,5.0,entregado
+101,48,11,08-06-2026,10400,13.0,Tarjeta,5.0,Entregado
+975,137,4,2026-05-14,11000,32.0,Efectivo,3.0,Entregado
+777,169,14,26/07/2026,13800,34.0,Efectivo,3.0,Entregado
+789,110,7,2026-05-28,13200,34.0,Tarjeta,4.0,Entregado
+521,5,5,2026-10-05,12100,21.0,Tarjeta,4.0,Entregado
+364,299,19,01-05-2026,7500,42.0,Tarjeta,5.0,Entregado
+310,85,22,01-08-2026,11500,12.0,Tajeta,3.0,entregado
+796,76,2,14/10/2026,13500,48.0,Tarjeta,3.0,Entregado
+829,41,12,2026-05-27,11300,35.0,TARJETA,4.0,Entregado
+1277,68,25,02-09-2026,9800,45.0,Tarjeta,,Cancelado
+545,218,4,2026-10-14,9700,46.0,Tarjeta,,Cancelado
+940,208,17,2026-05-27,16700,14.0,Tarjeta,4.0,Entregado
+442,231,8,2026-05-19,16300,41.0,Transferencia,5.0, Entregado
+648,281,27,2026-05-21,13700,25.0,Efectivo,5.0,Entregado
+1004,49,13,17/09/2026,12600,27.0,Tarjeta,,Cancelado
+477,91,9,2026-05-31,10900,22.0,Transferencia,4.0,Entregado
+1047,165,23,24/08/2026,11400,35.0,Tarjeta,3.0, Entregado
+63,300,6,14/10/2026,12100,44.0,Efectivo,5.0,ENTREGADO
+1173,288,30,15-10-2026,7700,33.0,Efectivo,5.0,Entregado
+484,194,9,2026-09-19,17500,35.0,Tarjeta,4.0,Entregado
+1027,178,27,06-06-2026,12100,20.0,tarjeta,4.0,Entregado
+1282,117,14,2026-07-29,13900,27.0,Tarjeta,5.0,Entregado
+53,169,14,23-05-2026,11100,32.0,Tarjeta,5.0,Entregado
+243,168,18,09/05/2026,10900,40.0,Tarjeta,4.0,Entregado
+1198,103,14,2026-05-26,10200,,Efectivo,4.0,Entregado
+36,139,8,2026-08-17,$13.200,44.0,Efectivo,4.0,Entregado
+1203,221,18,12/06/2026,11800,42.0,Tajeta,5.0,Entregado
+739,285,25,2026-06-18,9600,36.0,Tarjeta,5.0,Entregado
+121,266,14,17-08-2026,15000,38.0,Transferencia,3.0,Entregado
+1459,81,3,21/06/2026,9000,36.0,Tarjeta,4.0,Entregado
+1300,137,21,15/05/2026,14600,19.0,Tarjeta,,Cancelado
+1020,106,15,14-06-2026,7300,45.0,Tarjeta,5.0,Entregado
+45,12,21,03-05-2026,13800,38.0,Efectivo,3.0,Entregado
+1325,45,13,2026-10-05,8600,22.0,tarjeta,5.0,Entregado
+837,137,4,2026-05-11,9300,31.0,Efectivo,,Cancelado
+77,286,14,02-09-2026,16700,,Efectivo,,Entregado
+369,234,23,2026-05-08,14100,24.0,Tarjeta,5.0,Entregado
+907,39,5,07-10-2026,8100 CLP,36.0,Tarjeta,3.0,Entregado
+1237,139,16,2026-05-29,9800,52.0,Tarjeta,,Cancelado
+268,84,24,03-09-2026,$15.200,24.0,Tarjeta ,4.0,Entregado
+1336,127,5,2026-06-06,15200,25.0,Tarjeta,5.0,entregado
+729,158,25,13/09/2026,14000,37.0,Efectivo,4.0,Entregado
+445,264,3,2026-07-26,10000,47.0,Tarjeta,4.0,Entregado
+504,112,23,2026-05-02,9700,19.0,Tarjeta,,Entregado
+1058,243,19,25-08-2026,10300,19.0,Tarjeta,4.0,Entregado
+1034,221,5,06-08-2026,15600,35.0,Transferencia,5.0,Entregado
+1185,187,23,2026-06-14,16000,43.0,Tarjeta,4.0,Entregado
+286,18,21,2026-05-19,$14.400,38.0,Efectivo,4.0,Entregado
+296,269,30,2026-06-15,7500,34.0,Tarjeta,3.0,Entregado
+626,61,23,2026-06-09,11700,17.0,Tajeta,5.0,Entregado
+278,116,3,07/05/2026,9000,29.0,Tarjeta,,Entregado
+657,109,13,2026-07-03,12600,34.0,Transferencia,5.0,Entregado
+485,190,2,2026-08-08,8800,31.0,Tarjeta,4.0,Entregado
+183,195,14,2026-06-12,9900,32.0,Efectivo,5.0,Entregado
+971,93,26,10-07-2026,8500,31.0,Tarjeta,5.0,Entregado
+1481,138,30,07/07/2026,7700,24.0,Tajeta,5.0,entregado
+685,182,20,2026-07-01,15100,33.0,Transferencia,3.0,Entregado
+1493,40,27,2026-09-28,9500,13.0,Transferencia,,Cancelado
+37,183,27,2026-07-22,10500,44.0,Tarjeta,4.0,Entregado
+1181,182,10,17-08-2026,7800,36.0,Tarjeta,5.0,Entregado
+3,115,6,2026-09-02,15300,29.0,Tarjeta,4.0,Entregado
+755,56,10,21/07/2026,7500,32.0,Efectivo,5.0,Entregado
+509,128,22,21-06-2026,13900,35.0,Efectivo,3.0,Entregado
+498,82,11,2026-10-07,11900,29.0,Efectivo,5.0,Entregado
+309,269,23,29/05/2026,13700,19.0,Efectivo,5.0,Entregado
+1314,298,9,04-06-2026,14100,13.0,Efectivo,4.0,Entregado
+1439,297,15,05-09-2026,7600,35.0,Transferencia,4.0,Entregado
+1446,218,21,29/07/2026,13200,31.0,Tarjeta,4.0,Entregado
+142,247,20,25-09-2026,11900,40.0,Tarjeta,5.0,Entregado
+1248,32,3,2026-06-19,12500,30.0,Transferencia,3.0,Entregado
+865,56,29,2026-06-27,7800,40.0,Efectivo,5.0, Entregado
+184,110,14,27-05-2026,13800,44.0,TARJETA,,Entregado
+1472,156,22,25/08/2026,8900,43.0,Tarjeta,3.0,Entregado
+1011,219,26,24/06/2026,12000,42.0,Tarjeta,4.0,Entregado
+913,128,17,2026-07-11,15000,27.0,Tarjeta,4.0,Entregado
+849,171,24,2026-05-16,7800,34.0,Efectivo,,Cancelado
+512,103,1,2026-07-03,10000,30.0,TARJETA,5.0,entregado
+732,24,23,17-05-2026,13800,36.0,tarjeta,3.0,Entregado
+997,53,28,2026-07-03,9400,,Transferencia,5.0,Entregado
+888,253,29,2026-05-18,6800,28.0,Efectivo,5.0,Entregado
+118,201,17,17/05/2026,10600,34.0,Tarjeta,3.0,Entregado
+1026,265,3,18/06/2026,7000,12.0,Tarjeta,4.0,Entregado
+114,225,8,2026-09-28,14600,31.0,Tarjeta ,4.0,Entregado
+546,177,13,2026-09-19,11200,35.0,Efectivo,4.0,Entregado
+166,171,12,02-10-2026,13400,36.0,Tarjeta,3.0,Entregado
+185,140,10,2026-05-01,11100,38.0,Transferencia,3.0,Entregado
+1397,189,11,2026-10-10,10700,25.0,Transferencia,5.0,Entregado
+275,221,5,2026-06-23,14800,24.0,Tarjeta,,Entregado
+1002,19,28,05-10-2026,10500,,Tarjeta,4.0,ENTREGADO
+705,213,7,2026-07-15,12600,30.0,Transferencia,4.0,Entregado
+1025,167,16,2026-07-15,9300,41.0,EFECTIVO,5.0,Entregado
+384,63,22,2026-09-25,9200,46.0,Efectivo,4.0,Entregado
+1430,166,9,2026-07-16,10800,,Efectivo,4.0,Entregado
+562,234,7,31/08/2026,7900,40.0,Transferencia,4.0,Entregado
+863,9999,22,16-07-2026,15900,31.0,Tarjeta,4.0,Entregado
+1045,252,25,2026-05-07,$10.100,32.0,Efectivo,4.0,Entregado
+177,127,16,26-09-2026,$13.600,25.0,Tarjeta,5.0,Entregado
+1360,90,25,2026-08-16,10700,23.0,Tarjeta,3.0,Entregado
+380,235,24,2026-07-07,11300,35.0,Efectivo,3.0,Entregado
+1196,73,5,15-10-2026,12500,38.0,tarjeta,3.0,Entregado
+1017,53,15,2026-09-11,12300,,Tarjeta,5.0,ENTREGADO
+520,142,14,2026-08-09,11300,39.0,Efectivo,3.0,Entregado
+831,136,6,01-05-2026,9800 CLP,34.0,Tarjeta,4.0,Entregado
+508,56,2,2026-07-09,7800,31.0,Tarjeta,, Cancelado
+1177,153,14,2026-05-23,16500,37.0,Transferencia,4.0,Entregado
+414,106,9,2026-05-12,14100,33.0,Tarjeta,4.0,Entregado
+623,265,13,2026-10-11,14900,37.0,Tarjeta,,Cancelado
+873,12,18,10-10-2026,$10.500,35.0,Tarjeta,5.0,Entregado
+859,1,23,2026-08-14,10000,31.0,Tarjeta,, Entregado
+642,22,23,18-08-2026,10000,30.0,Transferencia,4.0,Entregado
+1341,220,5,2026-08-01,15700,28.0,Efectivo,, Cancelado
+259,36,20,04-09-2026,7800,27.0,Tajeta,4.0,Entregado
+835,18,27,2026-08-16,10100,49.0,Tarjeta,3.0,ENTREGADO
+663,103,13,2026-07-03,15800 CLP,33.0,Transferencia,,Cancelado
+338,120,24,12-05-2026,13700,29.0,Tarjeta,4.0,ENTREGADO
+399,83,7,2026-10-12,7700,34.0,Tarjeta,2.0,Entregado
+1448,141,21,2026-07-29,15100,29.0,Tarjeta,5.0,Entregado
+606,52,27,2026-07-03,10100,36.0,Transferencia,5.0,Entregado
+481,190,14,2026-08-31,13100,18.0,Efectivo,3.0,Entregado
+1447,207,16,2026-05-01,8000,23.0,tarjeta,4.0,Entregado
+1144,17,6,06-05-2026,13000,29.0,Efectivo ,4.0,Entregado
+918,207,7,01-07-2026,$13.200,43.0,Transferencia,4.0,Entregado
+1018,206,22,17/06/2026,16000,15.0,Tarjeta,,Cancelado
+876,85,11,2026-10-13,10900,35.0,Efectivo,4.0,Entregado
+660,195,17,2026-08-11,13400,34.0,Tarjeta,2.0,Entregado
+1022,139,1,2026-08-15,12200,38.0,Transferencia,,Cancelado
+790,206,27,22/07/2026,7800,25.0,Efectivo,4.0,Entregado
+257,44,7,07/08/2026,12800,38.0,Tarjeta,5.0,Entregado
+969,86,23,17-09-2026,10000,48.0,Efectivo,4.0,Entregado
+953,143,9,2026-08-25,12100,35.0,Tarjeta,4.0, Entregado
+1274,232,27,14/05/2026,7200,24.0,Tarjeta,5.0,Entregado

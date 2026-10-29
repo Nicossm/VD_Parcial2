@@ -1,0 +1,220 @@
+createOrReplace
+
+	table Calendario
+		dataCategory: Time
+
+		column Fecha
+			dataType: dateTime
+			isKey
+			formatString: dd-mm-yyyy
+			isNameInferred
+			sourceColumn: [Fecha]
+
+		column Año
+			dataType: int64
+			formatString: 0
+			isNameInferred
+			sourceColumn: [Año]
+
+		column MesNum
+			dataType: int64
+			formatString: 0
+			isHidden
+			isNameInferred
+			sourceColumn: [MesNum]
+
+		column Mes
+			dataType: string
+			isNameInferred
+			sourceColumn: [Mes]
+			sortByColumn: MesNum
+
+		column AñoMes
+			dataType: int64
+			formatString: 0
+			isHidden
+			isNameInferred
+			sourceColumn: [AñoMes]
+
+		column 'Mes Año'
+			dataType: string
+			isNameInferred
+			sourceColumn: [Mes Año]
+			sortByColumn: AñoMes
+
+		column DiaSemanaNum
+			dataType: int64
+			formatString: 0
+			isHidden
+			isNameInferred
+			sourceColumn: [DiaSemanaNum]
+
+		column 'Dia Semana'
+			dataType: string
+			isNameInferred
+			sourceColumn: [Dia Semana]
+			sortByColumn: DiaSemanaNum
+
+		partition Calendario = calculated
+			mode: import
+			source =
+					VAR _base =
+					    SELECTCOLUMNS ( CALENDAR ( DATE ( 2024, 1, 1 ), DATE ( 2026, 12, 31 ) ), "Fecha", [Date] )
+					RETURN
+					ADDCOLUMNS (
+					    _base,
+					    "Año", YEAR ( [Fecha] ),
+					    "MesNum", MONTH ( [Fecha] ),
+					    "Mes", SWITCH ( MONTH ( [Fecha] ), 1,"Ene",2,"Feb",3,"Mar",4,"Abr",5,"May",6,"Jun",7,"Jul",8,"Ago",9,"Sep",10,"Oct",11,"Nov",12,"Dic" ),
+					    "AñoMes", YEAR ( [Fecha] ) * 100 + MONTH ( [Fecha] ),
+					    "Mes Año", SWITCH ( MONTH ( [Fecha] ), 1,"Ene",2,"Feb",3,"Mar",4,"Abr",5,"May",6,"Jun",7,"Jul",8,"Ago",9,"Sep",10,"Oct",11,"Nov",12,"Dic" ) & " " & YEAR ( [Fecha] ),
+					    "DiaSemanaNum", WEEKDAY ( [Fecha], 2 ),
+					    "Dia Semana", SWITCH ( WEEKDAY ( [Fecha], 2 ), 1,"Lunes",2,"Martes",3,"Miércoles",4,"Jueves",5,"Viernes",6,"Sábado",7,"Domingo" )
+					)
+
+	table _Medidas
+
+		measure 'Total Pedidos' = COUNTROWS ( Pedidos )
+			formatString: #,0
+			displayFolder: 1 Ventas
+
+		measure 'Pedidos Entregados' = CALCULATE ( [Total Pedidos], Pedidos[estado] = "Entregado" )
+			formatString: #,0
+			displayFolder: 1 Ventas
+
+		measure 'Pedidos Cancelados' = CALCULATE ( [Total Pedidos], Pedidos[estado] = "Cancelado" )
+			formatString: #,0
+			displayFolder: 1 Ventas
+
+		measure 'Ventas Totales' = CALCULATE ( SUM ( Pedidos[monto_clp] ), Pedidos[estado] = "Entregado" )
+			formatString: $#,0
+			displayFolder: 1 Ventas
+
+		measure 'Ticket Promedio' = DIVIDE ( [Ventas Totales], [Pedidos Entregados] )
+			formatString: $#,0
+			displayFolder: 1 Ventas
+
+		measure 'Ventas Mes Anterior' = CALCULATE ( [Ventas Totales], DATEADD ( Calendario[Fecha], -1, MONTH ) )
+			formatString: $#,0
+			displayFolder: 1 Ventas
+
+		measure 'Var % Ventas vs Mes Anterior' = ```
+				VAR _ant = [Ventas Mes Anterior]
+				RETURN IF ( NOT ISBLANK ( _ant ), DIVIDE ( [Ventas Totales] - _ant, _ant ) )
+				```
+			formatString: 0.0%
+			displayFolder: 1 Ventas
+
+		measure 'Tasa Cancelacion' = DIVIDE ( [Pedidos Cancelados], [Total Pedidos] )
+			formatString: 0.0%
+			displayFolder: 2 Servicio
+
+		measure 'Tiempo Promedio Entrega' = CALCULATE ( AVERAGE ( Pedidos[tiempo_entrega_min] ), Pedidos[estado] = "Entregado" )
+			formatString: 0.0
+			displayFolder: 2 Servicio
+
+		measure '% Entregas en 30 min' = ```
+				VAR _aTiempo =
+				    CALCULATE (
+				        COUNTROWS ( Pedidos ),
+				        Pedidos[estado] = "Entregado",
+				        NOT ISBLANK ( Pedidos[tiempo_entrega_min] ) && Pedidos[tiempo_entrega_min] <= 30
+				    )
+				VAR _conTiempo =
+				    CALCULATE ( COUNT ( Pedidos[tiempo_entrega_min] ), Pedidos[estado] = "Entregado" )
+				RETURN DIVIDE ( _aTiempo, _conTiempo )
+				```
+			formatString: 0.0%
+			displayFolder: 2 Servicio
+
+		measure 'Calificacion Promedio' = CALCULATE ( AVERAGE ( Pedidos[calificacion] ), Pedidos[estado] = "Entregado" )
+			formatString: 0.00
+			displayFolder: 2 Servicio
+
+		measure '% Clientes Satisfechos' = ```
+				DIVIDE (
+				    CALCULATE ( COUNTROWS ( Pedidos ), Pedidos[estado] = "Entregado", Pedidos[calificacion] >= 4 ),
+				    CALCULATE ( COUNT ( Pedidos[calificacion] ), Pedidos[estado] = "Entregado" )
+				)
+				```
+			formatString: 0.0%
+			displayFolder: 2 Servicio
+
+		measure 'Clientes Activos' = DISTINCTCOUNT ( Pedidos[id_usuario] )
+			formatString: #,0
+			displayFolder: 3 Clientes
+
+		measure 'Pedidos por Cliente' = DIVIDE ( [Total Pedidos], [Clientes Activos] )
+			formatString: 0.0
+			displayFolder: 3 Clientes
+
+		measure 'Gasto por Cliente' = DIVIDE ( [Ventas Totales], [Clientes Activos] )
+			formatString: $#,0
+			displayFolder: 3 Clientes
+
+		measure 'Usuarios Registrados' = COUNTROWS ( Usuarios )
+			formatString: #,0
+			displayFolder: 3 Clientes
+
+		measure 'Nuevos Usuarios' = CALCULATE ( COUNTROWS ( Usuarios ), USERELATIONSHIP ( Calendario[Fecha], Usuarios[fecha_registro] ) )
+			formatString: #,0
+			displayFolder: 3 Clientes
+
+		measure '% Ventas Premium' = ```
+				DIVIDE (
+				    CALCULATE ( [Ventas Totales], Usuarios[tipo_cuenta] = "Premium" ),
+				    CALCULATE ( [Ventas Totales], REMOVEFILTERS ( Usuarios[tipo_cuenta] ) )
+				)
+				```
+			formatString: 0.0%
+			displayFolder: 3 Clientes
+
+		measure 'Meta Tasa Cancelacion' = 0.08
+			formatString: 0%
+			displayFolder: 4 Metas y colores
+
+		measure 'Meta Tiempo Entrega' = 30
+			formatString: 0
+			displayFolder: 4 Metas y colores
+
+		measure 'Meta Calificacion' = 4.2
+			formatString: 0.0
+			displayFolder: 4 Metas y colores
+
+		measure 'Color Cancelacion' = IF ( [Tasa Cancelacion] > [Meta Tasa Cancelacion], "#C2410C", "#15803D" )
+			displayFolder: 4 Metas y colores
+
+		measure 'Color Tiempo' = IF ( [Tiempo Promedio Entrega] > [Meta Tiempo Entrega], "#C2410C", "#15803D" )
+			displayFolder: 4 Metas y colores
+
+		measure 'Color Calificacion' = IF ( [Calificacion Promedio] < [Meta Calificacion], "#C2410C", "#15803D" )
+			displayFolder: 4 Metas y colores
+
+		measure 'Titulo Filtros' = ```
+				VAR _com = IF ( ISFILTERED ( Usuarios[comuna] ), SELECTEDVALUE ( Usuarios[comuna], "varias comunas" ), "todas las comunas" )
+				VAR _cat = IF ( ISFILTERED ( Restaurantes[categoria] ), SELECTEDVALUE ( Restaurantes[categoria], "varias categorías" ), "todas las categorías" )
+				RETURN "Mostrando: " & _com & " · " & _cat
+				```
+			displayFolder: 5 Textos
+
+		measure 'Titulo Restaurante' = "Detalle: " & SELECTEDVALUE ( Restaurantes[nombre_restaurante], "selecciona un restaurante" )
+			displayFolder: 5 Textos
+
+		column x
+			dataType: int64
+			isHidden
+			isNameInferred
+			sourceColumn: [x]
+
+		partition _Medidas = calculated
+			mode: import
+			source = ROW ( "x", 0 )
+
+	relationship rel_Calendario_Pedidos
+		fromColumn: Pedidos.fecha_pedido
+		toColumn: Calendario.Fecha
+
+	relationship rel_Calendario_Usuarios
+		isActive: false
+		fromColumn: Usuarios.fecha_registro
+		toColumn: Calendario.Fecha
