@@ -1,4 +1,4 @@
-// Genera docs/Informe_Ejecutivo_PideYa_EP2v2.docx
+// Genera docs/Informe_PideYa_EP2v2.docx
 // Requiere: npm install docx   |   Uso: node docs/src/build_informe_docx.js
 // Las figuras salen de notebooks/analisis_pideya.ipynb (images/informe/) y de las capturas del dashboard.
 
@@ -12,7 +12,7 @@ const {
 } = require("docx");
 
 const IMG = path.resolve(__dirname, "../../images");
-const OUT = path.resolve(__dirname, "../Informe_Ejecutivo_PideYa_EP2v2.docx");
+const OUT = path.resolve(__dirname, "../Informe_PideYa_EP2v2.docx");
 
 const OSCURO = "1F2937", NARANJO = "E4572E", ROJO = "C2410C", VERDE = "15803D";
 const GRIS = "6B7280", BORDE = "D1D5DB", CLARO = "F3F4F6";
@@ -309,7 +309,7 @@ const anexos = [
       ["notebooks/", "analisis_pideya.ipynb: retención, captación, comunas, pruebas de diferencia y figuras de este informe."],
       ["dashboard/", "PideYa_dashboard.pbix, medidas DAX, modelo, tema de colores, guía de construcción y valores de control."],
       ["images/", "Capturas del dashboard, bocetos y figuras del informe."],
-      ["docs/", "Este informe, la versión anterior en PDF y la presentación ejecutiva."],
+      ["docs/", "Este informe (PDF y Word) y la presentación ejecutiva."],
     ],
     [2200, 7160],
   ),

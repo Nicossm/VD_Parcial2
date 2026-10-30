@@ -6,10 +6,19 @@ Equipo: Javier Sagredo, Cristian Romero, Rolando Paredes y Nicolás Osses.
 
 PideYa es una app de delivery de comida que opera en seis comunas de Santiago. Recibimos sus datos de usuarios, restaurantes y pedidos en tres archivos sin limpiar, exportados por sistemas distintos. Los limpiamos con Python, los cargamos en Power BI y construimos un dashboard de tres páginas para la gerencia. El informe ejecutivo y la presentación cuentan lo que encontramos y qué recomendamos hacer.
 
+## Entregables
+
+| Entregable | Archivo |
+|---|---|
+| Informe Ejecutivo (PDF) | `docs/Informe_PideYa_EP2v2.pdf` |
+| Dashboard interactivo (.pbix) | `dashboard/PideYa_dashboard.pbix` |
+| Presentación Ejecutiva (PPT) | `docs/PideYa_Presentación_ejecutivav3.pptx` |
+| Repositorio del proyecto | Esta carpeta |
+
 ## Estructura
 
 ```
-pideya/
+VD_Parcial2-main/
 ├── README.md
 ├── data/
 │   ├── raw/                         Datos originales, sin modificar
@@ -20,7 +29,8 @@ pideya/
 │   └── processed/                   Datos limpios (los genera src/limpieza_pideya.py)
 │       ├── pideya_limpio.xlsx       Fuente del dashboard
 │       ├── *_limpio.csv
-│       └── log_calidad_datos.csv    Bitácora: cada corrección y cuántas filas tocó
+│       ├── log_calidad_datos.csv    Bitácora: cada corrección y cuántas filas tocó
+│       └── log_calidad_datos.xlsx   Bitácora y resumen de filas, en Excel
 ├── src/
 │   └── limpieza_pideya.py           Limpieza, validación y exportación
 ├── notebooks/
@@ -28,7 +38,7 @@ pideya/
 ├── dashboard/
 │   ├── PideYa_dashboard.pbix        Dashboard en Power BI
 │   ├── medidas_dax.dax              Medidas DAX y tabla Calendario
-│   ├── modelo_pideya.tmdl           Modelo: tablas, relaciones y medidas
+│   ├── modelo_pideya.tmdl           Script TMDL: tabla Calendario, medidas y relaciones del Calendario
 │   ├── tema_pideya.json             Tema de colores
 │   ├── guia_dashboard.md            Cómo se construyó cada página
 │   └── valores_control.csv          Indicadores calculados en Python para validar el dashboard
@@ -38,15 +48,16 @@ pideya/
 │   ├── eda/                         Gráficos del primer análisis exploratorio
 │   └── informe/                     Figuras del informe (las genera el notebook)
 └── docs/
-    ├── Informe_Ejecutivo_PideYa_EP2.docx   Informe ejecutivo (versión final)
-    ├── Informe_Ejecutivo_PideYa.pdf        Versión anterior del informe
-    ├── Presentacion_Ejecutiva_PideYa.pptx  Presentación para la exposición
-    └── src/                                Scripts que generan el informe y la presentación
+    ├── Informe_PideYa_EP2v2.pdf               Informe ejecutivo (entregable)
+    ├── Informe_PideYa_EP2v2.docx              Mismo informe en Word, editable
+    ├── PideYa_Presentación_ejecutivav3.pptx   Presentación para la exposición
+    └── src/
+        └── build_informe_docx.js              Script que genera el informe en Word
 ```
 
 ## Cómo reproducir
 
-Desde la carpeta `pideya/`:
+Desde la carpeta raíz del proyecto:
 
 ```bash
 pip install pandas openpyxl matplotlib jupyter
@@ -64,6 +75,8 @@ Para regenerar el informe en Word (requiere Node.js):
 npm install docx
 node docs/src/build_informe_docx.js
 ```
+
+El PDF del informe se obtiene abriendo el `.docx` en Word: **Archivo → Exportar → Crear PDF**.
 
 ## Datos
 
