@@ -10,9 +10,9 @@ PideYa es una app de delivery de comida que opera en seis comunas de Santiago. R
 
 | Entregable | Archivo |
 |---|---|
-| Informe Ejecutivo (PDF) | `docs/Informe_PideYa_EP2v2.pdf` |
+| Informe Ejecutivo (PDF) | `docs/Informe_Ejecutivo_PideYa.pdf` |
 | Dashboard interactivo (.pbix) | `dashboard/PideYa_dashboard.pbix` |
-| Presentación Ejecutiva (PPT) | `docs/PideYa_Presentación_ejecutivav3.pptx` |
+| Presentación Ejecutiva (PPT) | `docs/Presentacion_Ejecutiva_PideYa.pptx` |
 | Repositorio del proyecto | Esta carpeta |
 
 ## Estructura
@@ -48,9 +48,9 @@ VD_Parcial2-main/
 │   ├── eda/                         Gráficos del primer análisis exploratorio
 │   └── informe/                     Figuras del informe (las genera el notebook)
 └── docs/
-    ├── Informe_PideYa_EP2v2.pdf               Informe ejecutivo (entregable)
-    ├── Informe_PideYa_EP2v2.docx              Mismo informe en Word, editable
-    ├── PideYa_Presentación_ejecutivav3.pptx   Presentación para la exposición
+    ├── Informe_Ejecutivo_PideYa.pdf           Informe ejecutivo (entregable)
+    ├── Informe_Ejecutivo_PideYa.docx          Mismo informe en Word, editable
+    ├── Presentacion_Ejecutiva_PideYa.pptx     Presentación para la exposición
     └── src/
         └── build_informe_docx.js              Script que genera el informe en Word
 ```
