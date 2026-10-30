@@ -1,4 +1,4 @@
-// Genera docs/Informe_Ejecutivo_PideYa_EP2.docx
+// Genera docs/Informe_Ejecutivo_PideYa_EP2v2.docx
 // Requiere: npm install docx   |   Uso: node docs/src/build_informe_docx.js
 // Las figuras salen de notebooks/analisis_pideya.ipynb (images/informe/) y de las capturas del dashboard.
 
@@ -12,7 +12,7 @@ const {
 } = require("docx");
 
 const IMG = path.resolve(__dirname, "../../images");
-const OUT = path.resolve(__dirname, "../Informe_Ejecutivo_PideYa_EP2.docx");
+const OUT = path.resolve(__dirname, "../Informe_Ejecutivo_PideYa_EP2v2.docx");
 
 const OSCURO = "1F2937", NARANJO = "E4572E", ROJO = "C2410C", VERDE = "15803D";
 const GRIS = "6B7280", BORDE = "D1D5DB", CLARO = "F3F4F6";
@@ -161,7 +161,7 @@ const seccion3 = [
   h1("3. Hallazgos"),
 
   h2("3.1 Los clientes vuelven, pero cada vez entran menos clientes nuevos"),
-  p("De los 300 usuarios registrados, 298 pidieron al menos una vez en el período y 291 (97,7%) volvieron a pedir. La mediana es de 5 pedidos por cliente, con 19 días entre un pedido y el siguiente. Cada mes vuelve a comprar entre el 54% y el 59% de los clientes del mes anterior. Una cancelación tampoco los aleja: quienes tuvieron cancelado su primer pedido hicieron en promedio 4,94 pedidos, casi lo mismo que el resto (5,00)."),
+  p("De los 300 usuarios registrados, 298 pidieron al menos una vez en el período (los clientes activos del dashboard) y 291 (97,7%) volvieron a pedir. La mediana es de 5 pedidos por cliente, con 19 días entre un pedido y el siguiente. Cada mes vuelve a comprar entre el 54% y el 59% de los clientes del mes anterior. Una cancelación tampoco los aleja: quienes tuvieron cancelado su primer pedido hicieron en promedio 4,94 pedidos, casi lo mismo que el resto (5,00)."),
   p("La captación, en cambio, va a la baja. Entre enero y mayo de 2026 se registraban 13,8 usuarios nuevos por mes; entre junio y septiembre, 8,8, y en octubre no hay registros. Como casi toda la base ya compra, las ventas se mantienen planas, entre $2,5 y $2,8 millones al mes: para crecer, PideYa necesita sumar clientes. Además, 73 clientes (24,5%) no piden hace más de 45 días."),
   ...figura("informe/fig_retencion.png", 2400, 800, 620, "Figura 1. Clientes según la cantidad de pedidos (izquierda) y usuarios nuevos por mes en 2026 (derecha). Fuente: notebooks/analisis_pideya.ipynb; la serie completa de registros está en la página Clientes del dashboard (anexo B)."),
   p("La cuenta Premium no cambia este comportamiento. Los clientes Premium piden con la misma frecuencia que los Estándar (4,94 contra 4,98 pedidos) y gastan lo mismo por pedido ($11.081 contra $11.173). Cancelan algo más (12,4% contra 10,8%), pero la diferencia es tan pequeña que puede deberse al azar (p = 0,39)."),
@@ -186,7 +186,7 @@ const seccion3 = [
   p("La meta se puede alcanzar: en agosto la cancelación bajó a 7,0%, mientras que junio (14,3%) y julio (13,6%) fueron los peores meses. Los datos no registran el motivo de cancelación, así que no sabemos qué cambió en agosto. Vale la pena preguntarlo al equipo de operaciones."),
 
   h2("3.3 Más de la mitad de las entregas llega tarde, pero eso no baja la nota"),
-  p("El tiempo promedio de entrega es 31,5 minutos y la mediana, 32. Solo el 45,0% de los pedidos llega en 30 minutos o menos. Aun así, la calificación casi no cambia con el tiempo: va de 4,12 a 4,22 en todos los rangos, y la correlación entre ambas variables es prácticamente cero. Acelerar el reparto, por sí solo, no subiría la satisfacción. La nota depende más del restaurante."),
+  p("El tiempo promedio de entrega es 31,5 minutos y la mediana, 32. Solo el 45,0% de los pedidos llega en 30 minutos o menos. Aun así, la calificación casi no cambia con el tiempo: va de 4,12 a 4,22 en todos los rangos, y la correlación entre ambas variables es prácticamente cero. Acelerar el reparto, por sí solo, no subiría la satisfacción. La nota depende más del restaurante, y la tabla de restaurantes del dashboard (página Operación) lo muestra: Tacos y Punto tiene el reparto más lento (33,8 min) y la segunda mejor nota (4,41), mientras que Dulce Tentación entrega antes que el promedio (30,9 min) y tiene la peor (3,77)."),
   ...figura("informe/fig_tiempo_calificacion.png", 1600, 640, 450, "Figura 3. Calificación promedio según los minutos de entrega; n es la cantidad de pedidos calificados. Fuente: notebooks/analisis_pideya.ipynb."),
   p("El medio de pago tampoco marca diferencias. La tarjeta reúne el 58% de los pedidos, el efectivo el 26% y la transferencia el 16%, y los tres tienen tasas de cancelación parecidas (9,4% a 11,1%) y casi el mismo ticket (cerca de $11.100)."),
 
@@ -199,13 +199,13 @@ const seccion3 = [
     new TextRun("      "),
     imagen("informe/fig_dispersion_restaurantes.png", Math.round(215 * 343 / 391), 215),
   ] }),
-  leyenda("Figura 4. Ventas por categoría (página Resumen) y ventas contra calificación por restaurante (página Operación). El punto naranjo es Dulce Tentación. Fuente: dashboard."),
+  leyenda("Figura 4. Ventas por categoría (página Resumen) y ventas contra calificación por restaurante (página Operación). El punto naranjo es Dulce Tentación, el único local con nota bajo 3,9. Fuente: dashboard."),
 
   h2("3.5 La Florida y Ñuñoa son las comunas con más espacio para crecer"),
   tabla(
-    ["Comuna", "Usuarios", "Nuevos desde mayo", "Pedidos por usuario", "% de ventas", "Satisfechos", "Locales", "Cancelación de sus locales"],
+    ["Comuna", "Clientes activos", "Nuevos desde mayo", "Pedidos por cliente", "% de ventas", "Satisfechos", "Locales", "Cancelación de sus locales"],
     [
-      ["Santiago", "96", "18", "4,86", "31,3%", "76,5%", "9", "8,4%"],
+      ["Santiago", "94", "18", "4,97", "31,3%", "76,5%", "9", "8,4%"],
       ["La Florida", "44", "8", "5,25", "15,5%", "83,0%", "4", "11,8%"],
       ["Providencia", "46", "6", "4,63", "14,5%", "79,4%", "3", "7,3%"],
       ["Ñuñoa", "41", "7", "5,15", "14,5%", "79,6%", "6", "12,8%"],
@@ -215,14 +215,14 @@ const seccion3 = [
     [1300, 1000, 1100, 1150, 1000, 1150, 1000, 1660],
     { num: [1, 2, 3, 4, 5, 6, 7], junto: true },
   ),
-  leyenda("Tabla 1. Indicadores por comuna del cliente; las dos últimas columnas describen los locales ubicados en esa comuna. Fuente: dashboard (páginas Clientes y Operación) y notebooks/analisis_pideya.ipynb."),
+  leyenda("Tabla 1. Indicadores por comuna del cliente; las dos últimas columnas describen los locales ubicados en esa comuna. Fuente: dashboard, página Clientes filtrada por comuna (clientes activos, nuevos usuarios, pedidos por cliente y ventas) y página Operación filtrada por comuna del restaurante (locales y cancelación). Satisfechos usa la fórmula del indicador del dashboard, calculada por comuna del cliente en notebooks/analisis_pideya.ipynb."),
   p("La Florida tiene los clientes más activos (5,25 pedidos), la mayor satisfacción (83,0%) y 41% de cuentas Premium. Ñuñoa tiene la mayor oferta por usuario (6 locales para 41 usuarios) y sus clientes son los que menos cancelan (8,1%). Ahí una campaña tiene más probabilidades de traer clientes que se queden. Maipú crece más que ninguna en proporción (9 de 30 usuarios llegaron desde mayo), pero sus locales cancelan el 17,3%: conviene arreglar esa oferta primero. Las Condes sumó solo 2 usuarios desde mayo, y Santiago tiene casi un tercio de las ventas con la satisfacción más baja (76,5%). Solo el 18,7% de los pedidos va a un local de la misma comuna, así que mejorar un restaurante beneficia a clientes de toda la ciudad."),
 ];
 
 // ---------- 4. Recomendaciones ----------
 const seccion4 = [
   h1("4. Recomendaciones"),
-  p("Cada acción tiene un indicador para seguirla mes a mes en el dashboard. Las metas son propuestas del equipo y deben validarse con la gerencia."),
+  p("Las cuatro primeras acciones tienen un indicador que se sigue mes a mes en el dashboard; la quinta se sigue en la bitácora de calidad de datos. Las metas son propuestas del equipo y deben validarse con la gerencia."),
   tabla(
     ["#", "Acción", "Qué hacer", "Indicador y meta"],
     [
@@ -266,9 +266,9 @@ const anexos = [
   h2("B. El dashboard"),
   p("El dashboard tiene tres páginas, una por audiencia. Todas comparten la misma estructura: un panel lateral con navegación y filtros, el título con un subtítulo que indica los filtros activos, una fila de indicadores y los gráficos de análisis."),
   vineta("Navegación entre páginas con botones; la página activa se marca en naranjo."),
-  vineta("Filtros por mes, comuna, categoría y tipo de cuenta, y un botón para limpiarlos todos."),
-  vineta("Filtro cruzado: al hacer clic en una barra, un punto o una celda, el resto de la página se filtra por ese elemento."),
-  vineta("Colores de indicadores, barras y tabla que cambian según la meta, para cualquier combinación de filtros."),
+  vineta("Segmentadores por mes, comuna, categoría y tipo de cuenta, y un botón para limpiarlos todos. En Resumen y Clientes la comuna es la del cliente; en Operación, la del restaurante."),
+  vineta("Resaltado cruzado: al hacer clic en una barra, un punto o una celda, el resto de la página se resalta o se filtra por ese elemento."),
+  vineta("Colores de indicadores y barras que cambian según la meta, para cualquier combinación de filtros. En la tabla de restaurantes, la cancelación va de verde (más baja) a rojo (más alta)."),
   ...figura("dashboard_1_resumen.png", 1332, 749, 560, "Figura 5. Página Resumen ejecutivo, para la gerencia general: indicadores con semáforo, evolución mensual, ventas por categoría y medios de pago."),
   ...figura("dashboard_2_operacion.png", 1352, 768, 560, "Figura 6. Página Operación y calidad de servicio, para operaciones: cancelación por categoría y comuna, restaurantes según ventas y nota, y tabla de detalle."),
   ...figura("dashboard_3_clientes.png", 1331, 765, 560, "Figura 7. Página Clientes y comportamiento de compra, para marketing: ventas por comuna, demanda por día, cancelación por tipo de cuenta y nuevos usuarios."),
@@ -289,7 +289,7 @@ const anexos = [
     [2500, 2700, 4160],
   ),
   espacio(),
-  p("El rojo se reserva para lo que no cumple la meta y el verde para lo que sí. El naranjo de la marca se usa para datos sin juicio. Evitamos el 3D, los ejes truncados en barras y las tortas con muchas categorías, porque distorsionan la comparación."),
+  p("El rojo se reserva para lo que no cumple la meta y el verde para lo que sí. El naranjo de la marca se usa para datos sin juicio; en la dispersión, en cambio, marca a los locales con nota bajo 3,9. Evitamos el 3D, los ejes truncados en barras y las tortas con muchas categorías, porque distorsionan la comparación."),
 
   h2("D. Limitaciones"),
   vineta("Las categorías no siempre corresponden al restaurante (sección 2), lo que debilita cualquier conclusión por categoría."),
